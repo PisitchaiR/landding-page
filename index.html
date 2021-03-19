@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landding Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <ul>
+        <li><a href="#head"></a></li>
+        <li><a href="#page1"></a></li>
+        <li><a href="#page2"></a></li>
+        <li><a href="#page3"></a></li>
+        <li><a href="#page4"></a></li>
+    </ul>
+
+    <header id="head">
+        <h1>Header</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste esse qui maiores, ducimus ullam sapiente
+            voluptas tempora voluptates in nesciunt.</p>
+    </header>
+    <section>
+        <div class="content" id="page1" data-page="1">
+
+        </div>
+        <div class="content" id="page2" data-page="2">
+
+        </div>
+        <div class="content" id="page3" data-page="3">
+
+        </div>
+        <div class="content" id="page4" data-page="4">
+
+        </div>
+    </section>
+    <script>
+        window.addEventListener("scroll", ()=>{
+            var x = window.scrollTop;
+            var y = window.scrollLeft;
+            console.log(x);
+        })
+    </script>
+</body>
+
+</html>
