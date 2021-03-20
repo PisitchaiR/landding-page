@@ -38,11 +38,11 @@
         </div>
     </section>
     <script>
-        window.addEventListener("scroll", ()=>{
-            var x = window.scrollTop;
-            var y = window.scrollLeft;
+        window.onscroll = function() {check()};
+        function check() {
+            x = document.body.scrollTop;
             console.log(x);
-        })
+        }
     </script>
 </body>
 
