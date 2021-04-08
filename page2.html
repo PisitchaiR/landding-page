@@ -11,16 +11,16 @@
 <body>
     <ul id="listLink">
         <li>
-            <a href="#head"></a>
+            <a href="#head" data-number="1"></a>
         </li>
         <li>
-            <a href="#page1"></a>
+            <a href="#page1" data-number="2"></a>
         </li>
         <li>
-            <a href="#page2"></a>
+            <a href="#page2" data-number="3"></a>
         </li>
         <li>
-            <a href="#page3"></a>
+            <a href="#page3" data-number="4"></a>
         </li>
     </ul>
     <header id="head">
@@ -43,7 +43,9 @@
             </div>
     </section>
     <script>
-        document.querySelector("#listLink")
+        document.querySelector("li").addEventListener("click", () => {
+            console.log(hello);
+        })
     </script>
 </body>
 
