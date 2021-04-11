@@ -1,52 +1,59 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landding Page</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <title>Dot Nav</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
 </head>
 
 <body>
-    <ul id="listLink">
-        <li>
-            <a href="#head" data-number="1"></a>
-        </li>
-        <li>
-            <a href="#page1" data-number="2"></a>
-        </li>
-        <li>
-            <a href="#page2" data-number="3"></a>
-        </li>
-        <li>
-            <a href="#page3" data-number="4"></a>
-        </li>
-    </ul>
-    <header id="head">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet incidunt beatae dicta molestiae libero iure dolor esse perferendis. Fuga, architecto!
-    </header>
+    <nav id="dot-nav"></nav>
     <section>
-        <div class="content" id="page1">
-            <div class="container" style="color: white; height: 200px;">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum consequuntur sunt nam earum cupiditate illo veniam. Nisi excepturi aspernatur odio!
-            </div>
+        <h1>ขออากาศดี</h1>
+        <h1>คืนมา</h1>
+        <span>-Right to clean air-</span>
+        <a href="#page1">GO!</a>
+    </section>
+    <section></section>
+    <section></section>
+    <section class="content">
+
+        
+        <!-- section buttons -->
+        <div class="buttons">
+            <a href="index.html" class="blob-btn">
+              ย้อนกลับ <i data-feather="chevron-left"></i>
+              <span class="blob-btn__inner">
+                <span class="blob-btn__blobs">
+                  <span class="blob-btn__blob"></span>
+                  <span class="blob-btn__blob"></span>
+                  <span class="blob-btn__blob"></span>
+                  <span class="blob-btn__blob"></span>
+                </span>
+              </span>
+            </a>
+            <br/>
+
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+            <defs>
+              <filter id="goo">
+                <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10"></feGaussianBlur>
+                <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 21 -7" result="goo"></feColorMatrix>
+                <feBlend in2="goo" in="SourceGraphic" result="mix"></feBlend>
+              </filter>
+            </defs>
+          </svg>
         </div>
-        <div class="content" id="page2">
-            <div class="container" style="color: white; height: 200px;">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum consequuntur sunt nam earum cupiditate illo veniam. Nisi excepturi aspernatur odio!
-            </div>
-        </div>
-        <div class="content" id="page3">
-            <div class="container" style="color: white; height: 200px;">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum consequuntur sunt nam earum cupiditate illo veniam. Nisi excepturi aspernatur odio!
-            </div>
     </section>
     <script>
-        document.querySelector("li").addEventListener("click", () => {
-            console.log(hello);
-        })
-    </script>
+        feather.replace()
+      </script>
+    <script type="text/javascript" src="js/main.js"></script>
 </body>
 
 </html>
