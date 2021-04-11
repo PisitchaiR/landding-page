@@ -2,58 +2,30 @@
 <html>
 
 <head>
-    <meta charset="UTF-8" />
-    <title>Dot Nav</title>
-    <meta name="description" content="" />
-    <meta name="keywords" content="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="css/main.css" />
-    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+  <meta charset="UTF-8" />
+  <title>Dot Nav</title>
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" type="text/css" href="css/main.css" />
+  <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
 </head>
 
 <body>
-    <nav id="dot-nav"></nav>
-    <section>
-        <h1>ขออากาศดี</h1>
-        <h1>คืนมา</h1>
-        <span>-Right to clean air-</span>
-        <a href="#page1">GO!</a>
-    </section>
-    <section></section>
-    <section></section>
-    <section class="content">
-
-        
-        <!-- section buttons -->
-        <div class="buttons">
-            <a href="index.html" class="blob-btn">
-              ย้อนกลับ <i data-feather="chevron-left"></i>
-              <span class="blob-btn__inner">
-                <span class="blob-btn__blobs">
-                  <span class="blob-btn__blob"></span>
-                  <span class="blob-btn__blob"></span>
-                  <span class="blob-btn__blob"></span>
-                  <span class="blob-btn__blob"></span>
-                </span>
-              </span>
-            </a>
-            <br/>
-
-            <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
-            <defs>
-              <filter id="goo">
-                <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10"></feGaussianBlur>
-                <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 21 -7" result="goo"></feColorMatrix>
-                <feBlend in2="goo" in="SourceGraphic" result="mix"></feBlend>
-              </filter>
-            </defs>
-          </svg>
-        </div>
-    </section>
-    <script>
-        feather.replace()
-      </script>
-    <script type="text/javascript" src="js/main.js"></script>
+  <nav id="dot-nav"></nav>
+  <section></section>
+  <section></section>
+  <section></section>
+  <section class="content">
+    <!-- section buttons -->
+    <div class="buttons">
+      <div class="btn from-center"><a href="index.html">ย้อนกลับ</a></div>
+    </div>
+  </section>
+  <script>
+    feather.replace()
+  </script>
+  <script type="text/javascript" src="js/main.js"></script>
 </body>
 
 </html>

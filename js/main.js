@@ -1,5 +1,4 @@
-//  dot nav
-
+//  dot nav don't config
 const dotNav = (elem, easing) => {
     function scrollIt(destination, duration = 200, easing = 'linear', callback) {
         const easings = {
@@ -129,3 +128,5 @@ const dotNav = (elem, easing) => {
 }
 
 dotNav('section', 'easeInOutCubic');
+
+// part of work or extension
