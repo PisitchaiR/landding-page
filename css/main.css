@@ -393,6 +393,13 @@ nav#dot-nav.red a:first-child {
   top:10%;
   left:5%;
 }
+.rec{
+    position: absolute;
+    top:0px;
+    width:1519px;
+    height:1445px;
+    background:#908A93 ;
+    }
 /* ~~~~~~~~~~~~ 6 ~~~~~~~~~~~~ */
 /* ~~~~~~~~~~~~ 7 ~~~~~~~~~~~~ */
 /* ~~~~~~~~~~~~ 8 ~~~~~~~~~~~~ */
