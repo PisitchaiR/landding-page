@@ -294,7 +294,7 @@ nav#dot-nav.red a:first-child {
 
 .content {
   --def: #000000;
-	--inv: #fff;
+	--inv: rgb(0, 0, 0);
   overflow: hidden;
   height: 100vh;
   position: relative;
@@ -321,7 +321,7 @@ nav#dot-nav.red a:first-child {
 
 .btn a{
   text-decoration: none;
-  color: white
+  color: rgb(0, 0, 0)
 }
 
 .btn:before,
@@ -334,7 +334,7 @@ nav#dot-nav.red a:first-child {
 
 .btn:hover a{
   z-index: 999;
-	color: black;
+	color: rgb(255, 255, 255);
 	transition-delay: 0.5s;
 }
 
