@@ -673,20 +673,19 @@ nav#dot-nav.red a:first-child {
   position: relative;
   overflow: hidden;
 }
-.picture{
+.pic{
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   position: absolute;
   top: 5%;
-  width: 350px;
-  height: 275px;
+  width: 20%;
+  height: 30%;
   left: 5%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  background-image: url(https://i.imgur.com/mU2UkLA.png);
 }
 .p1 {
   
@@ -695,7 +694,7 @@ nav#dot-nav.red a:first-child {
 }
 .p2 {
   
-  font-size: 20px;
+  font-size: 2vw;
   color:#000;
 }
 .pot{
@@ -811,7 +810,7 @@ nav#dot-nav.red a:first-child {
   font-weight: 700;
   text-align: center;
 }
-.word{
+.wordss{
   top: 70%;
   left: 5%;
   color: #eee;
@@ -822,24 +821,24 @@ nav#dot-nav.red a:first-child {
 .rec1{
     position: absolute;
     top:93.2%;
-    width:1519px;
-    height:50px;
+    width:100%;
+    height: 50%;
     background:#2565EA;
     }
 .rec2{
     position: absolute;
     top:5%;
-    right: 18%;
-    width:45px;
-    height:45px;
+    right: 19%;
+    width:3%;
+    height:5%;
     border-radius: 1em;
     background:#fff;
     }
-.box{
+.box4{
     position: absolute;
     top:43%;
-    width:75px;
-    height:363px;
+    width:5%;
+    height:50%;
     border-radius: 1em;
     background:#fff;
     left:32%;
@@ -847,8 +846,8 @@ nav#dot-nav.red a:first-child {
 .box1{
     position: absolute;
     top:43%;
-    width:75px;
-    height:363px;
+    width:5%;
+    height:50%;
     border-radius: 1em;
     background:#fff;
     left:45%;
@@ -857,8 +856,8 @@ nav#dot-nav.red a:first-child {
 .box2{
     position: absolute;
     top:43%;
-    width:75px;
-    height:363px;
+    width:5%;
+    height:50%;
     border-radius: 1em;
     background:#fff;
     left:58%;
@@ -866,8 +865,8 @@ nav#dot-nav.red a:first-child {
 .box3{
     position: absolute;
     top:43%;
-    width:75px;
-    height:363px;
+    width:5%;
+    height:50%;
     border-radius: 1em;
     background:#fff;
     left:71%;
@@ -875,8 +874,8 @@ nav#dot-nav.red a:first-child {
 .line{
     position: absolute;
     top:80.5%;
-    width:110px;
-    height:95px;
+    width:7%;
+    height:13%;
     border-radius: 1em;
     background:#14c7de;
     left:30.8%;
@@ -884,8 +883,8 @@ nav#dot-nav.red a:first-child {
 .line1{
     position: absolute;
     top:76%;
-    width:110px;
-    height:128px;
+    width:7%;
+    height:17%;
     border-radius: 1em;
     background:#19b092;
     left:43.8%;
@@ -893,8 +892,8 @@ nav#dot-nav.red a:first-child {
 .line2{
     position: absolute;
     top:80%;
-    width:110px;
-    height:100px;
+    width:7%;
+    height:13%;
     border-radius: 1em;
     background:#ef5f33;
     left:56.8%;
@@ -902,24 +901,24 @@ nav#dot-nav.red a:first-child {
 .line3{
     position: absolute;
     top:68%;
-    width:110px;
-    height:185px;
+    width:7%;
+    height:25%;
     border-radius: 1em;
     background:#C7EA46;
     left:69.8%;
   }
 .image1 {
-  width: 400px;
-  height: 100px;
+  width: 26.3%;
+  height: 15%;
   position: absolute;
-  top: 86%;
+  top: 85.5%;
   left: 0%;
  }
 .image2 {
-  width: 400px;
-  height: 100px;
+  width: 27.9%;
+  height: 15%;
   position: absolute;
-  top: 86%;
+  top: 86.2%;
   right: 0%;
 }
 /* section 7 */
