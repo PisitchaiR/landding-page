@@ -508,8 +508,8 @@ nav#dot-nav.red a:first-child {
   position: absolute;
   top: 35%;
   left: 10%;
-  border-radius: 30px;
-  padding: 1.5px;
+  border-radius: 10%;
+  padding: 10%;
   text-align: center;
   font-weight: bolder;
 }
@@ -521,8 +521,8 @@ nav#dot-nav.red a:first-child {
   position: absolute;
   top: 35%;
   left: 40%;
-  border-radius: 30px;
-  padding: 1.5px;
+  border-radius: 10%;
+  padding: 10%;
   text-align: center;
   font-weight: bolder;
 }
@@ -534,8 +534,8 @@ nav#dot-nav.red a:first-child {
   position: absolute;
   top: 35%;
   left: 70%;
-  border-radius: 30px;
-  padding: 1.5px;
+  border-radius: 10%;
+  padding: 10%;
   text-align: center;
   font-weight: bolder;
 }
@@ -560,7 +560,7 @@ nav#dot-nav.red a:first-child {
   position: absolute;
   top: 10%;
   left: 10%;
-  border-radius: 15%;
+  border-radius: 10%;
   padding: 5%;
   text-align: left;
   font-weight: bolder;
@@ -573,7 +573,7 @@ nav#dot-nav.red a:first-child {
   position: absolute;
   top: 10%;
   left: 10%;
-  border-radius: 30px;
+  border-radius: 10%;
   padding: 5%;
   text-align: left;
   font-weight: bolder;
@@ -599,13 +599,14 @@ nav#dot-nav.red a:first-child {
 }
 .txt{
   width: 90%;
-  margin-top: 98%;
   font-size: 2vw;
   left: 5%;
   right: 5%;
   color:black;
   text-align:center;
   position: absolute;
+  top: 80%;
+  bottom: 0%;
 }
 .factory{
   width: 100%;
