@@ -457,11 +457,18 @@ nav#dot-nav.red a:first-child {
   background: #D6D6D6;
 }
 .top-yoi{
+  position: absolute;
   width: 100%;
   height: 40%;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image:url(/img/ย้อย.png);
+  background-image:url(../img/ย้อย.png);
+}
+#all-pic-page3{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  /* border: 2px solid red; */
 }
 .topic{
   display: flex;
@@ -476,7 +483,7 @@ nav#dot-nav.red a:first-child {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  background-image: url(/img/หัวข้อ.png);
+  background-image: url(../img/หัวข้อ.png);
 }
 .text-cause{
   color:rgb(220, 217, 217);
@@ -485,7 +492,7 @@ nav#dot-nav.red a:first-child {
 }
 .p3-icon{
   width: 15%;
-  height: 25%;
+  height: 28%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -508,16 +515,16 @@ nav#dot-nav.red a:first-child {
   background-size: contain;
 }
 .transport{
-  background-image: url(/img/คมนาคม.png);
+  background-image: url(../img/คมนาคม.png);
 }
 .electric{
-  background-image: url(/img/ไฟ.png);
+  background-image: url(../img/ไฟ.png);
 }
 .burn{
-  background-image: url(/img/เผา.png);
+  background-image: url(../img/เผา.png);
 }
 .indust{
-  background-image: url(/img/โรงงาน.png);
+  background-image: url(../img/โรงงาน.png);
 }
 .dust{
   width: 40%;
