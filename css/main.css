@@ -916,16 +916,16 @@ nav#dot-nav.red a:first-child {
   }
 .image1 {
   width: 26.3%;
-  height: 15%;
+  height: 20%;
   position: absolute;
-  top: 85.5%;
+  top: 81%;
   left: 0%;
  }
 .image2 {
   width: 27.9%;
-  height: 15%;
+  height: 20%;
   position: absolute;
-  top: 86.2%;
+  top: 81.5%;
   right: 0%;
 }
 /* section 7 */
@@ -941,84 +941,84 @@ nav#dot-nav.red a:first-child {
   position: absolute;
   top: 3%;
   left: 3%;
-  padding: 20px;
-  width: 550px;
-  height: 150px;
+  padding: 1.5%;
+  width: 35%;
+  height: 20%;
   text-align: center;
   font-weight: bolder;
 }
 p {
-  font-size: 0.8em;
+  font-size: 1.6vw;
 }
 #text1 {
   position: absolute;
   left: 30%;
-  font-size: 1.3em;
+  font-size: 1.3vw;
   top: 85%;
   color: #fff;
 }.img7 {
-  width: 200px;
-  height: 200px;
+  width: 13%;
+  height: 27.2%;
   position: absolute;
   top: 45%;
   left: 10%;
 }.img8 {
-  width: 200px;
-  height: 200px;
+  width: 13%;
+  height: 27.2%;
   position: absolute;
   top: 45%;
   left: 25%;
 }.imge9 {
-  width: 200px;
-  height: 200px;
+  width: 13%;
+  height: 27%;
   position: absolute;
   top: 45%;
   right: 10%;
 }.img10 {
-  width: 200px;
-  height: 200px;
+  width: 13%;
+  height: 27%;
   position: absolute;
   top: 45%;
   right: 25%;
 }
 #orage {
-  border-radius: 5px;
+  border-radius: 15%;
   background: #f46d0a;
   position: absolute;
-  top: 3%;
+  top: 1%;
   right: 25%;
-  width: 30px;
-  height: 30px;
+  width: 2%;
+  height: 4%;
 }
 #green {
-  border-radius: 5px;
+  border-radius: 15%;
   background: #aeb42b;
   position: absolute;
-  top: 3%;
+  top: 1%;
   right: 22.5%;
-  width: 30px;
-  height: 30px;
+  width: 2%;
+  height: 4%;
 }
 #yellow {
-  border-radius: 5px;
+  border-radius: 15%;
   background: #ffb300;
   position: absolute;
-  top: 8%;
+  top: 6%;
   right: 25%;
-  width: 30px;
-  height: 30px;
+  width: 2%;
+  height: 4%;
 }
 #blue {
-  border-radius: 5px;
+  border-radius: 15%;
   background: #00796b;
   position: absolute;
-  top: 8%;
+  top: 6%;
   right: 22.5%;
-  width: 30px;
-  height: 30px;
+  width: 2%;
+  height: 4%;
 }
 #world1 {
-  font-size: 1em;
+  font-size: 1.1vw;
   position: absolute;
   top: 3%;
   right: 10%;
@@ -1026,15 +1026,15 @@ p {
   font-weight: bolder;
 }
 #world2 {
-  font-size: 1em;
+  font-size: 1.1vw;
   position: absolute;
   top: 8%;
-  right: 15.8%;
+  right: 16%;
   color: #fff;
   font-weight: bolder;
 }
 #world3 {
-  font-size: 1.5em;
+  font-size: 1.5vw;
   position: absolute;
   top: 33%;
   left: 20%;
@@ -1042,7 +1042,7 @@ p {
   font-weight: bolder;
 }
 #world4 {
-  font-size: 1.5em;
+  font-size: 1.5vw;
   position: absolute;
   top: 33%;
   right: 20%;
@@ -1050,15 +1050,15 @@ p {
   font-weight: bolder;
 }
 #world5 {
-  font-size: 1em;
+  font-size: 1vw;
   position: absolute;
   top: 13%;
-  right: 13%;
+  right: 13.8%;
   color: #d7d3d3;
   font-weight: bolder;
 }
 #world6 {
-  font-size: 1em;
+  font-size: 1vw;
   position: absolute;
   top: 55%;
   left: 15.5%;
@@ -1067,7 +1067,7 @@ p {
   z-index: 1;
 }
 #world7 {
-  font-size: 1em;
+  font-size: 1vw;
   position: absolute;
   top: 55%;
   left: 30.6%;
@@ -1076,7 +1076,7 @@ p {
   z-index: 1;
 }
 #world8 {
-  font-size: 1em;
+  font-size: 1vw;
   position: absolute;
   top: 55%;
   right: 30.6%;
@@ -1085,7 +1085,7 @@ p {
   z-index: 1;
 }
 #world9 {
-  font-size: 1em;
+  font-size: 1vw;
   position: absolute;
   top: 55%;
   right: 15.5%;
@@ -1094,15 +1094,15 @@ p {
   z-index: 1;
 }
 .photo1 {
-  width: 400px;
-  height: 100px;
+  width: 26.3%;
+  height: 15%;
   position: absolute;
   top: 0;
   left: 0;
 }
 .photo2 {
-  width: 400px;
-  height: 100px;
+  width: 26.5%;
+  height: 15%;
   position: absolute;
   top: 0;
   right: 0;
