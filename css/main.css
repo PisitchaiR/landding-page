@@ -1322,6 +1322,7 @@ p {
   padding: 0;
   position:relative;
   z-index: 0;
+  background: whitesmoke;
 }
 .word{
   font-size: 3vw;
@@ -1352,19 +1353,21 @@ p {
 .word2{
   font-size: 2vw;
   position: absolute;
-  bottom: 2%;
+  bottom: 1%;
   left: 35%;
   z-index: 1;
   text-align: center;
-  color: #ba1c4b;
+  color: #3d3d3c;
 }
 .p3bottom{
 position: absolute;
+opacity: 90%;
   bottom:-5%;
   left:0%;
   width: 100%;
   height: 30%;
   transform: rotateY(180deg);
+ z-index: -20;
   		}
 .mySlides{
 	background-size: contain;
@@ -1372,6 +1375,7 @@ position: absolute;
 	height:100%;
   z-index: 0;
 }
+
 #leftbut{
 	background-size: cover;
 	background-image: url('https://cdn.discordapp.com/attachments/798606239537954816/845258336843857940/left.png');
@@ -1380,6 +1384,10 @@ position: absolute;
 	left: 21%;
 	width: 7%;
 	height: 7%;
+  cursor:pointer
+}#leftbut:hover{
+  transform: scale(1.1);
+  background-image: url('https://cdn.discordapp.com/attachments/798606239537954816/845352993049280532/leftch.png');
 }
 #rightbut{
 	background-size: cover;
@@ -1389,6 +1397,11 @@ position: absolute;
 	left: 34.8%;
 	width: 7%;
 	height: 7%;
+  cursor:pointer;
+}#rightbut:hover{
+  transform: scale(1.1);
+  background-image: url('https://cdn.discordapp.com/attachments/798606239537954816/845370321237704734/arrow2.png');
+  opacity: 80%;
 }
 
 
