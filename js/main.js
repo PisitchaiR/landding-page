@@ -130,6 +130,7 @@ const dotNav = (elem, easing) => {
 dotNav('section', 'easeInOutCubic');
 
 // part of work or extension
+// page8
 var slideIndex = 1;
 showDivs(slideIndex);
 
