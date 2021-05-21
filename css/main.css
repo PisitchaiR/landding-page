@@ -957,29 +957,53 @@ p {
   top: 85%;
   color: #fff;
 }.img7 {
+  border-radius: 5%;
   width: 13%;
   height: 27.2%;
   position: absolute;
   top: 45%;
   left: 10%;
-}.img8 {
+}
+.img7:hover{
+  transform: scale(1.2);
+  background-color: rgb(240, 141, 60);
+}
+
+.img8 {
+  border-radius: 5%;
   width: 13%;
   height: 27.2%;
   position: absolute;
   top: 45%;
   left: 25%;
-}.imge9 {
+}
+
+.img8:hover{
+  transform: scale(1.2);
+  background-color: rgb(243, 204, 97);
+}
+.imge9 {
+  border-radius: 5%;
   width: 13%;
   height: 27%;
   position: absolute;
   top: 45%;
   right: 10%;
-}.img10 {
+}.imge9:hover{
+  transform: scale(1.2);
+  background-color: rgb(46, 143, 83);
+}
+
+.img10 {
+  border-radius: 5%;
   width: 13%;
   height: 27%;
   position: absolute;
   top: 45%;
   right: 25%;
+}.img10:hover{
+  transform: scale(1.2);
+  background-color: rgb(73, 170, 86);
 }
 #orage {
   border-radius: 15%;
