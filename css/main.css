@@ -1298,100 +1298,78 @@ p {
   margin: 0;
   padding: 0;
   position:relative;
-  z-index: -1;
-  height:275vh;
-  background: wh;
+
+  z-index: 0;
 }
 .word{
-  font-size: 2em;
+  font-size: 3vw;
   position: absolute;
-  top: 0%;
+  top: -20%;
   left: 35%;
   z-index: 1;
   text-align: center;
-
 }
-.mask1{
+.word1{
+  font-size: 3vw;
   position: absolute;
-  top:5%;
-  left:5%;
-  width: 37%;
+  top: -20%;
+  left: 49.5%;
+  color: whitesmoke;
+  z-index: 1;
+  text-align: center;
+}
+.box{
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  background-color:#62adb3;
+  width: 100%;
   height: 12%;
+  z-index: 20;
 }
-.mask2{
+.word2{
+  font-size: 2vw;
   position: absolute;
-  top:19%;
-  left:60%;
-  width: 32%;
-  height: 12%;
-}
-.mask3{
-  position: absolute;
-  top:33%;
-  left:10%;
-  width: 27%;
-  height: 11%;
-}
-.mask4{
-  position: absolute;
-  top:46%;
-  left:55%;
-  width: 37%;
-  height: 12%;
-}
-.mask5{
-  position: absolute;
-  top:59.5%;
-  left:5%;
-  width: 37%;
-  height: 12%;
-}
-.mask6{
-  position: absolute;
-  top:73%;
-  left:55%;
-  width: 37%;
-  height: 12%;
+  bottom: 2%;
+  left: 35%;
+  z-index: 1;
+  text-align: center;
+  color: #ba1c4b;
 }
 .p3bottom{
 position: absolute;
-  bottom:-2%;
+  bottom:-5%;
   left:0%;
   width: 100%;
-  height: 18%;
+  height: 30%;
   transform: rotateY(180deg);
-}
-.box{
-  width:50.2%;
-  height:14%;
-  display: inline-block;
-  background: wh;
-  opacity:70%;
+  		}
+.mySlides{
+	background-size: contain;
+	width: 100%;
+	height:100%;
   z-index: 0;
-  margin: -4px;
-  padding: 0;
 }
-.box:nth-child(1){
-  width:100%;
-  height:4%;
-  background: #24ADA1;
-  margin: 0;
-  padding: 0;
+#leftbut{
+	background-size: cover;
+	background-image: url('https://cdn.discordapp.com/attachments/798606239537954816/845258336843857940/left.png');
+	position: absolute;
+	top:70.4%;
+	left: 21%;
+	width: 7%;
+	height: 7%;
 }
-.box:nth-child(2){
+#rightbut{
+	background-size: cover;
+	background-image: url('https://cdn.discordapp.com/attachments/798606239537954816/845258365999382558/ri.png');
+	position: absolute;
+	top:70.4%;
+	left: 34.8%;
+	width: 7%;
+	height: 7%;
 }
-.box:nth-child(3){background: #998321;
-}
-.box:nth-child(4){ background: #C964E2;}
-.box:nth-child(5){ }
-.box:nth-child(6){}
-.box:nth-child(7){background: #DB792E;}
-.box:nth-child(8){background: #14A0A0;}
-.box:nth-child(9){}
-.box:nth-child(10){}
-.box:nth-child(11){  background: #23AA33;}
-.box:nth-child(12){background: #DD3033;}
-.box:nth-child(13){}
+
+
 /* section 9 */
 #page9{
   position:relative;
