@@ -391,66 +391,102 @@ nav#dot-nav.red a:first-child {
 .bg2{
   width: 100%;
   height: 100%;
-  background-color: #bfbfb0;
-  position: relative;
-}
-.picbg{
-  width: 100vw;
-  height: 80vh;
+  background-color: #303955;
   position: relative;
 }
 .hair{
-  width: 30vw;
-  height: 45vh;
+  width: 40%;
+  height: 50%;
   position: absolute;
-  top: 100px;
-  right: 200px;
+  top: 40%;
+  left: 10%;
+}.hair:hover{
+  transform: scale(1.2);
+}
+.boxhair{
+  padding: 12px;
+  border-radius: 20px;
+  color: white;
+  font-size: 1.1vw;
+  background-color: #00a99d;
+  position: absolute;
+  top: 80%;
+  left: 20%;
 }
 .dust2{
-  width: 12vw;
-  height: 13.5vw;
+  border-radius: 50px;
+  width: 12.5%;
+  height: 25%;
   position: absolute;
-  top: 40px;
-  right: 170px;
+  top: 55%;
+  right: 10%
+}.dust2:hover{
+  transform: scale(1.2);
+  background-color: #525d7e;
+  opacity: 80%;
 }
 .sand{
   width: 11vw;
   height: 13vw;
   position: absolute;
-  top: 450px;
-  right: 300px;
+  top: 55%;
+  left: 50%;
+}.sand:hover{
+  transform: scale(1.2);
+
+}
+.boxsand{
+  padding: 12px;
+  border-radius: 20px;
+  color: white;
+  font-size: 1.1vw;
+  background-color: #00a99d;
+  position: absolute;
+  top: 80%;
+  left: 53%;
 }
 .dust10{
-  width: 8vw;
-  height: 9vw;
+  border-radius: 50px;
+  width: 10%;
+  height: 20%;
   position: absolute;
-  top: 25px;
-  right: 500px;
+  top: 75%;
+  right: 25%;
+}.dust10:hover{
+  transform: scale(1.2);
+  background-color: #525d7e;
+  opacity: 80%;
 }
 .titlepm{
+  border-radius: 40px;
+  border: 5px solid rgb(197, 195, 195);
+  background-color: #252525;
+  padding: 30px;
   color: #91918d;
-  font-size: 3.5em;
+  font-size: 3em;
   position: absolute;
-  top: 100px;
-  left: 150px;
+  top: 5%;
+  left: 5%;
+ opacity: 80%;
 }
 .whatdust{
   color: red;
 }
 .squard{
-  width: 10px;
-  height: 140px;
-  background-color: rgb(0, 0, 0);
+  width: 20%;
+  height: 10px;
+  background-color: rgba(0, 0, 0, 0.74);
   position: absolute;
-  top: 300px;
-  left: 70px;
+  top: 57%;
+  left: 40%;
 }
 .textdust{
   color: #f2f2f2;
   font-size: 1.5em;
   position: absolute;
-  top: 300px;
-  left: 100px;
+  top: 35%;
+  left: 23%;
+  text-align: center;
 }
 /* section 3 */
 #page3{
