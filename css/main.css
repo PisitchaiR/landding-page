@@ -615,88 +615,111 @@ nav#dot-nav.red a:first-child {
   top: 0px;
   left: 0px;
 }
-
-.human{
-  width: 1521px;
-  height: 1050px;
+.box_1{
+  width: 10%;
+  height: 25%;
+  top: 45%;
   position: absolute;
-  top: 100px;
-  left: -1px;
+  left: 0;
+  background: #050708;
+}
+.box_2{
+  width: 15%;
+  height: 30%;
+  top: 38%;
+  position: absolute;
+  right: 0;
+  background: #050708;
+}
+.human{
+  width: 78%;
+  height: 61%;
+  top: 2.5%;
+  position: absolute;
+  left: 9%;
+
 }
 
 .l_cloud{
   width: 23%;
-  height: 100%;
+  height: 70%;
   position: absolute;
-  left: -1px;
+  left: 0;
 }
 
 .r_cloud{
-  width: 18%;
-  height: 100%;
+  width: 25%;
+  height: 20%;
   position: absolute;
-  right: -1px;
+  right: 0;
 }
 
 .txt_head{
-  font-size: 22px;
+  font-size: 1.5vw;
   position: absolute;
-  top: 50px;
-  left: 125px;
+  top: 0.3%;
+  left: 5%;
 }
 
-.one{
+.eye{
   position: absolute;
-  top: 240px;
-  left: 230px;
+  top: 9.5%;
+  left: 20%;
+  font-weight: bold;
 }
 
-.two{
+.nose{
   position: absolute;
-  top: 375px;
-  left: 155px;
+  top: 18%;
+  left: 17%;
+  font-weight: bold;
 }
 
-.three{
+.heart{
   position: absolute;
-  top: 560px;
-  left: 155px;
+  top: 30%;
+  left: 17%;
+  font-weight: bold;
 }
 
-.four{
+.lung{
   position: absolute;
-  top: 770px;
-  left: 195px;
+  top: 43%;
+  left: 19%;
+
 }
 
-.five{
+.hand{
   position: absolute;
-  top: 1010px;
-  left: 220px;
+  top: 53%;
+  left: 19%;
 }
 
-.six{
+.brain{
   position: absolute;
-  top: 90px;
-  left: 1170px;
+  top: 0;
+  right: 14%;
+  font-weight: bold;
 }
 
-.seven{
+.steam{
   position: absolute;
-  top: 280px;
-  left: 1260px;
+  top: 11.5%;
+  right: 10.5%;
+  font-weight: bold;
 }
 
 .eight{
   position: absolute;
-  top: 515px;
-  left: 1280px;
+  top: 24%;
+  right: 15.5%;
+  font-weight: bold;
 }
 
 .nine{
   position: absolute;
-  top: 1020px;
-  left: 1130px;
+  top: 53%;
+  right: 10%;
 }
 
 .white{
@@ -1589,3 +1612,4 @@ position: absolute;
 .a_cloud{
   position: absolute;
 }
+
