@@ -462,7 +462,7 @@ nav#dot-nav.red a:first-child {
   height: 50%;
   background-repeat: no-repeat;
   background-size: contain;
-  background-image:url(../img/à¸¢à¹‰à¸­à¸¢.png);
+  background-image:url(../img/ย้อย.png);
 }
 #all-pic-page3{
   position: relative;
@@ -483,7 +483,7 @@ nav#dot-nav.red a:first-child {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  background-image: url(../img/à¸«à¸±à¸§à¸‚à¹‰à¸­.png);
+  background-image: url(../img/หัวข้อ.png);
 }
 .text-cause{
   color:rgb(220, 217, 217);
@@ -515,16 +515,16 @@ nav#dot-nav.red a:first-child {
   background-size: contain;
 }
 .transport{
-  background-image: url(../img/à¸„à¸¡à¸™à¸²à¸„à¸¡.png);
+  background-image: url(../img/คมนาคม.png);
 }
 .electric{
-  background-image: url(../img/à¹„à¸Ÿ.png);
+  background-image: url(../img/ไฟ.png);
 }
 .burn{
-  background-image: url(../img/à¹€à¸œà¸².png);
+  background-image: url(../img/เผา.png);
 }
 .indust{
-  background-image: url(../img/à¹‚à¸£à¸‡à¸‡à¸²à¸™.png);
+  background-image: url(../img/โรงงาน.png);
 }
 .dust{
   width: 40%;
@@ -535,7 +535,7 @@ nav#dot-nav.red a:first-child {
   background-repeat: no-repeat;
   background-size: contain;
   transform: rotate(90deg);
-  background-image: url(/img/à¸¥à¸°à¸­à¸­à¸‡.png);
+  background-image: url(/img/ละออง.png);
 }
 .one-i{
   top: 5%;
@@ -562,7 +562,7 @@ nav#dot-nav.red a:first-child {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: left;
-  background-image: url(/img/à¸¥à¹ˆà¸²à¸‡à¸ªà¸¸à¸”.png);
+  background-image: url(/img/ล่างสุด.png);
 }
 /* section 4 */
 .background{
@@ -712,7 +712,7 @@ nav#dot-nav.red a:first-child {
   width: 45%;
   height: 80%;
   position: absolute;
-  background-image: url(../img/à¸›à¸£à¸°à¹€à¸—à¸¨à¹„à¸—à¸¢.png);
+  background-image: url(../img/ประเทศไทย.png);
   background-repeat: no-repeat;
   background-size: contain;
   z-index: 4;
@@ -749,7 +749,7 @@ nav#dot-nav.red a:first-child {
   width: 110%;
   height: 100%;
   position: absolute;
-  background-image: url(../img/à¸à¸¸à¹ˆà¸™.png);
+  background-image: url(../img/ฝุ่น.png);
   background-repeat: no-repeat;
   background-size: contain;
   z-index: 1;
