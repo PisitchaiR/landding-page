@@ -459,10 +459,10 @@ nav#dot-nav.red a:first-child {
 .top-yoi{
   position: absolute;
   width: 100%;
-  height: 40%;
+  height: 50%;
   background-repeat: no-repeat;
-  background-size: cover;
-  background-image:url(../img/ย้อย.png);
+  background-size: contain;
+  background-image:url(../img/à¸¢à¹‰à¸­à¸¢.png);
 }
 #all-pic-page3{
   position: relative;
@@ -483,7 +483,7 @@ nav#dot-nav.red a:first-child {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  background-image: url(../img/หัวข้อ.png);
+  background-image: url(../img/à¸«à¸±à¸§à¸‚à¹‰à¸­.png);
 }
 .text-cause{
   color:rgb(220, 217, 217);
@@ -492,7 +492,7 @@ nav#dot-nav.red a:first-child {
 }
 .p3-icon{
   width: 15%;
-  height: 28%;
+  height: 35%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -515,16 +515,16 @@ nav#dot-nav.red a:first-child {
   background-size: contain;
 }
 .transport{
-  background-image: url(../img/คมนาคม.png);
+  background-image: url(../img/à¸„à¸¡à¸™à¸²à¸„à¸¡.png);
 }
 .electric{
-  background-image: url(../img/ไฟ.png);
+  background-image: url(../img/à¹„à¸Ÿ.png);
 }
 .burn{
-  background-image: url(../img/เผา.png);
+  background-image: url(../img/à¹€à¸œà¸².png);
 }
 .indust{
-  background-image: url(../img/โรงงาน.png);
+  background-image: url(../img/à¹‚à¸£à¸‡à¸‡à¸²à¸™.png);
 }
 .dust{
   width: 40%;
@@ -535,22 +535,22 @@ nav#dot-nav.red a:first-child {
   background-repeat: no-repeat;
   background-size: contain;
   transform: rotate(90deg);
-  background-image: url(/img/ละออง.png);
+  background-image: url(/img/à¸¥à¸°à¸­à¸­à¸‡.png);
 }
 .one-i{
-  top: 25%;
+  top: 5%;
   left: 50%;
 }
 .two-i{
-  top: 45%;
+  top: 35%;
   left: 25%;
 }
 .three-i{
-  top: 45%;
+  top: 35%;
   left: 75%;
 }
 .four-i{
-  top: 65%;
+  top: 55%;
   left: 50%;
 }
 .bottom-smoke{
@@ -562,7 +562,7 @@ nav#dot-nav.red a:first-child {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: left;
-  background-image: url(/img/ล่างสุด.png);
+  background-image: url(/img/à¸¥à¹ˆà¸²à¸‡à¸ªà¸¸à¸”.png);
 }
 /* section 4 */
 .background{
@@ -571,20 +571,18 @@ nav#dot-nav.red a:first-child {
 
 .bg{
   margin-top: 0;
-  width: 1485px;
-  height: 1100px;
+  width: 1521px;
+  height: 1150px;
   background-color: #d7d7d7;
   position: relative;
-  border-style: solid;
-  border-width: 10px;
-  border-color: black;
+  border-style: none;
   top: 0px;
   left: 0px;
 }
 
 .human{
-  width: 1487px;
-  height: 1000px;
+  width: 1521px;
+  height: 1050px;
   position: absolute;
   top: 100px;
   left: -1px;
@@ -637,32 +635,32 @@ nav#dot-nav.red a:first-child {
 
 .five{
   position: absolute;
-  top: 960px;
-  left: 195px;
+  top: 1010px;
+  left: 220px;
 }
 
 .six{
   position: absolute;
-  top: 75px;
+  top: 90px;
   left: 1170px;
 }
 
 .seven{
   position: absolute;
-  top: 270px;
-  left: 1240px;
+  top: 280px;
+  left: 1260px;
 }
 
 .eight{
   position: absolute;
-  top: 495px;
-  left: 1245px;
+  top: 515px;
+  left: 1280px;
 }
 
 .nine{
   position: absolute;
-  top: 960px;
-  left: 1075px;
+  top: 1020px;
+  left: 1130px;
 }
 
 .white{
@@ -671,9 +669,91 @@ nav#dot-nav.red a:first-child {
 }
 
 .p4-icon{
-  font-size: 22px;
+  font-size: 1.5em;
 }
 /* section 5 */
+#page5{
+  height: 200vh;
+  background: #D6D6D6;
+}
+#all-pic-page5{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.top-yoi-5{
+  width: 100%;
+  height: 55%;
+  position: absolute;
+  background-image: url(https://media.discordapp.net/attachments/811559839196119040/844847733172862976/5555.png?width=827&height=405);
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: 4;
+}
+.text-title-page5{
+  color: white;
+  position: relative;
+  top: 8%;
+  left: 8%;
+  z-index: 4;
+}
+.text-risk,
+.text-red{
+  font-size: 3.5vw;
+  font-weight: 600;
+  line-height: 4.5vw;
+}
+.text-red{
+  color: red;
+  display: inline;
+}
+.map-page5{
+  left: 40%;
+  width: 45%;
+  height: 80%;
+  position: absolute;
+  background-image: url(../img/à¸›à¸£à¸°à¹€à¸—à¸¨à¹„à¸—à¸¢.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: 4;
+  
+}
+.location-page5{
+  width: 8%;
+  height: 9%;
+  color: white;
+  font-size: 1.5vw;
+  font-weight: 600;
+  position: absolute;
+  background-image: url(../img/location.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-align: center;
+  z-index: 5;
+}
+.all-block{
+  top: 75%;
+  left: 5%;
+  position: relative;
+  width: 30%;
+  height: 30%;
+}
+.block-page5{
+  padding: 10% 13% 10%;
+  display: inline;
+  position: relative;
+  z-index: 5;
+}
+.dust-page5{
+  bottom: 0;
+  width: 110%;
+  height: 100%;
+  position: absolute;
+  background-image: url(../img/à¸à¸¸à¹ˆà¸™.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: 1;
+}
 /* section 6 */
 #page6{
   background-color: #908A93 ;
