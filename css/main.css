@@ -829,36 +829,45 @@ nav#dot-nav.red a:first-child {
   flex-direction: column;
   position: absolute;
 }
+.pot1{
+  width: 28%;
+  height: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+}
 .one{
   top: 25%;
   left: 26.8%;
   color: #5E1914;
-  font-size: 2vw;
-  font-weight: 700;
+  font-size: 3vw;
+  font-weight: 900;
   text-align: center;
 }
 .two{
   top: 25%;
   left: 39.8%;
   color: #5E1914;
-  font-size: 2vw;
-  font-weight: 700;
+  font-size: 3vw;
+  font-weight: 900;
   text-align: center;
 }
 .three{
   top: 25%;
   left: 52.8%;
   color: #5E1914;
-  font-size: 2vw;
-  font-weight: 700;
+  font-size: 3vw;
+  font-weight: 900;
   text-align: center;
 }
 .four{
   top: 25%;
   left: 65.8%;
   color: #5E1914;
-  font-size: 2vw;
-  font-weight: 700;
+  font-size: 3vw;
+  font-weight: 900;
   text-align: center;
 }
 .one1{
@@ -894,35 +903,35 @@ nav#dot-nav.red a:first-child {
   text-align: center;
 }
 .context{
-  top:-5%;
-  right: 3%;
+  top:-13%;
+  right: -5%;
   color: #eee;
-  font-size: 1vw;
-  font-weight: 700;
+  font-size: 0vw;
+  font-weight: 900;
   text-align: center;
 }
 .context1{
-  top:5%;
-  right: 3%;
+  top:-3%;
+  right: -5%;
   color: #eee;
-  font-size: 1vw;
-  font-weight: 700;
+  font-size: 0vw;
+  font-weight: 900;
   text-align: center;
 }
 .context2{
-  top:15%;
-  right: 3%;
+  top:9%;
+  right: -5%;
   color: #eee;
-  font-size: 1vw;
-  font-weight: 700;
+  font-size: 0vw;
+  font-weight: 900;
   text-align: center;
 }
 .context3{
   top:4%;
   right: 13%;
   color: #eee;
-  font-size: 1vw;
-  font-weight: 700;
+  font-size: 0vw;
+  font-weight: 200;
   text-align: center;
 }
 .context4{
@@ -951,10 +960,14 @@ nav#dot-nav.red a:first-child {
 .rec2{
     position: absolute;
     top:5%;
-    right: 19%;
+    right: 17%;
     width:3%;
     height:5%;
     border-radius: 1em;
+    background:#fff;
+    }
+.rec2:hover{
+    box-shadow:0px 0px 5px 5px #BABABA;
     background:#fff;
     }
 .box4{
@@ -965,6 +978,7 @@ nav#dot-nav.red a:first-child {
     border-radius: 1em;
     background:#fff;
     left:32%;
+    box-shadow:0px 0px 5px 5px #BABABA;
     }
 .box1{
     position: absolute;
@@ -974,6 +988,7 @@ nav#dot-nav.red a:first-child {
     border-radius: 1em;
     background:#fff;
     left:45%;
+    box-shadow:0px 0px 5px 5px #BABABA;
 
   }
 .box2{
@@ -984,6 +999,7 @@ nav#dot-nav.red a:first-child {
     border-radius: 1em;
     background:#fff;
     left:58%;
+    box-shadow:0px 0px 5px 5px #BABABA;
   }
 .box3{
     position: absolute;
@@ -993,43 +1009,72 @@ nav#dot-nav.red a:first-child {
     border-radius: 1em;
     background:#fff;
     left:71%;
+    box-shadow:0px 0px 5px 5px #BABABA;
   }
 .line{
     position: absolute;
-    top:80.5%;
+    top:43%;
     width:7%;
-    height:13%;
+    height:50%;
     border-radius: 1em;
     background:#14c7de;
     left:30.8%;
   }
+.line:hover{
+    top:80.5%;
+    width:7%;
+    height:13%;
+    box-shadow:0px 0px 5px 5px #9DF3EA;
+    background:#14c7de;
+    }
 .line1{
     position: absolute;
-    top:76%;
+    top:43%;
     width:7%;
-    height:17%;
+    height:50%;
     border-radius: 1em;
     background:#19b092;
     left:43.8%;
   }
+.line1:hover{
+    top:76%;
+    width:7%;
+    height:17%;
+    box-shadow:0px 0px 5px 5px #03FFB1;
+    background:#19b092;
+  }
 .line2{
     position: absolute;
-    top:80%;
+    top:43%;
     width:7%;
-    height:13%;
+    height:50%;
     border-radius: 1em;
     background:#ef5f33;
     left:56.8%;
   }
+.line2:hover{
+    top:80%;
+    width:7%;
+    height:13%;
+    box-shadow:0px 0px 5px 5px #FFB203;
+    background:#ef5f33;
+    }
 .line3{
     position: absolute;
-    top:68%;
+    top:43%;
     width:7%;
-    height:25%;
+    height:50%;
     border-radius: 1em;
     background:#C7EA46;
     left:69.8%;
   }
+.line3:hover{
+      top:68%;
+    width:7%;
+    height:25%;
+      box-shadow:0px 0px 5px 5px #FFFF08;
+      background:#C7EA46;
+    }
 .image1 {
   width: 26.3%;
   height: 22%;
@@ -1044,6 +1089,7 @@ nav#dot-nav.red a:first-child {
   top: 76.5%;
   right: 0%;
 }
+
 /* section 7 */
 #page7{
   background-color: #396283;
