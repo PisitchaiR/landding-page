@@ -818,6 +818,126 @@ nav#dot-nav.red a:first-child {
   position: relative;
   overflow: hidden;
 }
+@keyframes color {
+        0% {
+            background-color: #14c7de;
+        }
+
+        5% {
+            background-color: rgb(54, 204, 209);
+        }
+
+        10% {
+            background-color: rgb(53, 162, 235);
+        }
+
+        15% {
+            background-color: rgb(15, 96, 218);
+        }
+
+        20% {
+            background-color: rgb(42, 103, 196);
+        }
+
+        25% {
+            background-color: rgb(53, 162, 235);
+        }
+
+        30% {
+            background-color: rgb(54, 204, 209);
+        }
+    }
+
+    @keyframes color1 {
+        0% {
+            background-color: #19b092;
+        }
+
+        5% {
+            background-color: rgb(8, 243, 165);
+        }
+
+        10% {
+            background-color: rgb(9, 136, 115);
+        }
+
+        15% {
+            background-color: rgb(14, 161, 137);
+        }
+
+        20% {
+            background-color: rgb(9, 136, 115);
+        }
+
+        25% {
+            background-color: rgb(8, 243, 165);
+        }
+
+        30% {
+            background-color: #19b092;
+        }
+    }
+
+    @keyframes color2 {
+        0% {
+            background-color: #e79278;
+        }
+
+        5% {
+            background-color: rgb(228, 112, 35);
+        }
+
+        10% {
+            background-color: rgb(212, 77, 14);
+        }
+
+        15% {
+            background-color: rgb(223, 70, 43);
+        }
+
+        20% {
+            background-color: rgb(212, 77, 14);
+        }
+
+        25% {
+            background-color: rgb(228, 112, 35);
+        }
+
+        30% {
+            background-color: #e79278;
+        }
+    }
+
+    @keyframes color3 {
+        0% {
+            background-color: #C7EA46;
+        }
+
+        5% {
+            background-color: rgb(243, 239, 26);
+        }
+
+        10% {
+            background-color: rgb(158, 156, 40);
+        }
+
+        15% {
+            background-color: rgb(185, 197, 10);
+        }
+
+        20% {
+            background-color: rgb(199, 196, 38);
+        }
+
+        25% {
+            background-color: rgb(243, 239, 26);
+        }
+
+        30% {
+            background-color: #C7EA46;
+        }
+    }
+
 .pic{
   display: flex;
   justify-content: center;
@@ -991,84 +1111,98 @@ nav#dot-nav.red a:first-child {
     box-shadow:0px 0px 5px 5px #BABABA;
     background:#fff;
     }
-.box4{
-    position: absolute;
-    top:43%;
-    width:5%;
-    height:50%;
-    border-radius: 1em;
-    background:#fff;
-    left:32%;
-    box-shadow:0px 0px 5px 5px #BABABA;
+.box4 {
+        position: absolute;
+        top: 43%;
+        width: 3%;
+        height: 50%;
+        border-radius: 1em;
+        background: #fff;
+        left: 33%;
+        box-shadow: 0px 0px 5px 5px #BABABA;
     }
-.box1{
-    position: absolute;
-    top:43%;
-    width:5%;
-    height:50%;
-    border-radius: 1em;
-    background:#fff;
-    left:45%;
-    box-shadow:0px 0px 5px 5px #BABABA;
 
-  }
-.box2{
-    position: absolute;
-    top:43%;
-    width:5%;
-    height:50%;
-    border-radius: 1em;
-    background:#fff;
-    left:58%;
-    box-shadow:0px 0px 5px 5px #BABABA;
-  }
-.box3{
-    position: absolute;
-    top:43%;
-    width:5%;
-    height:50%;
-    border-radius: 1em;
-    background:#fff;
-    left:71%;
-    box-shadow:0px 0px 5px 5px #BABABA;
-  }
-#line{
-    position: absolute;
-    
-    width:7%;
-    border-radius: 1em;
-    background:#14c7de;
-    left:30.8%;
-    z-index: 100;
-  }
+    .box1 {
+        position: absolute;
+        top: 43%;
+        width: 3%;
+        height: 50%;
+        border-radius: 1em;
+        background: #fff;
+        left: 46%;
+        box-shadow: 0px 0px 5px 5px #BABABA;
 
-#line1{
-    position: absolute;
-    
-    width:7%;
-    border-radius: 1em;
-    background:#19b092;
-    left:43.8%;
-    z-index: 100;
-  }
-#line2{
-    position: absolute;
-    
-    width:7%;
-    border-radius: 1em;
-    background:#ef5f33;
-    left:56.8%;
-    z-index: 100;
-  }
-#line3{
-    position: absolute;
-    
-    width:7%;
-    border-radius: 1em;
-    background:#C7EA46;
-    left:69.8%;
-    z-index: 100;
-  }
+    }
+
+    .box2 {
+        position: absolute;
+        top: 43%;
+        width: 3%;
+        height: 50%;
+        border-radius: 1em;
+        background: #fff;
+        left: 59%;
+        box-shadow: 0px 0px 5px 5px #BABABA;
+    }
+
+    .box3 {
+        position: absolute;
+        top: 43%;
+        width: 3%;
+        height: 50%;
+        border-radius: 1em;
+        background: #fff;
+        left: 72%;
+        box-shadow: 0px 0px 5px 5px #BABABA;
+    }
+
+    #line {
+        position: absolute;
+        width: 5%;
+        border-radius: 1em;
+        background: #14c7de;
+        left: 32%;
+        z-index: 100;
+        animation-name: color;
+        animation-duration: 50s;
+        animation-iteration-count: infinite;
+    }
+
+    #line1 {
+        position: absolute;
+        width: 5%;
+        border-radius: 1em;
+        background: #19b092;
+        left: 45%;
+        z-index: 100;
+        animation-name: color1;
+        animation-duration: 50s;
+        animation-iteration-count: infinite;
+    }
+
+    #line2 {
+        position: absolute;
+        width: 5%;
+        border-radius: 1em;
+        background: #ef5f33;
+        left: 58%;
+        z-index: 100;
+        animation-name: color2;
+        animation-duration: 50s;
+        animation-iteration-count: infinite;
+    }
+
+    #line3 {
+        position: absolute;
+        width: 5%;
+        border-radius: 1em;
+        background: #C7EA46;
+        left: 71%;
+        z-index: 100;
+        animation-name: color3;
+        animation-duration: 50s;
+        animation-iteration-count: infinite;
+    }
 
 .image1 {
   width: 26%;
