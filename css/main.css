@@ -619,4 +619,12 @@ nav#dot-nav.red a:first-child {
 }
 .a_cloud{
   position: absolute;
+  transform-style: preserve-3d;
+  transition: transform 1s;
+  animation-name: rolling;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+@keyframes rolling{
+  50% {transform: rotateZ(5deg);}
 }
