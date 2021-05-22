@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@300&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@100&display=swap%27');
 @font-face {
   font-family: fc-minimal-bold-italic;
   src: url(FC-Minimal/FC_Minimal_Bold_Italic.ttf);
@@ -12,7 +13,8 @@
 }
 
 *{
-  font-family: 'Mitr', sans-serif;
+  font-family: 'Sarabun', sans-serif;
+
 }
 
 html {
@@ -33,7 +35,7 @@ section {
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 2vw;
   margin: 0.67em 0;
 }
 
@@ -467,9 +469,11 @@ nav#dot-nav.red a:first-child {
   font-size: 3em;
   position: absolute;
   left: 5%;
+  font-family: 'Mitr', sans-serif;
 }
 .whatdust{
   color: red;
+  font-family: 'Mitr', sans-serif;
 }
 .squard{
   width: 20%;
@@ -531,8 +535,9 @@ nav#dot-nav.red a:first-child {
 }
 .text-cause{
   color:rgb(220, 217, 217);
-  font-size: 1.5vw;
+  font-size: 2vw;
   font-weight: 600;
+  font-family: 'Mitr', sans-serif;
 }
 .p3-icon{
   width: 15%;
@@ -560,15 +565,23 @@ nav#dot-nav.red a:first-child {
 }
 .transport{
   background-image: url(../img/คมนาคม.png);
+}.transport:hover{
+  transform: scale(1.3);
 }
 .electric{
   background-image: url(../img/ไฟ.png);
+}.electric:hover{
+  transform: scale(1.3);
 }
 .burn{
   background-image: url(../img/เผา.png);
+}.burn:hover{
+  transform: scale(1.3);
 }
 .indust{
   background-image: url(../img/โรงงาน.png);
+}.indust:hover{
+  transform: scale(1.3);
 }
 .dust{
   width: 40%;
@@ -647,20 +660,23 @@ nav#dot-nav.red a:first-child {
   height: 70%;
   position: absolute;
   left: 0;
+  top: 5%;
 }
 
 .r_cloud{
   width: 25%;
-  height: 20%;
+  height: 30%;
   position: absolute;
   right: 0;
 }
 
 .txt_head{
-  font-size: 1.5vw;
+  font-size: 3vw;
   position: absolute;
-  top: 0.3%;
+  top: 1.5%;
   left: 5%;
+  font-family: 'Mitr', sans-serif;
+  font-weight: bold;
 }
 
 .eye{
@@ -763,6 +779,7 @@ nav#dot-nav.red a:first-child {
   font-size: 3.5vw;
   font-weight: 600;
   line-height: 4.5vw;
+  font-family: 'Mitr', sans-serif;
 }
 .text-red{
   color: red;
@@ -845,6 +862,39 @@ nav#dot-nav.red a:first-child {
   padding: 10% 13% 10%;
   display: inline;
   position: relative;
+  z-index: 5;
+}
+.dust-page5{
+  bottom: 0;
+  width: 110%;
+  height: 100%;
+  position: absolute;
+  background-image: url(../img/ฝุ่น.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: 1;
+}
+.all-block{
+  top: 77%;
+  left: 5%;
+  position: relative;
+  width: 50%;
+  height: 30%;
+}
+.block-page5{
+  width: 2%;
+  height: 2%;
+  padding: 5% 8% 5%;
+  display: inline;
+  position: relative;
+  z-index: 5;
+}
+.txt-ruless{
+  color: #111827;
+  top: -11%;
+  position: absolute;
+  font-size: 1.3vw;
+  font-weight: 700;
   z-index: 5;
 }
 .dust-page5{
@@ -1025,8 +1075,8 @@ nav#dot-nav.red a:first-child {
   text-align: center;
   position: absolute;
   top: 5%;
-  width: 20%;
-  height: 30%;
+  width: 25%;
+  height: 35%;
   left: 5%;
   background-position: center;
   background-repeat: no-repeat;
@@ -1036,6 +1086,7 @@ nav#dot-nav.red a:first-child {
   
   font-size: 2vw;
   color:#fff;
+  font-family: 'Mitr', sans-serif;
 }
 .p2 {
   
@@ -1064,39 +1115,43 @@ nav#dot-nav.red a:first-child {
   top: 25%;
   left: 26.8%;
   color: #5E1914;
-  font-size: 3vw;
+  font-size: 1.5vw;
   font-weight: 900;
   text-align: center;
+  font-weight: bold;
 }
 .two{
   top: 25%;
   left: 39.8%;
   color: #5E1914;
-  font-size: 3vw;
+  font-size: 1.5vw;
   font-weight: 900;
   text-align: center;
+  font-weight: bold;
 }
 .three{
   top: 25%;
   left: 52.8%;
   color: #5E1914;
-  font-size: 3vw;
+  font-size: 1.5vw;
   font-weight: 900;
   text-align: center;
+  font-weight: bold;
 }
 .four{
   top: 25%;
   left: 65.8%;
   color: #5E1914;
-  font-size: 3vw;
+  font-size: 1.5vw;
   font-weight: 900;
   text-align: center;
+  font-weight: bold;
 }
 .one1{
   top: 85%;
   left: 26.8%;
   color: #eee;
-  font-size: 2vw;
+  font-size: 1.5vw;
   font-weight: 700;
   text-align: center;
 }
@@ -1104,7 +1159,7 @@ nav#dot-nav.red a:first-child {
   top: 85%;
   left: 39.8%;
   color:#eee;
-  font-size: 2vw;
+  font-size: 1.5vw;
   font-weight: 700;
   text-align: center;
 }
@@ -1112,7 +1167,7 @@ nav#dot-nav.red a:first-child {
   top: 85%;
   left: 52.8%;
   color: #eee;
-  font-size: 2vw;
+  font-size: 1.5vw;
   font-weight: 700;
   text-align: center;
 }
@@ -1120,31 +1175,36 @@ nav#dot-nav.red a:first-child {
   top: 85%;
   left: 65.8%;
   color: #eee;
-  font-size: 2vw;
+  font-size: 1.5vw;
   font-weight: 700;
   text-align: center;
 }
 .context{
-  top:-13%;
-  right: -5%;
+  top:-9%;
+  left: 30%;
   color: #eee;
-  font-size: 0vw;
+  font-size: 1.3vw;
   font-weight: 900;
   text-align: center;
 }
 .context1{
-  top:-3%;
-  right: -5%;
+  top:5%;
+  right: 13%;
   color: #eee;
-  font-size: 0vw;
+  font-size: 1.3vw;
   font-weight: 900;
   text-align: center;
+  border: 5px solid rgb(255, 252, 252);
+  height: 15%;
+  width: 55%;
+  padding: 10px;
+  border-radius: 20px;
 }
 .context2{
-  top:9%;
-  right: -5%;
+  top:-7.5%;
+  left: 63%;
   color: #eee;
-  font-size: 0vw;
+  font-size: 1.3vw;
   font-weight: 900;
   text-align: center;
 }
@@ -1152,7 +1212,7 @@ nav#dot-nav.red a:first-child {
   top:4%;
   right: 13%;
   color: #eee;
-  font-size: 0vw;
+  font-size: 1.3vw;
   font-weight: 200;
   text-align: center;
 }
@@ -1165,8 +1225,8 @@ nav#dot-nav.red a:first-child {
   text-align: center;
 }
 .wordss{
-  top: 70%;
-  left: 5%;
+  top: 83%;
+  left: 10%;
   color: #eee;
   font-size: 1.3vw;
   font-weight: 700;
@@ -1180,8 +1240,8 @@ nav#dot-nav.red a:first-child {
     }
 .rec2{
     position: absolute;
-    top:5%;
-    right: 17%;
+    top:8.5%;
+    left: 34%;
     width:3%;
     height:5%;
     border-radius: 1em;
@@ -1361,9 +1421,13 @@ nav#dot-nav.red a:first-child {
   height: 20%;
   text-align: center;
   font-weight: bolder;
+  font-family: 'Mitr', sans-serif;
 }
 p {
   font-size: 1.6vw;
+}
+#titlel2 {
+  font-family: 'Mitr', sans-serif;
 }
 #text1 {
   position: absolute;
@@ -1468,7 +1532,7 @@ p {
   font-size: 1.1vw;
   position: absolute;
   top: 8%;
-  right: 16%;
+  right: 15.1%;
   color: #fff;
   font-weight: bolder;
 }
@@ -1492,7 +1556,7 @@ p {
   font-size: 1vw;
   position: absolute;
   top: 13%;
-  right: 13.8%;
+  right: 14.5%;
   color: #d7d3d3;
   font-weight: bolder;
 }
@@ -1569,6 +1633,7 @@ p {
   left: 35%;
   z-index: 1;
   text-align: center;
+  font-family: 'Mitr', sans-serif;
 }
 .word1{
   font-size: 3vw;
@@ -1578,6 +1643,7 @@ p {
   color: whitesmoke;
   z-index: 1;
   text-align: center;
+  font-family: 'Mitr', sans-serif;
 }
 .box{
   position: absolute;
@@ -1832,14 +1898,17 @@ opacity: 90%;
 #txt1{
   font-size: 1.5vw;
   color:yellow;
+  font-family: 'Mitr', sans-serif;
 }
 #txt2{
   font-size: 2vw;
   color:white;
+  font-family: 'Mitr', sans-serif;
 }
 #txt3{
   font-size: 1.5vw;
   color:#616161;
+  font-family: 'Mitr', sans-serif;
 }
 #txt4{
   font-size: 1.3vw;
