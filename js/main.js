@@ -153,6 +153,7 @@ window.onscroll = function() {
     console.log(document.body.scrollTop)
     console.log(document.documentElement.scrollTop)
     scrollFunction()
+    scrollGraph()
 };
 
 
@@ -164,5 +165,27 @@ function scrollFunction() {
     } else {
         document.getElementById("head1").style.top = 10 + '%'
         document.getElementById("head1").style.opacity = 5 + '%'
+    }
+}
+function scrollGraph() {
+    if (document.documentElement.scrollTop > 20) {
+        document.getElementById("line").style.height = 13 + '%'
+        document.getElementById("line").style.top = 80 + '%'
+        document.getElementById("line1").style.height = 17 + '%'
+        document.getElementById("line1").style.top = 76 + '%'
+        document.getElementById("line2").style.height = 13 + '%'
+        document.getElementById("line2").style.top = 80 + '%'
+        document.getElementById("line3").style.height = 25 + '%'
+        document.getElementById("line3").style.top = 68 + '%'
+        
+    } else {
+        document.getElementById("line").style.height = 5 + '%'
+        document.getElementById("line").style.top = 89 + '%'
+        document.getElementById("line1").style.height = 5 + '%'
+        document.getElementById("line1").style.top = 89 + '%'
+        document.getElementById("line2").style.height = 5 + '%'
+        document.getElementById("line2").style.top = 89 + '%'
+        document.getElementById("line3").style.height = 5 + '%'
+        document.getElementById("line3").style.top = 89 + '%'
     }
 }

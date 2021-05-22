@@ -457,17 +457,16 @@ nav#dot-nav.red a:first-child {
   background-color: #525d7e;
   opacity: 80%;
 }
-.titlepm{
+#titlepm{
   border-radius: 40px;
+  top: 5%;
   border: 5px solid rgb(197, 195, 195);
   background-color: #252525;
   padding: 30px;
   color: #91918d;
   font-size: 3em;
   position: absolute;
-  top: 5%;
   left: 5%;
- opacity: 80%;
 }
 .whatdust{
   color: red;
@@ -483,10 +482,10 @@ nav#dot-nav.red a:first-child {
 .textdust{
   color: #f2f2f2;
   font-size: 1.5em;
-  position: absolute;
   top: 35%;
   left: 23%;
   text-align: center;
+  position: absolute;
 }
 /* section 3 */
 #page3{
@@ -1034,70 +1033,44 @@ nav#dot-nav.red a:first-child {
     left:71%;
     box-shadow:0px 0px 5px 5px #BABABA;
   }
-.line{
+#line{
     position: absolute;
-    top:43%;
+    
     width:7%;
-    height:50%;
     border-radius: 1em;
     background:#14c7de;
     left:30.8%;
+    z-index: 100;
   }
-.line:hover{
-    top:80.5%;
-    width:7%;
-    height:13%;
-    box-shadow:0px 0px 5px 5px #9DF3EA;
-    background:#14c7de;
-    }
-.line1{
+
+#line1{
     position: absolute;
-    top:43%;
+    
     width:7%;
-    height:50%;
     border-radius: 1em;
     background:#19b092;
     left:43.8%;
+    z-index: 100;
   }
-.line1:hover{
-    top:76%;
-    width:7%;
-    height:17%;
-    box-shadow:0px 0px 5px 5px #03FFB1;
-    background:#19b092;
-  }
-.line2{
+#line2{
     position: absolute;
-    top:43%;
+    
     width:7%;
-    height:50%;
     border-radius: 1em;
     background:#ef5f33;
     left:56.8%;
+    z-index: 100;
   }
-.line2:hover{
-    top:80%;
-    width:7%;
-    height:13%;
-    box-shadow:0px 0px 5px 5px #FFB203;
-    background:#ef5f33;
-    }
-.line3{
+#line3{
     position: absolute;
-    top:43%;
+    
     width:7%;
-    height:50%;
     border-radius: 1em;
     background:#C7EA46;
     left:69.8%;
+    z-index: 100;
   }
-.line3:hover{
-      top:68%;
-    width:7%;
-    height:25%;
-      box-shadow:0px 0px 5px 5px #FFFF08;
-      background:#C7EA46;
-    }
+
 .image1 {
   width: 26.3%;
   height: 22%;
