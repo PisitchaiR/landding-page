@@ -932,7 +932,7 @@ nav#dot-nav.red a:first-child {
 }
 /* section 6 */
 #page6{
-  background-image:linear-gradient(#636363,#8c8c8c,#ababab);
+  background-image:linear-gradient(#cab5f0,#689de1,#689de1,#e3f9fd);
   position: relative;
   overflow: hidden;
 }
@@ -1099,7 +1099,7 @@ nav#dot-nav.red a:first-child {
   position: absolute;
   top: 5%;
   width: 25%;
-  height: 35%;
+  height: 30%;
   left: 5%;
   background-position: center;
   background-repeat: no-repeat;
@@ -1135,8 +1135,8 @@ nav#dot-nav.red a:first-child {
   position: absolute;
 }
 .one{
-  top: 30%;
-  left: 26.8%;
+  top: 15%;
+  left: 33%;
   color: #5E1914;
   font-size: 1.5vw;
   font-weight: 900;
@@ -1144,8 +1144,8 @@ nav#dot-nav.red a:first-child {
   font-weight: bold;
 }
 .two{
-  top: 30%;
-  left: 39.8%;
+  top: 15%;
+  left: 45%;
   color: #5E1914;
   font-size: 1.5vw;
   font-weight: 900;
@@ -1153,8 +1153,8 @@ nav#dot-nav.red a:first-child {
   font-weight: bold;
 }
 .three{
-  top: 30%;
-  left: 52.8%;
+  top: 15%;
+  left: 57%;
   color: #5E1914;
   font-size: 1.5vw;
   font-weight: 900;
@@ -1162,8 +1162,8 @@ nav#dot-nav.red a:first-child {
   font-weight: bold;
 }
 .four{
-  top: 30%;
-  left: 65.8%;
+  top: 15%;
+  left: 69%;
   color: #5E1914;
   font-size: 1.5vw;
   font-weight: 900;
@@ -1206,7 +1206,7 @@ nav#dot-nav.red a:first-child {
   top:-7.5%;
   left: 30%;
   color: #eee;
-  font-size: 1.3vw;
+  font-size: 1.1vw;
   font-weight: 900;
   text-align: center;
 }
@@ -1214,7 +1214,7 @@ nav#dot-nav.red a:first-child {
   top:5%;
   right: 13%;
   color: #eee;
-  font-size: 1.3vw;
+  font-size: 1.1vw;
   font-weight: 900;
   text-align: center;
   border: 5px solid rgb(255, 252, 252);
@@ -1227,7 +1227,7 @@ nav#dot-nav.red a:first-child {
   top:-7.5%;
   left: 63%;
   color: #eee;
-  font-size: 1.3vw;
+  font-size: 1.1vw;
   font-weight: 900;
   text-align: center;
 }
@@ -1235,7 +1235,7 @@ nav#dot-nav.red a:first-child {
   top:4%;
   right: 13%;
   color: #eee;
-  font-size: 1.3vw;
+  font-size: 1.1vw;
   font-weight: 200;
   text-align: center;
 }
@@ -1248,12 +1248,13 @@ nav#dot-nav.red a:first-child {
   text-align: center;
 }
 .wordss{
-  top: 83%;
-  left: 10%;
+  top: 58.5%;
+  left: 10.5%;
   color: #eee;
-  font-size: 1.3vw;
+  font-size: 1.1vw;
   font-weight: 700;
   text-align: center;
+  z-index: 20;
 }
 .rec1{
     position: absolute;
@@ -1263,7 +1264,7 @@ nav#dot-nav.red a:first-child {
     }
 .rec2{
     position: absolute;
-    top:8.5%;
+    top:10%;
     left: 34%;
     width:3%;
     height:5%;
@@ -1275,47 +1276,47 @@ nav#dot-nav.red a:first-child {
     background:#fff;
     }
 .box4 {
-        position: absolute;
-        top: 48%;
-        width: 3%;
-        height: 45%;
-        border-radius: 1em;
-        background: #fff;
-        left: 33%;
-        box-shadow: 0px 0px 5px 5px #BABABA;
-    }
+    position: absolute;
+    top: 35%;
+    width: 3%;
+    height: 30%;
+    border-radius: 1em;
+    background: #fff;
+    left: 39%;
+    box-shadow: 0px 0px 5px 5px #bababa;
+}
 
     .box1 {
         position: absolute;
-        top: 48%;
+        top: 35%;
         width: 3%;
-        height: 45%;
+        height: 30%;
         border-radius: 1em;
         background: #fff;
-        left: 46%;
+        left: 51%;
         box-shadow: 0px 0px 5px 5px #BABABA;
 
     }
 
     .box2 {
         position: absolute;
-        top: 48%;
+        top: 35%;
         width: 3%;
-        height: 45%;
+        height: 30%;
         border-radius: 1em;
         background: #fff;
-        left: 59%;
+        left: 63%;
         box-shadow: 0px 0px 5px 5px #BABABA;
     }
 
     .box3 {
         position: absolute;
-        top: 48%;
+        top: 35%;
         width: 3%;
-        height: 45%;
+        height: 30%;
         border-radius: 1em;
         background: #fff;
-        left: 72%;
+        left: 75%;
         box-shadow: 0px 0px 5px 5px #BABABA;
     }
 
@@ -1324,7 +1325,7 @@ nav#dot-nav.red a:first-child {
         width: 5%;
         border-radius: 1em;
         background: #14c7de;
-        left: 32%;
+        left: 38%;
         z-index: 100;
         animation-name: color;
         animation-duration: 50s;
@@ -1336,7 +1337,7 @@ nav#dot-nav.red a:first-child {
         width: 5%;
         border-radius: 1em;
         background: #19b092;
-        left: 45%;
+        left: 50%;
         z-index: 100;
         animation-name: color1;
         animation-duration: 50s;
@@ -1348,7 +1349,7 @@ nav#dot-nav.red a:first-child {
         width: 5%;
         border-radius: 1em;
         background: #ef5f33;
-        left: 58%;
+        left: 62%;
         z-index: 100;
         animation-name: color2;
         animation-duration: 50s;
@@ -1360,7 +1361,7 @@ nav#dot-nav.red a:first-child {
         width: 5%;
         border-radius: 1em;
         background: #C7EA46;
-        left: 71%;
+        left: 74%;
         z-index: 100;
         animation-name: color3;
         animation-duration: 50s;
@@ -1389,7 +1390,87 @@ nav#dot-nav.red a:first-child {
   animation-duration: 5s;
   animation-iteration-count: infinite;	
 }
-
+.bgground{
+  position: absolute;
+  width:100%;
+  height:100%;
+  bottom:0%;
+  left:0;
+}
+.sign{
+  position: absolute;
+  width:35%;
+  height:35%;
+  bottom:8%;
+  left:0;
+}
+.caryel{
+   position: absolute;
+  width:30%;
+  height:30%;
+  bottom:-6%;
+  left:18%;
+  animation: yemove 2s infinite alternate;
+}
+@keyframes yemove{
+  100%{transform: translateX(20px) translateY(2px);}
+}
+@keyframes yemove1{
+  0%{transform: rotate(0deg);opacity: 30%;}
+  100%{transform: translateX(20px) translateY(2px) rotate(10deg);opacity: 100%;}
+}
+.carwh{
+   position: absolute;
+  width:30%;
+  height:30%;
+  bottom:-3%;
+  left:42%;
+  animation: whmove 3s infinite alternate;
+  
+}
+.wh1{
+   position: absolute;
+  width:10%;
+  height:10%;
+  bottom:8%;
+  left:44%;
+  z-index: 30;
+  animation: whmove1 3s infinite alternate;
+}
+@keyframes whmove{
+  100%{transform: translateX(30px) translateY(3px);}
+}
+@keyframes whmove1{
+  0%{transform: rotate(0deg);opacity: 30%;}
+  100%{transform: translateX(30px) translateY(3px) rotate(10deg);opacity: 100%;}
+}
+.ye1{
+   position: absolute;
+  width:10%;
+  height:10%;
+  bottom:5%;
+  left:20%;
+  z-index: 30;
+  animation: yemove1 2s infinite alternate;
+}
+.ye2{
+   position: absolute;
+  width:12%;
+  height:12%;
+  bottom:4.5%;
+  left:17%;
+  z-index: 30;
+  animation: yemove1 2s infinite alternate;
+}
+.ye3{
+   position: absolute;
+  width:10%;
+  height:10%;
+  bottom:2%;
+  left:18%;
+  z-index: 30;
+  animation: yemove1 2s infinite alternate;
+}
 /* section 7 */
 #page7{
   background:#396283;
@@ -1677,7 +1758,8 @@ p {
   top: 0%;
   left: 0%;
   background-color:
-#435e73
+
+#28bd97
 ;
   width: 100%;
   height: 12%;
@@ -1744,6 +1826,7 @@ opacity: 90%;
   background-image:linear-gradient(#dee0e3,whitesmoke);
   z-index: 0;
   box-sizing: border-box;
+  overflow: hidden;
 }
 .img9{
   width: 100vw;
@@ -1792,30 +1875,58 @@ opacity: 90%;
   font-size: 1.5em;
   font-family: 'Mitr', sans-serif;
   box-shadow: 0px 0px 10px #50C785;
-}
-.cloud{
-  width: 25vw;
-  height: 23vh;
-  position: absolute;
-  top:53%;
-  left:70%;
-  opacity: 0.8;
-  animation: cloudmove 4s infinite alternate;
+  cursor: pointer;
 }
 .cloud1{
-  width: 17vw;
-  height: 15vh;
+   width: 100%;
+  height: 80%;
   position: absolute;
-  top:76%;
-  left:30%;
-  opacity: 1;
-  animation: cloudmove1 3s infinite alternate;
+  bottom: -18%;
+  left: 45%;
+  z-index: 0;
 }
-@keyframes cloudmove{
-  100%{transform: translateX(20%);}
+.cloud{
+  width: 100%;
+  height: 90%;
+  position: absolute;
+  bottom: 0%;
+  left:-32%;
 }
-@keyframes cloudmove1{
-  100%{transform: translateX(-20%);}
+.smokel{
+   width: 30%;
+  height: 30%;
+  position: absolute;
+  top: 13%;
+  left:-6%;
+  animation:smoke 2s infinite alternate;
+}
+.smokel1{
+   width: 30%;
+  height: 30%;
+  position: absolute;
+  top: 12%;
+  left:17%;
+  animation:smoke 3s infinite alternate;
+}
+@keyframes smoke{
+  0%{opacity: 30%;}
+  100%{opacity: 100%;transform: rotate(5deg)}
+}
+.smoker{
+   width: 60%;
+  height: 60%;
+  position: absolute;
+  top: 19%;
+  left:70%;
+  animation:smoke 2s infinite alternate;
+}
+.smoker1{
+   width: 26%;
+  height: 26%;
+  position: absolute;
+  top: 33%;
+  left:71%;
+  animation:smoke 3s infinite alternate;
 }
 /* section 10 */
 #page10{

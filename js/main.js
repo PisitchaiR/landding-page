@@ -180,23 +180,23 @@ function scrollFunction2() {
 }
 function scrollGraph() {
     if (document.documentElement.scrollTop > 20) {
-        document.getElementById("line").style.height = 13 + '%'
-        document.getElementById("line").style.top = 80 + '%'
-        document.getElementById("line1").style.height = 17 + '%'
-        document.getElementById("line1").style.top = 76 + '%'
-        document.getElementById("line2").style.height = 13 + '%'
-        document.getElementById("line2").style.top = 80 + '%'
-        document.getElementById("line3").style.height = 25 + '%'
-        document.getElementById("line3").style.top = 68 + '%'
+        document.getElementById("line").style.height = 9 + '%'
+        document.getElementById("line").style.top = 57 + '%'
+        document.getElementById("line1").style.height = 14 + '%'
+        document.getElementById("line1").style.top = 52 + '%'
+        document.getElementById("line2").style.height = 10 + '%'
+        document.getElementById("line2").style.top = 56 + '%'
+        document.getElementById("line3").style.height = 18 + '%'
+        document.getElementById("line3").style.top = 48 + '%'
         
     } else {
         document.getElementById("line").style.height = 5 + '%'
-        document.getElementById("line").style.top = 89 + '%'
+        document.getElementById("line").style.top = 62 + '%'
         document.getElementById("line1").style.height = 5 + '%'
-        document.getElementById("line1").style.top = 89 + '%'
+        document.getElementById("line1").style.top = 62 + '%'
         document.getElementById("line2").style.height = 5 + '%'
-        document.getElementById("line2").style.top = 89 + '%'
+        document.getElementById("line2").style.top = 62 + '%'
         document.getElementById("line3").style.height = 5 + '%'
-        document.getElementById("line3").style.top = 89 + '%'
+        document.getElementById("line3").style.top = 62 + '%'
     }
 }
