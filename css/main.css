@@ -505,6 +505,15 @@ nav#dot-nav.red a:first-child {
   height: 100%;
   /* border: 2px solid red; */
 }
+.photobot{
+  position: absolute;
+  width: 30%;
+  height: 10%;
+  bottom: -1%;
+  right: -3.6%;
+  opacity: 60%;
+  /* border: 2px solid red; */
+}
 .topic{
   display: flex;
   justify-content: center;
@@ -788,6 +797,12 @@ nav#dot-nav.red a:first-child {
   background-size: contain;
   text-align: center;
   z-index: 5;
+}
+#lo1{
+  animation: move1 0.5s infinite alternate-reverse;
+}@keyframes move1{
+  0% {top: 13%;}
+  100%{top: 14%;}
 }
 .all-block{
   top: 75%;

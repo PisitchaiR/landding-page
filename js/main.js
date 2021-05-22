@@ -169,7 +169,7 @@ function scrollFunction() {
     }
 }
 function scrollFunction2() {
-    if (document.documentElement.scrollTop > 2500) {
+    if (document.documentElement.scrollTop > 2300) {
         document.getElementById("heading1").style.top = 5 + '%'
         document.getElementById("heading1").style.top = 0 + '%'
         document.getElementById("heading1").style.opacity = 100 + '%'
