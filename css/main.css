@@ -937,6 +937,41 @@ nav#dot-nav.red a:first-child {
             background-color: #C7EA46;
         }
     }
+@keyframes loy {
+        0% {
+            left: 0%;
+            top: 78%;
+        }
+
+        50% {
+            left: -5%;
+            top: 78%;
+        }
+
+        100% {
+            left: 0%;
+            top: 78%;
+        }
+
+    }
+
+    @keyframes loy1 {
+        0% {
+            right: 0%;
+            top: 76.5%;
+        }
+
+        50% {
+            right: -5%;
+            top: 76.5%;
+        }
+
+        100% {
+            right: 0%;
+            top: 76.5%;
+        }
+
+    }
 
 .pic{
   display: flex;
@@ -1211,14 +1246,20 @@ nav#dot-nav.red a:first-child {
   top: 78%;
   left: 0%;
   opacity: 80%;
+  animation-name: loy;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
  }
 .image2 {
-  width: 27%;
+  width: 27.2%;
   height: 25%;
   position: absolute;
   top: 76.5%;
   right: 0%;
-   opacity: 80%;
+  opacity: 80%;
+  animation-name: loy1;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;	
 }
 
 /* section 7 */
@@ -1229,6 +1270,41 @@ nav#dot-nav.red a:first-child {
   position: relative;
   overflow: hidden;
 }
+@keyframes loy2 {
+        0% {
+            left: 0%;
+            top: 0%;
+        }
+
+        50% {
+            left: -5%;
+            top: 0%;
+        }
+
+        100% {
+            left: 0%;
+            top: 0%;
+        }
+
+    }
+
+    @keyframes loy3 {
+        0% {
+            right: 0%;
+            top: 0%;
+        }
+
+        50% {
+            right: -5%;
+            top: 0%;
+        }
+
+        100% {
+            right: 0%;
+            top: 0%;
+        }
+
+    }
 #head1 {
   border-radius: 50px;
   background: #b7d2e7;
@@ -1417,7 +1493,10 @@ p {
   position: absolute;
   top: 0;
   left: 0;
-   opacity: 80%;
+  opacity: 80%;
+  animation-name: loy2;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
 }
 .photo2 {
   width: 26%;
@@ -1425,7 +1504,10 @@ p {
   position: absolute;
   top: 0;
   right: 0;
-   opacity: 80%;
+  opacity: 80%;
+  animation-name: loy3;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
 }
 /* section 8-*/
 #page8{
