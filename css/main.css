@@ -567,21 +567,25 @@ nav#dot-nav.red a:first-child {
   background-image: url(../img/คมนาคม.png);
 }.transport:hover{
   transform: scale(1.3);
+  cursor: pointer;
 }
 .electric{
   background-image: url(../img/ไฟ.png);
 }.electric:hover{
   transform: scale(1.3);
+  cursor: pointer;
 }
 .burn{
   background-image: url(../img/เผา.png);
 }.burn:hover{
   transform: scale(1.3);
+  cursor: pointer;
 }
 .indust{
   background-image: url(../img/โรงงาน.png);
 }.indust:hover{
   transform: scale(1.3);
+  cursor: pointer;
 }
 .dust{
   width: 40%;
@@ -808,6 +812,25 @@ nav#dot-nav.red a:first-child {
   background-size: contain;
   text-align: center;
   z-index: 5;
+}
+.lo_yellow{
+  width: 10%;
+  height: 11%;
+  color: white;
+  font-size: 1.5vw;
+  font-weight: 600;
+  position: absolute;
+  background-image: url("https://cdn.discordapp.com/attachments/798606239537954816/845740865602846750/lo2.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-align: center;
+  z-index: 5;
+}
+#lo8{
+  animation: move10 0.5s infinite alternate-reverse;
+}@keyframes move10{
+  0% {top: 42.5%;}
+  100%{top: 43%;}
 }
 #lo1{
   animation: move1 0.5s infinite alternate-reverse;
@@ -1112,7 +1135,7 @@ nav#dot-nav.red a:first-child {
   position: absolute;
 }
 .one{
-  top: 25%;
+  top: 30%;
   left: 26.8%;
   color: #5E1914;
   font-size: 1.5vw;
@@ -1121,7 +1144,7 @@ nav#dot-nav.red a:first-child {
   font-weight: bold;
 }
 .two{
-  top: 25%;
+  top: 30%;
   left: 39.8%;
   color: #5E1914;
   font-size: 1.5vw;
@@ -1130,7 +1153,7 @@ nav#dot-nav.red a:first-child {
   font-weight: bold;
 }
 .three{
-  top: 25%;
+  top: 30%;
   left: 52.8%;
   color: #5E1914;
   font-size: 1.5vw;
@@ -1139,7 +1162,7 @@ nav#dot-nav.red a:first-child {
   font-weight: bold;
 }
 .four{
-  top: 25%;
+  top: 30%;
   left: 65.8%;
   color: #5E1914;
   font-size: 1.5vw;
@@ -1180,7 +1203,7 @@ nav#dot-nav.red a:first-child {
   text-align: center;
 }
 .context{
-  top:-9%;
+  top:-7.5%;
   left: 30%;
   color: #eee;
   font-size: 1.3vw;
@@ -1253,9 +1276,9 @@ nav#dot-nav.red a:first-child {
     }
 .box4 {
         position: absolute;
-        top: 43%;
+        top: 48%;
         width: 3%;
-        height: 50%;
+        height: 45%;
         border-radius: 1em;
         background: #fff;
         left: 33%;
@@ -1264,9 +1287,9 @@ nav#dot-nav.red a:first-child {
 
     .box1 {
         position: absolute;
-        top: 43%;
+        top: 48%;
         width: 3%;
-        height: 50%;
+        height: 45%;
         border-radius: 1em;
         background: #fff;
         left: 46%;
@@ -1276,9 +1299,9 @@ nav#dot-nav.red a:first-child {
 
     .box2 {
         position: absolute;
-        top: 43%;
+        top: 48%;
         width: 3%;
-        height: 50%;
+        height: 45%;
         border-radius: 1em;
         background: #fff;
         left: 59%;
@@ -1287,9 +1310,9 @@ nav#dot-nav.red a:first-child {
 
     .box3 {
         position: absolute;
-        top: 43%;
+        top: 48%;
         width: 3%;
-        height: 50%;
+        height: 45%;
         border-radius: 1em;
         background: #fff;
         left: 72%;
@@ -1446,6 +1469,7 @@ p {
 .img7:hover{
   transform: scale(1.2);
   background-color: rgb(240, 141, 60);
+  cursor: pointer;
 }
 
 .img8 {
@@ -1460,6 +1484,7 @@ p {
 .img8:hover{
   transform: scale(1.2);
   background-color: rgb(243, 204, 97);
+  cursor: pointer;
 }
 .imge9 {
   border-radius: 5%;
@@ -1471,6 +1496,7 @@ p {
 }.imge9:hover{
   transform: scale(1.2);
   background-color: rgb(46, 143, 83);
+  cursor: pointer;
 }
 
 .img10 {
@@ -1483,6 +1509,7 @@ p {
 }.img10:hover{
   transform: scale(1.2);
   background-color: rgb(73, 170, 86);
+  cursor: pointer;
 }
 #orage {
   border-radius: 15%;
