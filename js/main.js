@@ -148,3 +148,21 @@ function showDivs(n) {
     }
     x[slideIndex - 1].style.display = "block";
 }
+
+window.onscroll = function() {
+    console.log(document.body.scrollTop)
+    console.log(document.documentElement.scrollTop)
+    scrollFunction()
+};
+
+
+function scrollFunction() {
+    if (document.documentElement.scrollTop > 200) {
+        document.getElementById("head1").style.top = 5 + '%'
+        document.getElementById("head1").style.top = 0 + '%'
+        document.getElementById("head1").style.opacity = 100 + '%'
+    } else {
+        document.getElementById("head1").style.top = 10 + '%'
+        document.getElementById("head1").style.opacity = 5 + '%'
+    }
+}
