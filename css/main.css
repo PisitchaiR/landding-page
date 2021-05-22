@@ -1683,12 +1683,11 @@ opacity: 90%;
   position: relative;
   overflow: hidden;
 }
-.heading1{
+#heading1{
   background: #212121;
   width: 25%;
   margin: auto;
   position: absolute;
-  top: 5%;
   left: 10%;
   padding: 15px;
   border-radius: 30px;
