@@ -609,42 +609,36 @@ nav#dot-nav.red a:first-child {
   background-image: url(/img/ล่างสุด.png);
 }
 /* section 4 */
+#page4{
+  position: relative;
+  background-color: #d7d7d7;
+}
 .background{
   background-color: #d7d7d7;
 }
 
-.bg{
-  margin-top: 0;
-  width: 1521px;
-  height: 1150px;
-  background-color: #d7d7d7;
-  position: relative;
-  border-style: none;
-  top: 0px;
-  left: 0px;
-}
 .box_1{
-  width: 10%;
-  height: 25%;
-  top: 45%;
+  width: 13%;
+  height: 35%;
+  top: 70%;
   position: absolute;
   left: 0;
   background: #050708;
 }
 .box_2{
   width: 15%;
-  height: 30%;
-  top: 38%;
+  height: 35%;
+  top: 65%;
   position: absolute;
   right: 0;
   background: #050708;
 }
 .human{
-  width: 78%;
-  height: 61%;
+  width: 75%;
+  height: 99%;
   top: 2.5%;
   position: absolute;
-  left: 9%;
+  left: 11%;
 
 }
 
@@ -671,62 +665,62 @@ nav#dot-nav.red a:first-child {
 
 .eye{
   position: absolute;
-  top: 9.5%;
-  left: 20%;
+  top: 14%;
+  left: 21%;
   font-weight: bold;
 }
 
 .nose{
   position: absolute;
-  top: 18%;
-  left: 17%;
+  top: 27%;
+  left: 18.5%;
   font-weight: bold;
 }
 
 .heart{
   position: absolute;
-  top: 30%;
-  left: 17%;
+  top: 45%;
+  left: 20%;
   font-weight: bold;
 }
 
 .lung{
   position: absolute;
-  top: 43%;
-  left: 19%;
+  top: 67.5%;
+  left: 21%;
 
 }
 
 .hand{
   position: absolute;
-  top: 53%;
-  left: 19%;
+  top: 85.5%;
+  left: 21%;
 }
 
 .brain{
   position: absolute;
-  top: 0;
+  top: -2%;
   right: 14%;
   font-weight: bold;
 }
 
 .steam{
   position: absolute;
-  top: 11.5%;
+  top: 20%;
   right: 10.5%;
   font-weight: bold;
 }
 
 .eight{
   position: absolute;
-  top: 24%;
-  right: 15.5%;
+  top: 38%;
+  right: 16%;
   font-weight: bold;
 }
 
 .nine{
   position: absolute;
-  top: 53%;
+  top: 86%;
   right: 10%;
 }
 
@@ -801,8 +795,44 @@ nav#dot-nav.red a:first-child {
 #lo1{
   animation: move1 0.5s infinite alternate-reverse;
 }@keyframes move1{
-  0% {top: 13%;}
+  0% {top: 13.5%;}
   100%{top: 14%;}
+}
+#lo2{
+  animation: move2 0.5s infinite alternate-reverse;
+}@keyframes move2{
+  0% {top: 9.5%;}
+  100%{top: 10%;}
+}
+#lo3{
+  animation: move3 0.5s infinite alternate-reverse;
+}@keyframes move3{
+  0% {top: 22.5%;}
+  100%{top: 23%;}
+}
+#lo4{
+  animation: move4 0.5s infinite alternate-reverse;
+}@keyframes move4{
+  0% {top: 26.5%;}
+  100%{top: 27%;}
+}
+#lo5{
+  animation: move5 0.5s infinite alternate-reverse;
+}@keyframes move5{
+  0% {top: 41.5%;}
+  100%{top: 42%;}
+}
+#lo6{
+  animation: move6 0.5s infinite alternate-reverse;
+}@keyframes move6{
+  0% {top: 35.5%;}
+  100%{top: 36%;}
+}
+#lo7{
+  animation: move7 0.5s infinite alternate-reverse;
+}@keyframes move7{
+  0% {top: 44.5%;}
+  100%{top: 45%;}
 }
 .all-block{
   top: 75%;
