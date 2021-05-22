@@ -829,7 +829,7 @@ nav#dot-nav.red a:first-child {
 }
 /* section 6 */
 #page6{
-  background-image:linear-gradient(#5574ad,#99acc9);
+  background-image:linear-gradient(#636363,#8c8c8c,#ababab);
   position: relative;
   overflow: hidden;
 }
@@ -1279,9 +1279,7 @@ nav#dot-nav.red a:first-child {
 
 /* section 7 */
 #page7{
-  background-image:linear-gradient(#99acc9,
-#babdc2
-);
+  background:#396283;
   position: relative;
   overflow: hidden;
 }
@@ -1530,7 +1528,9 @@ p {
   padding: 0;
   position:relative;
   z-index: 0;
-    background-image:linear-gradient(#babdc2,whitesmoke);
+    background-image:linear-gradient(#396283,#4b7da3
+,whitesmoke);
+
 }
 .word{
   font-size: 3vw;
@@ -1553,7 +1553,9 @@ p {
   position: absolute;
   top: 0%;
   left: 0%;
-  background-color:#62adb3;
+  background-color:
+#435e73
+;
   width: 100%;
   height: 12%;
   z-index: 20;
