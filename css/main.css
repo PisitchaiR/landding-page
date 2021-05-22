@@ -1861,6 +1861,7 @@ opacity: 90%;
 .passage2:hover{
   cursor: pointer;
   box-shadow: 0px 0px 30px #50C785 , 0px 0px 30px #50C785;
+   z-index: 200;
 }
 .passage2{
   position:absolute;
@@ -1877,6 +1878,7 @@ opacity: 90%;
   font-family: 'Mitr', sans-serif;
   box-shadow: 0px 0px 10px #50C785;
   cursor: pointer;
+  z-index: 200;
 }
 .cloud1{
    width: 100%;
