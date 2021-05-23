@@ -154,6 +154,7 @@ window.onscroll = function() {
     console.log(document.documentElement.scrollTop)
     scrollFunction()
     scrollFunction2()
+    scrollFunction3()
     scrollGraph()
 };
 
@@ -176,6 +177,16 @@ function scrollFunction2() {
     } else {
         document.getElementById("heading1").style.top = 10 + '%'
         document.getElementById("heading1").style.opacity = 5 + '%'
+    }
+}
+function scrollFunction3() {
+    if (document.documentElement.scrollTop > 1800) {
+        document.getElementById("passage").style.left = 70 + '%'
+        document.getElementById("passage").style.left = 40 + '%'
+        document.getElementById("passage").style.opacity = 100 + '%'
+    } else {
+        document.getElementById("passage").style.left = 100 + '%'
+        document.getElementById("passage").style.opacity = 5 + '%'
     }
 }
 function scrollGraph() {
