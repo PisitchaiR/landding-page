@@ -1,3 +1,18 @@
+var isMobile =
+  Math.min(window.screen.width, window.screen.height) < 768 ||
+  navigator.userAgent.indexOf("Mobi") > -1;
+console.log(isMobile);
+if (isMobile) {
+  //   var html = document.getElementsByTagName("html")[0];
+  //   var body = document.getElementsByTagName("body")[0];
+  //   html.removeChild(body);
+  //   html.createElement(body);
+  document.body.innerHTML = "";
+  document.body.innerHTML = `<div class="modal">
+  This website can't run on mobile and tablet
+</div>`;
+    document.body.setAttribute('class', 'position');
+} else {
 //  dot nav don't config
 const dotNav = (elem, easing) => {
     function scrollIt(destination, duration = 200, easing = 'linear', callback) {
@@ -200,4 +215,5 @@ function scrollGraph() {
         document.getElementById("line3").style.height = 5 + '%'
         document.getElementById("line3").style.top = 62 + '%'
     }
+}
 }
