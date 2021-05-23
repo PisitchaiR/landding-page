@@ -643,6 +643,19 @@ cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
 #page3{
   background: #D6D6D6;
 }
+.ddust3{
+  position: absolute;
+  width: 80%;
+  height: 60%;
+  bottom: 0%;
+  left: -10%;
+  opacity: 60%;
+  z-index: 0;
+ 
+}
+@keyframes movee{
+  100%{transform: translate(20px);}
+}
 .top-yoi{
   position: absolute;
   width: 100%;
@@ -659,10 +672,10 @@ cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
 }
 .photobot{
   position: absolute;
-  width: 30%;
-  height: 10%;
+  width: 40%;
+  height: 20%;
   bottom: -1%;
-  right: -3.6%;
+  right: -2%;
   opacity: 60%;
   /* border: 2px solid red; */
 }
@@ -710,6 +723,7 @@ cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
+  z-index: 20;
 }
 .transport{
   background-image: url(../img/คมนาคม.png);
@@ -730,7 +744,7 @@ cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
   cursor: url(https://cur.cursors-4u.net/toons/too-10/too1026.cur), auto !important;
 }
 .indust{
-  background-image: url(../img/โรงงาน.png);
+  background-image: url(https://cdn.discordapp.com/attachments/798606239537954816/845967181195640852/7771805b009d5ba6.png);
 }.indust:hover{
   transform: scale(1.3);
   cursor: url(https://cur.cursors-4u.net/toons/too-10/too1026.cur), auto !important;
@@ -763,8 +777,8 @@ cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
   left: 50%;
 }
 .bottom-smoke{
-  width: 30%;
-  height: 20%;
+  width: 50%;
+  height: 35%;
   right:0;
   bottom: -4%;
   position:absolute;
@@ -808,16 +822,19 @@ cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
 }
 
 .l_cloud{
-  width: 23%;
-  height: 70%;
   position: absolute;
-  left: 0;
-  top: 5%;
+  width: 80%;
+  height: 100%;
+  top: 0%;
+  left: -10%;
+  opacity: 60%;
+  z-index: 0;
+
 }
 
 .r_cloud{
-  width: 25%;
-  height: 30%;
+  width: 35%;
+  height: 35%;
   position: absolute;
   right: 0;
 }
@@ -829,6 +846,7 @@ cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
   left: 5%;
   font-family: 'Mitr', sans-serif;
   font-weight: bold;
+  z-index: 2;
 }
 
 .eye{
