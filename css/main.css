@@ -389,6 +389,154 @@ nav#dot-nav.red a:first-child {
 /* section style page */
 
 /* section 1 */
+.contain1{
+  width: 100%;
+  height: 100%;
+  background-color: #1b1d20;
+  position: relative;
+}
+.bgpage1{
+  width: 100%;
+  height: 95%;
+  background-image: url(../img/โรงงาน.png);
+  position: absolute;
+}
+.road{
+  width: 100%;
+  height: 15%;
+  background-color: #9e9e9e;
+  position: absolute;
+  bottom: 0%;
+  border: 5px black solid;
+}
+.road-line1{
+  width: 75px;
+  height: 20px;
+  background-color: #2b2a2a;
+  position: absolute;
+  bottom: 60px;
+  left: 20px;
+}
+.road-line2{
+  width: 75px;
+  height: 20px;
+  background-color: #2b2a2a;
+  position: absolute;
+  bottom: 60px;
+  left: 150px;
+}
+.road-line3{
+  width: 75px;
+  height: 20px;
+  background-color: #2b2a2a;
+  position: absolute;
+  bottom: 60px;
+  left: 280px;
+}
+.road-line4{
+  width: 75px;
+  height: 20px;
+  background-color: #2b2a2a;
+  position: absolute;
+  bottom: 60px;
+  left: 410px;
+}
+.road-line5{
+  width: 75px;
+  height: 20px;
+  background-color: #2b2a2a;
+  position: absolute;
+  bottom: 60px;
+  left: 540px;
+}
+.road-line6{
+  width: 75px;
+  height: 20px;
+  background-color: #2b2a2a;
+  position: absolute;
+  bottom: 60px;
+  left: 670px;
+}
+.road-line7{
+  width: 75px;
+  height: 20px;
+  background-color: #2b2a2a;
+  position: absolute;
+  bottom: 60px;
+  left: 800px;
+}
+.road-line8{
+  width: 75px;
+  height: 20px;
+  background-color: #2b2a2a;
+  position: absolute;
+  bottom: 60px;
+  left: 930px;
+}
+.road-line9{
+  width: 75px;
+  height: 20px;
+  background-color: #2b2a2a;
+  position: absolute;
+  bottom: 60px;
+  left: 1060px;
+}
+.road-line10{
+  width: 75px;
+  height: 20px;
+  background-color: #2b2a2a;
+  position: absolute;
+  bottom: 60px;
+  left: 1190px;
+}
+.road-line11{
+  width: 75px;
+  height: 20px;
+  background-color: #2b2a2a;
+  position: absolute;
+  bottom: 60px;
+  left: 1320px;
+}
+.road-line12{
+  width: 75px;
+  height: 20px;
+  background-color: #2b2a2a;
+  position: absolute;
+  bottom: 60px;
+  left: 1450px;
+}
+.road-line13{
+  width: 75px;
+  height: 20px;
+  background-color: #2b2a2a;
+  position: absolute;
+  bottom: 60px;
+  left: 1580px;
+}
+.road-line14{
+  width: 75px;
+  height: 20px;
+  background-color: #2b2a2a;
+  position: absolute;
+  bottom: 60px;
+  left: 1710px;
+}
+.road-line15{
+  width: 58px;
+  height: 20px;
+  background-color: #2b2a2a;
+  position: absolute;
+  bottom: 60px;
+  left: 1840px;
+}
+.titlepage1{
+  width: 10%;
+  height: 10%;
+  background-image: url(../img/ควันหลง.png);
+  position: absolute;
+  top: 20%;
+  z-index: 9999;
+}
 /* section 2 */
 .bg2{
   width: 100%;
