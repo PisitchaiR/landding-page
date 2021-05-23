@@ -952,17 +952,6 @@ cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
   top: 55%;
   left: 50%;
 }
-.bottom-smoke{
-  width: 50%;
-  height: 35%;
-  right:0;
-  bottom: -4%;
-  position:absolute;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: left;
-  background-image: url(/img/ล่างสุด.png);
-}
 /* section 4 */
 #page4{
   position: relative;
