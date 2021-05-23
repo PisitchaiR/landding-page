@@ -2145,6 +2145,21 @@ cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
 }@keyframes go{
   100%{transform: translateX(120px) translateY(2px);}
 }
+.tree10{
+  position: absolute;
+  top:24%;
+  left: -14%;
+  width:40%;
+  height:45%;
+  z-index: 1;
+  opacity: 75%;
+  transform-origin: left;
+  animation: rot 6s infinite alternate;
+}
+@keyframes rot{
+  0%{transform: rotate(0deg);}
+  100%{transform: rotate(10deg);}
+}
 .charco{
   position: absolute;
   bottom:-2.5%;
@@ -2208,8 +2223,10 @@ cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
   padding: 1.5px;
   text-align: center;
   font-weight: bolder;
+  z-index: 20;
 }.card1:hover{
-  background-color: rgb(245, 193, 98);
+    z-index: 20;
+  background-color: rgb(98, 159, 245);
   cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
 }
 .card2{
@@ -2327,4 +2344,3 @@ cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
 .a_cloud{
   position: absolute;
 }
-
