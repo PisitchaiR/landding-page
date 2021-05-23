@@ -1319,12 +1319,7 @@ cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
   text-align: center;
   z-index: 5;
 }
-#lo8{
-  animation: move10 0.5s infinite alternate-reverse;
-}@keyframes move10{
-  0% {top: 42.5%;}
-  100%{top: 43%;}
-}
+
 #lo1{
   animation: move1 0.5s infinite alternate-reverse;
 }@keyframes move1{
