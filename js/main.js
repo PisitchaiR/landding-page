@@ -54,9 +54,9 @@ const dotNav = (elem, easing) => {
             for (let i = 0; i < allElements.length; i++) {  //  loop through the sections
                 let viewportOffset = allElements[i].getBoundingClientRect();  //  returns the size of an element and its position relative to the viewport
                 let top = viewportOffset.top;  //  get the offset top
-                if(top < windowHeight){  //  if the top offset is less than the window height
+                if (top < windowHeight) {  //  if the top offset is less than the window height
                     allElements[i].classList.add('in-viewport');  //  add the class
-                } else{
+                } else {
                     allElements[i].classList.remove('in-viewport');  //  remove the class
                 }
             }
@@ -110,7 +110,7 @@ const dotNav = (elem, easing) => {
         document.getElementById('dot-' + a).classList.add('active');
     }
     dotActive();
-    window.onscroll = function(){ dotActive(); };
+    window.onscroll = function () { dotActive(); };
 
     //  click stuff
 
@@ -149,7 +149,7 @@ function showDivs(n) {
     x[slideIndex - 1].style.display = "block";
 }
 
-window.onscroll = function() {
+window.onscroll = function () {
     console.log(document.body.scrollTop)
     console.log(document.documentElement.scrollTop)
     scrollFunction()
@@ -180,7 +180,7 @@ function scrollFunction2() {
 }
 
 function scrollGraph() {
-    if (document.documentElement.scrollTop > 20) {
+    if (document.documentElement.scrollTop > -10) {
         document.getElementById("line").style.height = 9 + '%'
         document.getElementById("line").style.top = 57 + '%'
         document.getElementById("line1").style.height = 14 + '%'
@@ -189,7 +189,7 @@ function scrollGraph() {
         document.getElementById("line2").style.top = 56 + '%'
         document.getElementById("line3").style.height = 18 + '%'
         document.getElementById("line3").style.top = 48 + '%'
-        
+
     } else {
         document.getElementById("line").style.height = 5 + '%'
         document.getElementById("line").style.top = 62 + '%'

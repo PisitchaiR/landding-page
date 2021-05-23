@@ -454,10 +454,21 @@ nav#dot-nav.red a:first-child {
 .headex{
   position: absolute;
   color: white;
-  top: 12.5%;
+  top: 8%;
   left: 37%;
   text-align: center;
   font-size: 4vw;
+  font-weight: bold;
+  z-index: 10;
+  font-family: 'Mitr', sans-serif;
+}
+.headex1{
+  position: absolute;
+  color: rgb(250, 250, 250);
+  top: 29%;
+  left: 37%;
+  text-align: center;
+  font-size:2vw;
   font-weight: bold;
   z-index: 10;
   font-family: 'Mitr', sans-serif;
@@ -783,7 +794,7 @@ cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
   position: absolute;
   width: 40%;
   height: 20%;
-  bottom: -1%;
+  bottom: -0.5%;
   right: -2%;
   opacity: 60%;
   overflow: hidden;
@@ -2170,7 +2181,7 @@ cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
 .passage2{
   position:absolute;
   top:62%;
-  left: 55%;
+  left: 56.5%;
   text-align: center;
   padding:0.5em;
    width: 7em;
@@ -2386,7 +2397,7 @@ cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
   text-align: center;
   font-weight: bolder;
 }.card3:hover{
-  background-color: rgb(179, 109, 179);
+  background-color: #afe077;
   cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
 }
 .info1{
