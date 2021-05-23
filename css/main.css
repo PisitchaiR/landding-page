@@ -317,7 +317,7 @@ nav#dot-nav.red a:first-child {
 	letter-spacing: 0.8rem;
 	text-transform: uppercase;
 	transition: all 500ms cubic-bezier(0.77, 0, 0.175, 1);
-	cursor: pointer;
+	cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
 	user-select: none;
 }
 
@@ -552,7 +552,7 @@ nav#dot-nav.red a:first-child {
   left: 10%;
 }.hair:hover{
   transform: scale(1.2);
-}
+cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;}
 .boxhair{
   padding: 12px;
   border-radius: 20px;
@@ -574,7 +574,7 @@ nav#dot-nav.red a:first-child {
   transform: scale(1.2);
   background-color: #525d7e;
   opacity: 80%;
-}
+cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;}
 .sand{
   width: 11vw;
   height: 13vw;
@@ -584,7 +584,7 @@ nav#dot-nav.red a:first-child {
 }.sand:hover{
   transform: scale(1.2);
 
-}
+cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;}
 .boxsand{
   padding: 12px;
   border-radius: 20px;
@@ -606,7 +606,7 @@ nav#dot-nav.red a:first-child {
   transform: scale(1.2);
   background-color: #525d7e;
   opacity: 80%;
-}
+cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;}
 #titlepm{
   border-radius: 40px;
   top: 5%;
@@ -715,25 +715,25 @@ nav#dot-nav.red a:first-child {
   background-image: url(../img/คมนาคม.png);
 }.transport:hover{
   transform: scale(1.3);
-  cursor: pointer;
+  cursor: url(https://cur.cursors-4u.net/toons/too-10/too1026.cur), auto !important;
 }
 .electric{
   background-image: url(../img/ไฟ.png);
 }.electric:hover{
   transform: scale(1.3);
-  cursor: pointer;
+  cursor: url(https://cur.cursors-4u.net/toons/too-10/too1026.cur), auto !important;
 }
 .burn{
   background-image: url(../img/เผา.png);
 }.burn:hover{
   transform: scale(1.3);
-  cursor: pointer;
+  cursor: url(https://cur.cursors-4u.net/toons/too-10/too1026.cur), auto !important;
 }
 .indust{
   background-image: url(../img/โรงงาน.png);
 }.indust:hover{
   transform: scale(1.3);
-  cursor: pointer;
+  cursor: url(https://cur.cursors-4u.net/toons/too-10/too1026.cur), auto !important;
 }
 .dust{
   width: 40%;
@@ -1698,7 +1698,7 @@ p {
 .img7:hover{
   transform: scale(1.2);
   background-color: rgb(240, 141, 60);
-  cursor: pointer;
+  cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
 }
 
 .img8 {
@@ -1713,7 +1713,7 @@ p {
 .img8:hover{
   transform: scale(1.2);
   background-color: rgb(243, 204, 97);
-  cursor: pointer;
+  cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
 }
 .imge9 {
   border-radius: 5%;
@@ -1725,7 +1725,7 @@ p {
 }.imge9:hover{
   transform: scale(1.2);
   background-color: rgb(46, 143, 83);
-  cursor: pointer;
+  cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
 }
 
 .img10 {
@@ -1738,7 +1738,7 @@ p {
 }.img10:hover{
   transform: scale(1.2);
   background-color: rgb(73, 170, 86);
-  cursor: pointer;
+  cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
 }
 #orage {
   border-radius: 15%;
@@ -1980,7 +1980,7 @@ opacity: 90%;
 }#leftbut:hover{
   transform: scale(1.1);
   background-image: url('https://cdn.discordapp.com/attachments/798606239537954816/845352993049280532/leftch.png');
-}
+cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;}
 #rightbut{
 	background-size: cover;
 	background-image: url('https://cdn.discordapp.com/attachments/798606239537954816/845258365999382558/ri.png');
@@ -1994,7 +1994,7 @@ opacity: 90%;
   transform: scale(1.1);
   background-image: url('https://cdn.discordapp.com/attachments/798606239537954816/845370321237704734/arrow2.png');
   opacity: 80%;
-}
+cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;}
 
 
 /* section 9 */
@@ -2034,7 +2034,7 @@ opacity: 90%;
   position: absolute;
 }
 .passage2:hover{
-  cursor: pointer;
+  cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
   box-shadow: 0px 0px 30px #50C785 , 0px 0px 30px #50C785;
    z-index: 200;
 }
@@ -2052,7 +2052,7 @@ opacity: 90%;
   font-size: 1.5em;
   font-family: 'Mitr', sans-serif;
   box-shadow: 0px 0px 10px #50C785;
-  cursor: pointer;
+  cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
   z-index: 200;
 }
 .cloud1{
@@ -2140,7 +2140,7 @@ opacity: 90%;
   width: 10%;
   height: 20%;
   z-index: 20;
-  animation: go 1s infinite alternate-reverse;
+  animation: go 3s infinite alternate;
 }@keyframes go{
   100%{transform: translateX(120px) translateY(2px);}
 }
@@ -2159,12 +2159,10 @@ opacity: 90%;
   width: 7.5%;
   height: 15%;
   z-index: 20;
-  animation: opa 1s infinite alternate-reverse;
 }@keyframes opa{
-  0%,100% {opacity: 100%;}
-  25% {opacity: 70%;}
-  50% {opacity: 50%;}
-  75% {opacity: 80%;}
+  0% {opacity: 100%;}
+  100% {opacity: 60%;}
+
 }
 .home2{
   position: absolute;
@@ -2211,7 +2209,7 @@ opacity: 90%;
   font-weight: bolder;
 }.card1:hover{
   background-color: rgb(245, 193, 98);
-  cursor: pointer;
+  cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
 }
 .card2{
   background: #f44336;
@@ -2227,7 +2225,7 @@ opacity: 90%;
   font-weight: bolder;
 }.card2:hover{
   background-color: rgb(252, 129, 150);
-  cursor: pointer;
+  cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
 }
 .card3{
   background: #8BC34A;
@@ -2243,7 +2241,7 @@ opacity: 90%;
   font-weight: bolder;
 }.card3:hover{
   background-color: rgb(179, 109, 179);
-  cursor: pointer;
+  cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
 }
 .info1{
   background: white;
