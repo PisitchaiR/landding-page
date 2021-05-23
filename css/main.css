@@ -17,6 +17,22 @@
 
 }
 
+.position {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.modal {
+  box-sizing: border-box;
+  margin: auto;
+  width: 60vw;
+  z-index: 999;
+  font-size: 3em;
+}
+
 html {
   line-height: 1.15;
 }
@@ -1996,6 +2012,9 @@ opacity: 90%;
   opacity: 80%;
 }
 
+@media screen and (min-width: 400px) {
+  
+}
 
 /* section 9 */
 #page9{
