@@ -781,14 +781,8 @@ cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
 }
 .photobot{
   position: absolute;
-<<<<<<< HEAD
-  background-size: contain;
-  width: 30%;
-  height: 10%;
-=======
   width: 40%;
   height: 20%;
->>>>>>> 53d2caeac5c0277971c747fe26d59770e115fb15
   bottom: -1%;
   right: -2%;
   opacity: 60%;
