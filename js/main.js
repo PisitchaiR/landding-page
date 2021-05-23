@@ -3,13 +3,9 @@ var isMobile =
   navigator.userAgent.indexOf("Mobi") > -1;
 console.log(isMobile);
 if (isMobile) {
-  //   var html = document.getElementsByTagName("html")[0];
-  //   var body = document.getElementsByTagName("body")[0];
-  //   html.removeChild(body);
-  //   html.createElement(body);
   document.body.innerHTML = "";
   document.body.innerHTML = `<div class="modal">
-  This website can't run on mobile and tablet
+  This website can't run on mobile and tablet please open on desktop
 </div>`;
     document.body.setAttribute('class', 'position');
 } else {
