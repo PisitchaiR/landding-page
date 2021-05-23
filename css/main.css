@@ -778,16 +778,52 @@ cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
 #page3{
   background: #D6D6D6;
 }
-.ddust3{
-  position: absolute;
-  width: 80%;
-  height: 60%;
-  bottom: 0%;
-  left: -10%;
-  opacity: 60%;
-  z-index: 0;
- 
-}
+@keyframes loy {
+        0% {
+            left: 0%;
+            bottom: 0%;
+        }
+
+        50% {
+            left: -5%;
+            bottom: 0%;
+        }
+
+        100% {
+            left: 0%;
+            bottom: 0%;
+        }
+
+    }
+
+    @keyframes loy1 {
+        0% {
+            right: 0%;
+        }
+
+        50% {
+            right: -5%;
+        }
+
+        100% {
+            right: 0%;
+        }
+
+    }
+
+    .ddust3 {
+        position: absolute;
+        width: 80%;
+        height: 60%;
+        bottom: 0%;
+        left: -10%;
+        opacity: 60%;
+        z-index: 0;
+        animation-name: loy;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+
+    }
 @keyframes movee{
   100%{transform: translate(20px);}
 }
@@ -814,6 +850,9 @@ cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
   right: -2%;
   opacity: 60%;
   overflow: hidden;
+  animation-name: loy1;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
   /* border: 2px solid red; */
 }
 .topic{
@@ -957,25 +996,62 @@ cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
   left: 11%;
 
 }
+@keyframes loy2 {
+        0% {
+            left: 0%;
+            top: -0.1%;
+        }
 
-.l_cloud{
-  position: absolute;
-  width: 80%;
-  height: 100%;
-  top: -0.1%;
-  left: -10%;
-  opacity: 60%;
-  z-index: 0;
+        50% {
+            left: -5%;
+            top: -0.1%;
+        }
 
-}
+        100% {
+            left: 0%;
+            top: -0.1%;
+        }
 
-.r_cloud{
-  width: 35%;
-  height: 35%;
-  position: absolute;
-  right: 0;
-}
+    }
 
+    @keyframes loy3 {
+        0% {
+            right: 0%;
+        }
+
+        50% {
+            right: -5%;
+        }
+
+        100% {
+            right: 0%;
+        }
+
+    }
+
+    .l_cloud {
+        position: absolute;
+        width: 80%;
+        height: 100%;
+        top: -0.1%;
+        left: -10%;
+        opacity: 60%;
+        z-index: 0;
+        animation-name: loy2;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+
+    }
+
+    .r_cloud {
+        width: 35%;
+        height: 35%;
+        position: absolute;
+        right: 0;
+        animation-name: loy3;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+    }
 .txt_head{
   font-size: 3vw;
   position: absolute;
@@ -1055,6 +1131,120 @@ cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
 .p4-icon{
   font-size: 1.5em;
 }
+@keyframes o2 {
+        0% {
+            box-shadow: 0px 0px 5px 5px red;
+            background: #f72285;
+        }
+
+        50% {
+            box-shadow: 0px 0px 5px 5px rgb(250, 246, 20);
+            background: #f79b22;
+        }
+
+        100% {
+            box-shadow: 0px 0px 5px 5px red;
+            background: #f72285;
+        }
+
+    }
+
+    .crown1 {
+        position: absolute;
+        width: 0.5%;
+        height: 0.9%;
+        top: 16%;
+        left: 44.5%;
+        border-radius: 100%;
+        background: #f72285;
+        box-shadow: 0px 0px 5px 5px red;
+        animation: o2 5s infinite;
+    }
+
+    .crown2 {
+        position: absolute;
+        width: 0.5%;
+        height: 0.9%;
+        top: 23%;
+        left: 51%;
+        border-radius: 100%;
+        background: #f72285;
+        box-shadow: 0px 0px 5px 5px red;
+        animation: o2 5s infinite;
+    }
+
+    .crown3 {
+        position: absolute;
+        width: 0.5%;
+        height: 0.9%;
+        top: 36%;
+        left: 49.8%;
+        border-radius: 100%;
+        background: #f72285;
+        box-shadow: 0px 0px 5px 5px red;
+        animation: o2 5s infinite;
+    }
+
+    .crown4 {
+        position: absolute;
+        width: 0.5%;
+        height: 0.9%;
+        top: 42%;
+        left: 44.8%;
+        border-radius: 100%;
+        background: #f72285;
+        box-shadow: 0px 0px 5px 5px red;
+        animation: o2 5s infinite;
+    }
+
+    .crown5 {
+        position: absolute;
+        width: 0.9%;
+        height: 1.3%;
+        top: 64%;
+        left: 43%;
+        border-radius: 100%;
+        background: #f72285;
+        box-shadow: 0px 0px 5px 5px red;
+        animation: o2 5s infinite;
+    }
+
+    .crown6 {
+        position: absolute;
+        width: 0.9%;
+        height: 1.3%;
+        top: 79%;
+        left: 41%;
+        border-radius: 100%;
+        background: #f72285;
+        box-shadow: 0px 0px 5px 5px red;
+        animation: o2 5s infinite;
+    }
+
+    .crown7 {
+        position: absolute;
+        width: 0.9%;
+        height: 1.3%;
+        top: 69%;
+        left: 51.5%;
+        border-radius: 100%;
+        background: #f72285;
+        box-shadow: 0px 0px 5px 5px red;
+        animation: o2 5s infinite;
+    }
+
+    .crown8 {
+        position: absolute;
+        width: 0.9%;
+        height: 1.3%;
+        top: 81%;
+        left: 52%;
+        border-radius: 100%;
+        background: #f72285;
+        box-shadow: 0px 0px 5px 5px red;
+        animation: o2 5s infinite;
+    }
+
 /* section 5 */
 #page5{
   height: 200vh;
@@ -1358,41 +1548,6 @@ cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
         30% {
             background-color: #C7EA46;
         }
-    }
-@keyframes loy {
-        0% {
-            left: 0%;
-            top: 78%;
-        }
-
-        50% {
-            left: -5%;
-            top: 78%;
-        }
-
-        100% {
-            left: 0%;
-            top: 78%;
-        }
-
-    }
-
-    @keyframes loy1 {
-        0% {
-            right: 0%;
-            top: 76.5%;
-        }
-
-        50% {
-            right: -5%;
-            top: 76.5%;
-        }
-
-        100% {
-            right: 0%;
-            top: 76.5%;
-        }
-
     }
 
 .pic{
@@ -1781,41 +1936,6 @@ cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
   position: relative;
   overflow: hidden;
 }
-@keyframes loy2 {
-        0% {
-            left: 0%;
-            top: 0%;
-        }
-
-        50% {
-            left: -5%;
-            top: 0%;
-        }
-
-        100% {
-            left: 0%;
-            top: 0%;
-        }
-
-    }
-
-    @keyframes loy3 {
-        0% {
-            right: 0%;
-            top: 0%;
-        }
-
-        50% {
-            right: -5%;
-            top: 0%;
-        }
-
-        100% {
-            right: 0%;
-            top: 0%;
-        }
-
-    }
 #head1 {
   border-radius: 50px;
   background: #b7d2e7;
