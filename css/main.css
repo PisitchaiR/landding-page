@@ -1295,6 +1295,10 @@ cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
   text-align: center;
   z-index: 5;
 }
+.location-page5:hover{
+  transform: scale(1.3);
+  cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
+}
 .lo_yellow{
   width: 10%;
   height: 11%;
