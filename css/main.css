@@ -1427,7 +1427,7 @@ cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
   position: absolute;
   background-image: url(../img/ฝุ่น.png);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   z-index: 1;
 }
 /* section 6 */
@@ -1969,6 +1969,9 @@ p {
   color: #fff;
   z-index: 20;
 }.img7 {
+  background-image: url(https://media.discordapp.net/attachments/798606239537954816/832127924551286804/10.png);
+  background-size: contain;
+  background-repeat: no-repeat;
   border-radius: 5%;
   width: 13%;
   position: absolute;
@@ -1982,6 +1985,9 @@ p {
 }
 
 .img8 {
+  background-image: url(https://media.discordapp.net/attachments/798606239537954816/832127957828763658/25.png);
+  background-size: contain;
+  background-repeat: no-repeat;
   border-radius: 5%;
   width: 13%;
   position: absolute;
@@ -1995,6 +2001,9 @@ p {
   cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
 }
 .imge9 {
+  background-image: url(https://cdn.discordapp.com/attachments/798606239537954816/832127962362937354/50.png);
+  background-size: contain;
+  background-repeat: no-repeat;
   border-radius: 5%;
   width: 13%;
   
@@ -2006,8 +2015,20 @@ p {
   background-color: rgb(46, 143, 83);
   cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
 }
+.black-tang{
+  bottom: 6%;
+  left: 28%;
+  width: 0.7%;
+  height: 9%;
+  background-color: black;
+  position: absolute;
+  z-index: 3;
+}
 
 .img10 {
+  background-image: url(https://cdn.discordapp.com/attachments/798606239537954816/832127960786010132/25-2.png);
+  background-size: contain;
+  background-repeat: no-repeat;
   border-radius: 5%;
   width: 13%;
   
