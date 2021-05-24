@@ -39,6 +39,7 @@ html {
 
 body {
   margin: 0;
+  overflow-x: hidden;
 }
 
 article,
@@ -333,7 +334,7 @@ nav#dot-nav.red a:first-child {
 	letter-spacing: 0.8rem;
 	text-transform: uppercase;
 	transition: all 500ms cubic-bezier(0.77, 0, 0.175, 1);
-	cursor: pointer;
+	cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
 	user-select: none;
 }
 
@@ -408,29 +409,170 @@ nav#dot-nav.red a:first-child {
 .contain1{
   width: 100%;
   height: 100%;
-  background-color: #1b1d20;
+  background-color: #f8f8f8;
   position: relative;
+  overflow: hidden;
+}
+.bus{
+  position: absolute;
+  bottom: -12%;
+  width: 40%;
+  height: 50%;
+  z-index: 2;
+  animation: gogo 15s infinite alternate-reverse;
+  transition: 15s;
+}@keyframes gogo{
+  0%{transform: translateX(1500px) translateY(2px);}
+  100%{transform: translateX(-10px) translateY(2px);}
+}
+.smokel2{
+  width: 20%;
+ height: 25%;
+ position: absolute;
+ bottom: -5%;
+ left:-5%;
+ transform: rotate(230deg);
+ animation:smokee 2s infinite alternate;
+ z-index: 2;
+ animation: smokee 15s infinite alternate-reverse;
+  transition: 15s;
+}
+@keyframes smokee{
+ 0%{opacity: 20%;transform: translateX(1500px) translateY(2px) rotate(230deg);}
+ 25%{opacity: 25%;}
+ 50%{opacity: 50%;}
+ 75%{opacity: 80%;}
+ 100%{opacity: 100%;transform: translateX(-10px) translateY(2px) rotate(230deg) scale(1.1);}
+}
+
+.goon{
+  text-decoration: none;
+  position: absolute;
+  top: 53%;
+  left: 49.2%;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #fc5656;
+  color: white;
+  z-index: 10;
+  font-family: 'Mitr', sans-serif;
+  font-size: 1.5vw;
+  width: 8%;
+  text-align: center;
+  font-weight: bold;
+  cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
+  animation: chang 1.5s infinite alternate-reverse;
+  transition-duration: 0.3s;
+}
+.goon:hover{
+  transform: scale(1.3);
+}
+.headex{
+  position: absolute;
+  color: white;
+  top: 8%;
+  left: 37%;
+  text-align: center;
+  font-size: 4vw;
+  font-weight: bold;
+  z-index: 10;
+  font-family: 'Mitr', sans-serif;
+}
+.headex1{
+  position: absolute;
+  color: rgb(250, 250, 250);
+  top: 29%;
+  left: 37%;
+  text-align: center;
+  font-size:2vw;
+  font-weight: bold;
+  z-index: 10;
+  font-family: 'Mitr', sans-serif;
+}
+#colortxt{
+  position: absolute;
+  color: rgb(216, 66, 66);
+  top: 12.5%;
+  left: 37%;
+  text-align: center;
+  font-size: 3.5vw;
+  font-weight: bold;
+  z-index: 10;
+  font-family: 'Mitr', sans-serif;
+}
+.kwan{
+  position: absolute;
+  top: -7%;
+  left: 16%;
+  width: 55%;
+  height: 65%;
+  opacity: 80%;
+}
+.mek1{
+  position: absolute;
+  top: 0%;
+  left: -10%;
+  width: 30%;
+  height: 40%;
+  z-index: 10;
+  animation: loya 1.5s infinite alternate-reverse;
+}@keyframes loya{
+  0%{transform: translateX(30px) translateY(2px);}
+  100%{transform: translateX(10px) translateY(2px);}
+}
+.mek2{
+  position: absolute;
+  top: 30%;
+  right: -15%;
+  width: 40%;
+  height: 50%;
+  z-index: 10;
+  animation: loya1 1.5s infinite alternate-reverse;
+}@keyframes loya1{
+  0%{transform: translateX(30px) translateY(2px);}
+  100%{transform: translateX(10px) translateY(2px);}
+}
+.mek3{
+  position: absolute;
+  top: -10%;
+  right: 2%;
+  width: 35%;
+  height: 45%;
+  z-index: 10;
+  animation: loya2 1.5s infinite alternate-reverse;
+}@keyframes loya2{
+  0%{transform: translateX(30px) translateY(2px);}
+  100%{transform: translateX(10px) translateY(2px);}
+}
+.kwan2{
+  position: absolute;
+  top: -100%;
+  left: 0;
+  width: 100%;
+  opacity: 30%;
+
+
 }
 .bgpage1{
   width: 100%;
-  height: 95%;
-  background-image: url(../img/โรงงาน.png);
+  height: 99%;
+  top:-7%;
   position: absolute;
+  z-index: 2;
 }
 .road{
   width: 100%;
   height: 15%;
-  background-color: #9e9e9e;
+  background-color: #a39f9f;
   position: absolute;
   bottom: 0%;
-  border: 5px black solid;
 }
 .road-line1{
   width: 75px;
   height: 20px;
   background-color: #2b2a2a;
   position: absolute;
-  bottom: 60px;
+  bottom: 3%;
   left: 20px;
 }
 .road-line2{
@@ -438,7 +580,7 @@ nav#dot-nav.red a:first-child {
   height: 20px;
   background-color: #2b2a2a;
   position: absolute;
-  bottom: 60px;
+  bottom: 3%;
   left: 150px;
 }
 .road-line3{
@@ -446,7 +588,7 @@ nav#dot-nav.red a:first-child {
   height: 20px;
   background-color: #2b2a2a;
   position: absolute;
-  bottom: 60px;
+  bottom: 3%;
   left: 280px;
 }
 .road-line4{
@@ -454,7 +596,7 @@ nav#dot-nav.red a:first-child {
   height: 20px;
   background-color: #2b2a2a;
   position: absolute;
-  bottom: 60px;
+  bottom: 3%;
   left: 410px;
 }
 .road-line5{
@@ -462,7 +604,7 @@ nav#dot-nav.red a:first-child {
   height: 20px;
   background-color: #2b2a2a;
   position: absolute;
-  bottom: 60px;
+  bottom: 3%;
   left: 540px;
 }
 .road-line6{
@@ -470,7 +612,7 @@ nav#dot-nav.red a:first-child {
   height: 20px;
   background-color: #2b2a2a;
   position: absolute;
-  bottom: 60px;
+  bottom: 3%;
   left: 670px;
 }
 .road-line7{
@@ -478,7 +620,7 @@ nav#dot-nav.red a:first-child {
   height: 20px;
   background-color: #2b2a2a;
   position: absolute;
-  bottom: 60px;
+  bottom: 3%;
   left: 800px;
 }
 .road-line8{
@@ -486,7 +628,7 @@ nav#dot-nav.red a:first-child {
   height: 20px;
   background-color: #2b2a2a;
   position: absolute;
-  bottom: 60px;
+  bottom: 3%;
   left: 930px;
 }
 .road-line9{
@@ -494,7 +636,7 @@ nav#dot-nav.red a:first-child {
   height: 20px;
   background-color: #2b2a2a;
   position: absolute;
-  bottom: 60px;
+  bottom: 3%;
   left: 1060px;
 }
 .road-line10{
@@ -502,7 +644,7 @@ nav#dot-nav.red a:first-child {
   height: 20px;
   background-color: #2b2a2a;
   position: absolute;
-  bottom: 60px;
+  bottom: 3%;
   left: 1190px;
 }
 .road-line11{
@@ -510,7 +652,7 @@ nav#dot-nav.red a:first-child {
   height: 20px;
   background-color: #2b2a2a;
   position: absolute;
-  bottom: 60px;
+  bottom: 3%;
   left: 1320px;
 }
 .road-line12{
@@ -518,33 +660,10 @@ nav#dot-nav.red a:first-child {
   height: 20px;
   background-color: #2b2a2a;
   position: absolute;
-  bottom: 60px;
+  bottom: 3%;
   left: 1450px;
 }
-.road-line13{
-  width: 75px;
-  height: 20px;
-  background-color: #2b2a2a;
-  position: absolute;
-  bottom: 60px;
-  left: 1580px;
-}
-.road-line14{
-  width: 75px;
-  height: 20px;
-  background-color: #2b2a2a;
-  position: absolute;
-  bottom: 60px;
-  left: 1710px;
-}
-.road-line15{
-  width: 58px;
-  height: 20px;
-  background-color: #2b2a2a;
-  position: absolute;
-  bottom: 60px;
-  left: 1840px;
-}
+
 .titlepage1{
   width: 10%;
   height: 10%;
@@ -568,7 +687,7 @@ nav#dot-nav.red a:first-child {
   left: 10%;
 }.hair:hover{
   transform: scale(1.2);
-}
+cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;}
 .boxhair{
   padding: 12px;
   border-radius: 20px;
@@ -590,7 +709,7 @@ nav#dot-nav.red a:first-child {
   transform: scale(1.2);
   background-color: #525d7e;
   opacity: 80%;
-}
+cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;}
 .sand{
   width: 11vw;
   height: 13vw;
@@ -600,7 +719,7 @@ nav#dot-nav.red a:first-child {
 }.sand:hover{
   transform: scale(1.2);
 
-}
+cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;}
 .boxsand{
   padding: 12px;
   border-radius: 20px;
@@ -622,7 +741,7 @@ nav#dot-nav.red a:first-child {
   transform: scale(1.2);
   background-color: #525d7e;
   opacity: 80%;
-}
+cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;}
 #titlepm{
   border-radius: 40px;
   top: 5%;
@@ -659,6 +778,55 @@ nav#dot-nav.red a:first-child {
 #page3{
   background: #D6D6D6;
 }
+@keyframes loy {
+        0% {
+            left: 0%;
+            bottom: 0%;
+        }
+
+        50% {
+            left: -5%;
+            bottom: 0%;
+        }
+
+        100% {
+            left: 0%;
+            bottom: 0%;
+        }
+
+    }
+
+    @keyframes loy1 {
+        0% {
+            right: 0%;
+        }
+
+        50% {
+            right: -5%;
+        }
+
+        100% {
+            right: 0%;
+        }
+
+    }
+
+    .ddust3 {
+        position: absolute;
+        width: 80%;
+        height: 60%;
+        bottom: 0%;
+        left: -10%;
+        opacity: 60%;
+        z-index: 0;
+        animation-name: loy;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+
+    }
+@keyframes movee{
+  100%{transform: translate(20px);}
+}
 .top-yoi{
   position: absolute;
   width: 100%;
@@ -671,15 +839,20 @@ nav#dot-nav.red a:first-child {
   position: relative;
   width: 100%;
   height: 100%;
+  overflow: hidden;
   /* border: 2px solid red; */
 }
 .photobot{
   position: absolute;
-  width: 30%;
-  height: 10%;
-  bottom: -1%;
-  right: -3.6%;
+  width: 40%;
+  height: 20%;
+  bottom: -0.5%;
+  right: -2%;
   opacity: 60%;
+  overflow: hidden;
+  animation-name: loy1;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
   /* border: 2px solid red; */
 }
 .topic{
@@ -726,30 +899,31 @@ nav#dot-nav.red a:first-child {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
+  z-index: 20;
 }
 .transport{
   background-image: url(../img/คมนาคม.png);
 }.transport:hover{
   transform: scale(1.3);
-  cursor: pointer;
+  cursor: url(https://cur.cursors-4u.net/toons/too-10/too1026.cur), auto !important;
 }
 .electric{
   background-image: url(../img/ไฟ.png);
 }.electric:hover{
   transform: scale(1.3);
-  cursor: pointer;
+  cursor: url(https://cur.cursors-4u.net/toons/too-10/too1026.cur), auto !important;
 }
 .burn{
   background-image: url(../img/เผา.png);
 }.burn:hover{
   transform: scale(1.3);
-  cursor: pointer;
+  cursor: url(https://cur.cursors-4u.net/toons/too-10/too1026.cur), auto !important;
 }
 .indust{
-  background-image: url(../img/โรงงาน.png);
+  background-image: url(https://cdn.discordapp.com/attachments/798606239537954816/845967181195640852/7771805b009d5ba6.png);
 }.indust:hover{
   transform: scale(1.3);
-  cursor: pointer;
+  cursor: url(https://cur.cursors-4u.net/toons/too-10/too1026.cur), auto !important;
 }
 .dust{
   width: 40%;
@@ -777,17 +951,6 @@ nav#dot-nav.red a:first-child {
 .four-i{
   top: 55%;
   left: 50%;
-}
-.bottom-smoke{
-  width: 30%;
-  height: 20%;
-  right:0;
-  bottom: -4%;
-  position:absolute;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: left;
-  background-image: url(/img/ล่างสุด.png);
 }
 /* section 4 */
 #page4{
@@ -822,22 +985,62 @@ nav#dot-nav.red a:first-child {
   left: 11%;
 
 }
+@keyframes loy2 {
+        0% {
+            left: 0%;
+            top: -0.1%;
+        }
 
-.l_cloud{
-  width: 23%;
-  height: 70%;
-  position: absolute;
-  left: 0;
-  top: 5%;
-}
+        50% {
+            left: -5%;
+            top: -0.1%;
+        }
 
-.r_cloud{
-  width: 25%;
-  height: 30%;
-  position: absolute;
-  right: 0;
-}
+        100% {
+            left: 0%;
+            top: -0.1%;
+        }
 
+    }
+
+    @keyframes loy3 {
+        0% {
+            right: 0%;
+        }
+
+        50% {
+            right: -5%;
+        }
+
+        100% {
+            right: 0%;
+        }
+
+    }
+
+    .l_cloud {
+        position: absolute;
+        width: 80%;
+        height: 100%;
+        top: -0.1%;
+        left: -10%;
+        opacity: 60%;
+        z-index: 0;
+        animation-name: loy2;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+
+    }
+
+    .r_cloud {
+        width: 35%;
+        height: 35%;
+        position: absolute;
+        right: 0;
+        animation-name: loy3;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+    }
 .txt_head{
   font-size: 3vw;
   position: absolute;
@@ -845,6 +1048,7 @@ nav#dot-nav.red a:first-child {
   left: 5%;
   font-family: 'Mitr', sans-serif;
   font-weight: bold;
+  z-index: 2;
 }
 
 .eye{
@@ -916,6 +1120,120 @@ nav#dot-nav.red a:first-child {
 .p4-icon{
   font-size: 1.5em;
 }
+@keyframes o2 {
+        0% {
+            box-shadow: 0px 0px 5px 5px red;
+            background: #f72285;
+        }
+
+        50% {
+            box-shadow: 0px 0px 5px 5px rgb(250, 246, 20);
+            background: #f79b22;
+        }
+
+        100% {
+            box-shadow: 0px 0px 5px 5px red;
+            background: #f72285;
+        }
+
+    }
+
+    .crown1 {
+        position: absolute;
+        width: 0.5%;
+        height: 0.9%;
+        top: 16%;
+        left: 44.5%;
+        border-radius: 100%;
+        background: #f72285;
+        box-shadow: 0px 0px 5px 5px red;
+        animation: o2 5s infinite;
+    }
+
+    .crown2 {
+        position: absolute;
+        width: 0.5%;
+        height: 0.9%;
+        top: 23%;
+        left: 51%;
+        border-radius: 100%;
+        background: #f72285;
+        box-shadow: 0px 0px 5px 5px red;
+        animation: o2 5s infinite;
+    }
+
+    .crown3 {
+        position: absolute;
+        width: 0.5%;
+        height: 0.9%;
+        top: 36%;
+        left: 49.8%;
+        border-radius: 100%;
+        background: #f72285;
+        box-shadow: 0px 0px 5px 5px red;
+        animation: o2 5s infinite;
+    }
+
+    .crown4 {
+        position: absolute;
+        width: 0.5%;
+        height: 0.9%;
+        top: 42%;
+        left: 44.8%;
+        border-radius: 100%;
+        background: #f72285;
+        box-shadow: 0px 0px 5px 5px red;
+        animation: o2 5s infinite;
+    }
+
+    .crown5 {
+        position: absolute;
+        width: 0.9%;
+        height: 1.3%;
+        top: 64%;
+        left: 43%;
+        border-radius: 100%;
+        background: #f72285;
+        box-shadow: 0px 0px 5px 5px red;
+        animation: o2 5s infinite;
+    }
+
+    .crown6 {
+        position: absolute;
+        width: 0.9%;
+        height: 1.3%;
+        top: 79%;
+        left: 41%;
+        border-radius: 100%;
+        background: #f72285;
+        box-shadow: 0px 0px 5px 5px red;
+        animation: o2 5s infinite;
+    }
+
+    .crown7 {
+        position: absolute;
+        width: 0.9%;
+        height: 1.3%;
+        top: 69%;
+        left: 51.5%;
+        border-radius: 100%;
+        background: #f72285;
+        box-shadow: 0px 0px 5px 5px red;
+        animation: o2 5s infinite;
+    }
+
+    .crown8 {
+        position: absolute;
+        width: 0.9%;
+        height: 1.3%;
+        top: 81%;
+        left: 52%;
+        border-radius: 100%;
+        background: #f72285;
+        box-shadow: 0px 0px 5px 5px red;
+        animation: o2 5s infinite;
+    }
+
 /* section 5 */
 #page5{
   height: 200vh;
@@ -977,6 +1295,10 @@ nav#dot-nav.red a:first-child {
   text-align: center;
   z-index: 5;
 }
+.location-page5:hover{
+  transform: scale(1.3);
+  cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
+}
 .lo_yellow{
   width: 10%;
   height: 11%;
@@ -990,12 +1312,7 @@ nav#dot-nav.red a:first-child {
   text-align: center;
   z-index: 5;
 }
-#lo8{
-  animation: move10 0.5s infinite alternate-reverse;
-}@keyframes move10{
-  0% {top: 42.5%;}
-  100%{top: 43%;}
-}
+
 #lo1{
   animation: move1 0.5s infinite alternate-reverse;
 }@keyframes move1{
@@ -1220,41 +1537,6 @@ nav#dot-nav.red a:first-child {
             background-color: #C7EA46;
         }
     }
-@keyframes loy {
-        0% {
-            left: 0%;
-            top: 78%;
-        }
-
-        50% {
-            left: -5%;
-            top: 78%;
-        }
-
-        100% {
-            left: 0%;
-            top: 78%;
-        }
-
-    }
-
-    @keyframes loy1 {
-        0% {
-            right: 0%;
-            top: 76.5%;
-        }
-
-        50% {
-            right: -5%;
-            top: 76.5%;
-        }
-
-        100% {
-            right: 0%;
-            top: 76.5%;
-        }
-
-    }
 
 .pic{
   display: flex;
@@ -1336,32 +1618,32 @@ nav#dot-nav.red a:first-child {
   font-weight: bold;
 }
 .one1{
-  top: 85%;
-  left: 26.8%;
+  top: 57%;
+  left: 33%;
   color: #eee;
   font-size: 1.5vw;
   font-weight: 700;
   text-align: center;
 }
 .two2{
-  top: 85%;
-  left: 39.8%;
+  top: 57%;
+  left: 45%;
   color:#eee;
   font-size: 1.5vw;
   font-weight: 700;
   text-align: center;
 }
 .three3{
-  top: 85%;
-  left: 52.8%;
+  top: 57%;
+  left: 57%;
   color: #eee;
   font-size: 1.5vw;
   font-weight: 700;
   text-align: center;
 }
 .four4{
-  top: 85%;
-  left: 65.8%;
+  top: 57%;
+  left: 69%;
   color: #eee;
   font-size: 1.5vw;
   font-weight: 700;
@@ -1642,41 +1924,6 @@ nav#dot-nav.red a:first-child {
   position: relative;
   overflow: hidden;
 }
-@keyframes loy2 {
-        0% {
-            left: 0%;
-            top: 0%;
-        }
-
-        50% {
-            left: -5%;
-            top: 0%;
-        }
-
-        100% {
-            left: 0%;
-            top: 0%;
-        }
-
-    }
-
-    @keyframes loy3 {
-        0% {
-            right: 0%;
-            top: 0%;
-        }
-
-        50% {
-            right: -5%;
-            top: 0%;
-        }
-
-        100% {
-            right: 0%;
-            top: 0%;
-        }
-
-    }
 #head1 {
   border-radius: 50px;
   background: #b7d2e7;
@@ -1714,7 +1961,7 @@ p {
 .img7:hover{
   transform: scale(1.2);
   background-color: rgb(240, 141, 60);
-  cursor: pointer;
+  cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
 }
 
 .img8 {
@@ -1729,7 +1976,7 @@ p {
 .img8:hover{
   transform: scale(1.2);
   background-color: rgb(243, 204, 97);
-  cursor: pointer;
+  cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
 }
 .imge9 {
   border-radius: 5%;
@@ -1741,7 +1988,7 @@ p {
 }.imge9:hover{
   transform: scale(1.2);
   background-color: rgb(46, 143, 83);
-  cursor: pointer;
+  cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
 }
 
 .img10 {
@@ -1754,7 +2001,7 @@ p {
 }.img10:hover{
   transform: scale(1.2);
   background-color: rgb(73, 170, 86);
-  cursor: pointer;
+  cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
 }
 #orage {
   border-radius: 15%;
@@ -1996,7 +2243,7 @@ opacity: 90%;
 }#leftbut:hover{
   transform: scale(1.1);
   background-image: url('https://cdn.discordapp.com/attachments/798606239537954816/845352993049280532/leftch.png');
-}
+cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;}
 #rightbut{
 	background-size: cover;
 	background-image: url('https://cdn.discordapp.com/attachments/798606239537954816/845258365999382558/ri.png');
@@ -2010,11 +2257,8 @@ opacity: 90%;
   transform: scale(1.1);
   background-image: url('https://cdn.discordapp.com/attachments/798606239537954816/845370321237704734/arrow2.png');
   opacity: 80%;
-}
+cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;}
 
-@media screen and (min-width: 400px) {
-  
-}
 
 /* section 9 */
 #page9{
@@ -2047,20 +2291,21 @@ opacity: 90%;
     border-radius: 50px;
   background: #FF5675;
   opacity: 0.9;
+  left: 40%;
   top:23%;
   width: 46%;
   height: 35%;
   position: absolute;
 }
 .passage2:hover{
-  cursor: pointer;
+  cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
   box-shadow: 0px 0px 30px #50C785 , 0px 0px 30px #50C785;
    z-index: 200;
 }
 .passage2{
   position:absolute;
   top:62%;
-  left: 55%;
+  left: 56.5%;
   text-align: center;
   padding:0.5em;
    width: 7em;
@@ -2071,7 +2316,7 @@ opacity: 90%;
   font-size: 1.5em;
   font-family: 'Mitr', sans-serif;
   box-shadow: 0px 0px 10px #50C785;
-  cursor: pointer;
+  cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
   z-index: 200;
 }
 .cloud1{
@@ -2159,13 +2404,28 @@ opacity: 90%;
   width: 10%;
   height: 20%;
   z-index: 20;
-  animation: go 1s infinite alternate-reverse;
+  animation: go 3s infinite alternate;
 }@keyframes go{
   100%{transform: translateX(120px) translateY(2px);}
 }
+.tree10{
+  position: absolute;
+  top:24%;
+  left: -14%;
+  width:40%;
+  height:45%;
+  z-index: 1;
+  opacity: 75%;
+  transform-origin: left;
+  animation: rot 6s infinite alternate;
+}
+@keyframes rot{
+  0%{transform: rotate(0deg);}
+  100%{transform: rotate(10deg);}
+}
 .charco{
   position: absolute;
-  bottom:-1%;
+  bottom:-2.5%;
   left: 70%;
   width: 10%;
   height: 20%;
@@ -2178,12 +2438,10 @@ opacity: 90%;
   width: 7.5%;
   height: 15%;
   z-index: 20;
-  animation: opa 1s infinite alternate-reverse;
 }@keyframes opa{
-  0%,100% {opacity: 100%;}
-  25% {opacity: 70%;}
-  50% {opacity: 50%;}
-  75% {opacity: 80%;}
+  0% {opacity: 100%;}
+  100% {opacity: 60%;}
+
 }
 .home2{
   position: absolute;
@@ -2228,12 +2486,16 @@ opacity: 90%;
   padding: 1.5px;
   text-align: center;
   font-weight: bolder;
-}.card1:hover{
-  background-color: rgb(245, 193, 98);
-  cursor: pointer;
+  z-index: 20;
+  transition: 0.3s ease-in;
+}
+.card1:hover{
+  z-index: 20;
+  background-color: rgb(255, 221, 71);
+  cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
 }
 .card2{
-  background: #f44336;
+  background: #f83325;
   width: 21%;
   height: 51%;
   margin: auto;
@@ -2244,12 +2506,14 @@ opacity: 90%;
   padding: 1.5px;
   text-align: center;
   font-weight: bolder;
-}.card2:hover{
-  background-color: rgb(252, 129, 150);
-  cursor: pointer;
+  transition: 0.3s ease-in;
+}
+.card2:hover{
+  background-color: rgb(20, 255, 204);
+  cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
 }
 .card3{
-  background: #8BC34A;
+  background: #9ce945;
   width: 21%;
   height: 51%;
   margin: auto;
@@ -2260,9 +2524,48 @@ opacity: 90%;
   padding: 1.5px;
   text-align: center;
   font-weight: bolder;
-}.card3:hover{
-  background-color: rgb(179, 109, 179);
-  cursor: pointer;
+  transition: 0.3s ease-in;
+}
+.card3:hover{
+  background-color: rgb(221, 78, 221);
+  cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
+}
+
+
+.info_img1{
+  background-image: url(https://cdn.discordapp.com/attachments/846203619015393333/846210096995893298/147_20210523175627.png);
+  width: 80%;
+  height: 70%;
+  margin: auto;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  border-radius: 10%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  transition: 0.2s ease-in;
+}
+.info_img1:hover{
+  opacity: 0;
+  transform: rotateX(30deg);
+}
+#sunglasses{
+  background-image: url(https://cdn.discordapp.com/attachments/846203619015393333/846210097344544788/147_20210523192523.png);
+  width: 80%;
+  height: 70%;
+  margin: auto;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: contain;
+  animation-name: move;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes move{
+  0% {transform: rotate(-10deg); left: 5%; top: -20%;}
+  33.33% {transform: rotate(0deg); left: 20%; top: 20%;}
+  66.66% {transform: rotate(20deg); left: 50%; top: 0%;}
+  100% {transform: rotate(-10deg); left: 5%; top: -20%;}
 }
 .info1{
   background: white;
@@ -2277,6 +2580,64 @@ opacity: 90%;
   text-align: left;
   font-weight: bolder;
 }
+
+
+.info_img2{
+  background-image: url(https://cdn.discordapp.com/attachments/846203619015393333/846209418504568882/148_20210523205315.png);
+  width: 80%;
+  height: 70%;
+  margin: auto;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  border-radius: 10%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  transition: 0.2s ease-in;
+}
+.info_img2:hover{
+  opacity: 0;
+  transform: rotateX(30deg);
+}
+#chart2{
+  background-image: url(https://cdn.discordapp.com/attachments/846203619015393333/846209418684006431/148_20210523212744.png);
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  position: absolute;
+  top: 5%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  animation-name: down;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes down{
+  0% {top: 0%; opacity: 0;}
+  25% {top: 3%; opacity: 1}
+  50% {top: 3%; opacity: 1;}
+  75% {top: 0%; opacity: 0;}
+  100% {top: 0%; opacity: 0;}
+}
+#chart3{
+  background-image: url(https://cdn.discordapp.com/attachments/846203619015393333/846209418920329226/148_20210523212747.png);
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: contain;
+  animation-name: down2;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes down2{
+  0% {top: 0%; opacity: 0;}
+  25% {top: 0%; opacity: 0;}
+  50% {top: 3%; opacity: 1;}
+  60% {top: 3%; opacity: 1;}
+  100% {top: 0%; opacity: 0;}
+}
 .info2{
   background: white;
   width: 80%;
@@ -2285,10 +2646,104 @@ opacity: 90%;
   position: absolute;
   top: 10%;
   left: 10%;
-  border-radius: 15%;
+  border-radius: 10%;
   padding: 5%;
   text-align: left;
   font-weight: bolder;
+}
+
+.info_img3{
+  background-image: url(https://cdn.discordapp.com/attachments/846203619015393333/846207061086699551/149_20210523231806.png);
+  width: 80%;
+  height: 70%;
+  margin: auto;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  border-radius: 10%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  transition: 0.2s ease-in;
+}
+.info_img3:hover{
+  opacity: 0;
+  transform: rotateX(30deg);
+}
+#mouse{
+  background-image: url(https://cdn.discordapp.com/attachments/846203619015393333/846207061267316756/149_20210523230123.png);
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: contain;
+  animation-name: moving;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes moving{
+  0% {top: 0%;}
+  25% {top: 7%;}
+  50% {top: 15%;}
+  60% {top: 8%;}
+  100% {top: 0%;}
+}
+#pic1{
+  background-image: url(https://cdn.discordapp.com/attachments/846203619015393333/846207061414510602/149_20210524083925.png);
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: contain;
+  animation-name: picture1;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes picture1{
+  0% {opacity: 1;}
+  25% {opacity: 0;}
+  50% {opacity: 0;}
+  60% {opacity: 0;}
+  100% {opacity: 1;}
+}
+#pic2{
+  background-image: url(https://cdn.discordapp.com/attachments/846203619015393333/846207061859893258/149_20210524083944.png);
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: contain;
+  animation-name: picture2;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes picture2{
+  0% {opacity: 0;}
+  25% {opacity: 1;}
+  50% {opacity: 0;}
+  60% {opacity: 1;}
+  100% {opacity: 0;}
+}
+#pic3{
+  background-image: url(https://cdn.discordapp.com/attachments/846203619015393333/846207062102900736/149_20210524084001.png);
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: contain;
+  animation-name: picture3;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes picture3{
+  0% {opacity: 0;}
+  25% {opacity: 0;}
+  50% {opacity: 1;}
+  60% {opacity: 0;}
+  100% {opacity: 0;}
 }
 .info3{
   background: white;
@@ -2298,11 +2753,13 @@ opacity: 90%;
   position: absolute;
   top: 10%;
   left: 10%;
-  border-radius: 30px;
+  border-radius: 10%;
   padding: 5%;
   text-align: left;
   font-weight: bolder;
 }
+
+
 #txt1{
   font-size: 1.5vw;
   color:yellow;
@@ -2335,16 +2792,6 @@ opacity: 90%;
   text-align:center;
   position: absolute;
 }
-.factory{
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  background-image: url(https://scontent.fbkk21-1.fna.fbcdn.net/v/t1.15752-9/175825399_776595869709734_1692235766279488934_n.png?_nc_cat=108&ccb=1-3&_nc_sid=ae9488&_nc_eui2=AeGJFpmUzSA3mHv2awpSsxgvBnVy_tlH1r4GdXL-2UfWvrr69XwSDj4qwZghtmmDHkOX_QLdnFS8jPekWaAlYCIk&_nc_ohc=lG3fIOiznOMAX9GQ7J1&_nc_ht=scontent.fbkk21-1.fna&oh=7d0253fe2ea23c480e762f380f17bad8&oe=60CB9919);
-  background-repeat: no-repeat;
-  background-position: bottom;
-  background-size: contain;
-}
 .a_cloud{
   position: absolute;
 }
-
