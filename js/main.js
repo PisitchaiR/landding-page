@@ -1,3 +1,14 @@
+var isMobile =
+  Math.min(window.screen.width, window.screen.height) < 768 ||
+  navigator.userAgent.indexOf("Mobi") > -1;
+console.log(isMobile);
+if (isMobile) {
+  document.body.innerHTML = "";
+  document.body.innerHTML = `<div class="modal">
+  This website can't run on mobile and tablet please open on desktop
+</div>`;
+    document.body.setAttribute('class', 'position');
+} else {
 //  dot nav don't config
 const dotNav = (elem, easing) => {
     function scrollIt(destination, duration = 200, easing = 'linear', callback) {
@@ -54,9 +65,9 @@ const dotNav = (elem, easing) => {
             for (let i = 0; i < allElements.length; i++) {  //  loop through the sections
                 let viewportOffset = allElements[i].getBoundingClientRect();  //  returns the size of an element and its position relative to the viewport
                 let top = viewportOffset.top;  //  get the offset top
-                if(top < windowHeight){  //  if the top offset is less than the window height
+                if (top < windowHeight) {  //  if the top offset is less than the window height
                     allElements[i].classList.add('in-viewport');  //  add the class
-                } else{
+                } else {
                     allElements[i].classList.remove('in-viewport');  //  remove the class
                 }
             }
@@ -110,11 +121,12 @@ const dotNav = (elem, easing) => {
         document.getElementById('dot-' + a).classList.add('active');
     }
     dotActive();
-    window.onscroll = function(){ dotActive(); };
+    window.onscroll = function () { dotActive(); };
 
     //  click stuff
 
     const scrollMe = (e) => {
+        console.log(e)
         let anchor = e.currentTarget.dataset.sec;
         scrollIt(document.querySelector('.section-' + anchor), scrollSpeed, easing);
         e.preventDefault();
@@ -122,11 +134,83 @@ const dotNav = (elem, easing) => {
 
     allDots = document.getElementsByClassName('dots');
     for (let i = 0; i < allDots.length; i++) {
+        console.log(allDots[i])
         allDots[i].addEventListener('click', scrollMe);
     }
-
 }
 
 dotNav('section', 'easeInOutCubic');
 
 // part of work or extension
+// page8
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+    showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    if (n > x.length) { slideIndex = 1 }
+    if (n < 1) { slideIndex = x.length };
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+    }
+    x[slideIndex - 1].style.display = "block";
+}
+
+window.onscroll = function () {
+    console.log(document.body.scrollTop)
+    console.log(document.documentElement.scrollTop)
+    scrollFunction()
+    scrollFunction2()
+    scrollGraph()
+};
+
+
+function scrollFunction() {
+    if (document.documentElement.scrollTop > 200) {
+        document.getElementById("head1").style.top = 5 + '%'
+        document.getElementById("head1").style.top = 0 + '%'
+        document.getElementById("head1").style.opacity = 100 + '%'
+    } else {
+        document.getElementById("head1").style.top = 10 + '%'
+        document.getElementById("head1").style.opacity = 5 + '%'
+    }
+}
+function scrollFunction2() {
+    if (document.documentElement.scrollTop > 2300) {
+        document.getElementById("heading1").style.top = 5 + '%'
+        document.getElementById("heading1").style.top = 0 + '%'
+        document.getElementById("heading1").style.opacity = 100 + '%'
+    } else {
+        document.getElementById("heading1").style.top = 10 + '%'
+        document.getElementById("heading1").style.opacity = 5 + '%'
+    }
+}
+
+function scrollGraph() {
+    if (document.documentElement.scrollTop > -10) {
+        document.getElementById("line").style.height = 9 + '%'
+        document.getElementById("line").style.top = 57 + '%'
+        document.getElementById("line1").style.height = 14 + '%'
+        document.getElementById("line1").style.top = 52 + '%'
+        document.getElementById("line2").style.height = 10 + '%'
+        document.getElementById("line2").style.top = 56 + '%'
+        document.getElementById("line3").style.height = 18 + '%'
+        document.getElementById("line3").style.top = 48 + '%'
+
+    } else {
+        document.getElementById("line").style.height = 5 + '%'
+        document.getElementById("line").style.top = 62 + '%'
+        document.getElementById("line1").style.height = 5 + '%'
+        document.getElementById("line1").style.top = 62 + '%'
+        document.getElementById("line2").style.height = 5 + '%'
+        document.getElementById("line2").style.top = 62 + '%'
+        document.getElementById("line3").style.height = 5 + '%'
+        document.getElementById("line3").style.top = 62 + '%'
+    }
+}
+}

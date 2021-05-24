@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@300&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@100&display=swap%27');
 @font-face {
   font-family: fc-minimal-bold-italic;
   src: url(FC-Minimal/FC_Minimal_Bold_Italic.ttf);
@@ -12,7 +13,24 @@
 }
 
 *{
-  font-family: 'Mitr', sans-serif;
+  font-family: 'Sarabun', sans-serif;
+
+}
+
+.position {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.modal {
+  box-sizing: border-box;
+  margin: auto;
+  width: 60vw;
+  z-index: 999;
+  font-size: 3em;
 }
 
 html {
@@ -21,6 +39,7 @@ html {
 
 body {
   margin: 0;
+  overflow-x: hidden;
 }
 
 article,
@@ -33,7 +52,7 @@ section {
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 2vw;
   margin: 0.67em 0;
 }
 
@@ -292,9 +311,18 @@ nav#dot-nav.red a:first-child {
 
 /* section button */
 
+.img-joy {
+  float: right;
+  margin: auto;
+  background-image: url("../img/joy.png");
+  background-size: cover;
+  width: 3em;
+  height: 3em;
+}
+
 .content {
-  --def: #000000;
-	--inv: rgb(0, 0, 0);
+  --def: black;
+	--inv: white;
   overflow: hidden;
   height: 100vh;
   position: relative;
@@ -304,24 +332,29 @@ nav#dot-nav.red a:first-child {
   position: absolute;
   right: 10px;
   bottom: 15px;
+  display: flex;
+  flex-direction: row;
 }
 
 .btn {
+  display: flex;
+  flex-direction: row;
   z-index: 999;
 	position: relative;
 	padding: 1rem 3rem;
 	font-size: 1rem;
 	color: var(--inv);
-	letter-spacing: 0.8rem;
+	letter-spacing: 0.3rem;
 	text-transform: uppercase;
 	transition: all 500ms cubic-bezier(0.77, 0, 0.175, 1);
-	cursor: pointer;
+	cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
 	user-select: none;
 }
 
 .btn a{
+  margin: auto 0;
   text-decoration: none;
-  color: rgb(0, 0, 0)
+  color: white;
 }
 
 .btn:before,
@@ -334,7 +367,7 @@ nav#dot-nav.red a:first-child {
 
 .btn:hover a{
   z-index: 999;
-	color: rgb(255, 255, 255);
+	color: black;
 	transition-delay: 0.5s;
 }
 
@@ -386,3 +419,2426 @@ nav#dot-nav.red a:first-child {
 
 /* section style page */
 
+/* section 1 */
+.spann{
+  color: black;
+  font-family: 'Mitr',sans-serif;
+  -webkit-animation-name: chcolor;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  -webkit-animation-play-state: active;  
+}
+@-webkit-keyframes chcolor
+{
+  100%{color:whitesmoke;}
+}
+.contain1{
+  width: 100%;
+  height: 100%;
+  background-color: #f8f8f8;
+  position: relative;
+  overflow: hidden;
+}
+.bus{
+  position: absolute;
+  bottom: -12%;
+  width: 40%;
+  height: 50%;
+  z-index: 2;
+  animation: gogo 15s infinite alternate-reverse;
+  transition: 15s;
+}@keyframes gogo{
+  0%{transform: translateX(1500px) translateY(2px);}
+  100%{transform: translateX(-10px) translateY(2px);}
+}
+.smokel2{
+  width: 20%;
+ height: 25%;
+ position: absolute;
+ bottom: -5%;
+ left:-5%;
+ transform: rotate(230deg);
+ animation:smokee 2s infinite alternate;
+ z-index: 2;
+ animation: smokee 15s infinite alternate-reverse;
+  transition: 15s;
+}
+@keyframes smokee{
+ 0%{opacity: 20%;transform: translateX(1500px) translateY(2px) rotate(230deg);}
+ 25%{opacity: 25%;}
+ 50%{opacity: 50%;}
+ 75%{opacity: 80%;}
+ 100%{opacity: 100%;transform: translateX(-10px) translateY(2px) rotate(230deg) scale(1.1);}
+}
+
+.goon{
+  text-decoration: none;
+  position: absolute;
+  top: 53%;
+  left: 49.2%;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #fc5656;
+  color: white;
+  z-index: 10;
+  font-family: 'Mitr', sans-serif;
+  font-size: 1.5vw;
+  width: 8%;
+  text-align: center;
+  font-weight: bold;
+  cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
+  transition-duration: 0.3s;
+}
+.goon:hover{
+  transform: scale(1.3);
+}
+.headex{
+  position: absolute;
+  color: white;
+  top: 8%;
+  left: 37%;
+  text-align: center;
+  font-size: 4vw;
+  font-weight: bold;
+  z-index: 10;
+  font-family: 'Mitr', sans-serif;
+}
+.headex1{
+  position: absolute;
+  color: rgb(250, 250, 250);
+  top: 29%;
+  left: 37%;
+  text-align: center;
+  font-size:2vw;
+  font-weight: bold;
+  z-index: 10;
+  font-family: 'Mitr', sans-serif;
+}
+#colortxt{
+  position: absolute;
+  color: rgb(216, 66, 66);
+  top: 12.5%;
+  left: 37%;
+  text-align: center;
+  font-size: 3.5vw;
+  font-weight: bold;
+  z-index: 10;
+  font-family: 'Mitr', sans-serif;
+}
+.kwan{
+  position: absolute;
+  top: -7%;
+  left: 16%;
+  width: 55%;
+  height: 65%;
+  opacity: 80%;
+}
+.mek1{
+  position: absolute;
+  top: 0%;
+  left: -10%;
+  width: 30%;
+  height: 40%;
+  z-index: 10;
+  animation: loya 1.5s infinite alternate-reverse;
+}@keyframes loya{
+  0%{transform: translateX(30px) translateY(2px);}
+  100%{transform: translateX(10px) translateY(2px);}
+}
+.mek2{
+  position: absolute;
+  top: 30%;
+  right: -15%;
+  width: 40%;
+  height: 50%;
+  z-index: 10;
+  animation: loya1 1.5s infinite alternate-reverse;
+}@keyframes loya1{
+  0%{transform: translateX(30px) translateY(2px);}
+  100%{transform: translateX(10px) translateY(2px);}
+}
+.mek3{
+  position: absolute;
+  top: -10%;
+  right: 2%;
+  width: 35%;
+  height: 45%;
+  z-index: 10;
+  animation: loya2 1.5s infinite alternate-reverse;
+}@keyframes loya2{
+  0%{transform: translateX(30px) translateY(2px);}
+  100%{transform: translateX(10px) translateY(2px);}
+}
+.kwan2{
+  position: absolute;
+  top: -100%;
+  left: 0;
+  width: 100%;
+  opacity: 30%;
+
+
+}
+.bgpage1{
+  width: 100%;
+  height: 99%;
+  top:-7%;
+  position: absolute;
+  z-index: 2;
+}
+.road{
+  width: 100%;
+  height: 15%;
+  background-color: #a39f9f;
+  position: absolute;
+  bottom: 0%;
+}
+.road-line1{
+  width: 75px;
+  height: 20px;
+  background-color: #2b2a2a;
+  position: absolute;
+  bottom: 3%;
+  left: 20px;
+}
+.road-line2{
+  width: 75px;
+  height: 20px;
+  background-color: #2b2a2a;
+  position: absolute;
+  bottom: 3%;
+  left: 150px;
+}
+.road-line3{
+  width: 75px;
+  height: 20px;
+  background-color: #2b2a2a;
+  position: absolute;
+  bottom: 3%;
+  left: 280px;
+}
+.road-line4{
+  width: 75px;
+  height: 20px;
+  background-color: #2b2a2a;
+  position: absolute;
+  bottom: 3%;
+  left: 410px;
+}
+.road-line5{
+  width: 75px;
+  height: 20px;
+  background-color: #2b2a2a;
+  position: absolute;
+  bottom: 3%;
+  left: 540px;
+}
+.road-line6{
+  width: 75px;
+  height: 20px;
+  background-color: #2b2a2a;
+  position: absolute;
+  bottom: 3%;
+  left: 670px;
+}
+.road-line7{
+  width: 75px;
+  height: 20px;
+  background-color: #2b2a2a;
+  position: absolute;
+  bottom: 3%;
+  left: 800px;
+}
+.road-line8{
+  width: 75px;
+  height: 20px;
+  background-color: #2b2a2a;
+  position: absolute;
+  bottom: 3%;
+  left: 930px;
+}
+.road-line9{
+  width: 75px;
+  height: 20px;
+  background-color: #2b2a2a;
+  position: absolute;
+  bottom: 3%;
+  left: 1060px;
+}
+.road-line10{
+  width: 75px;
+  height: 20px;
+  background-color: #2b2a2a;
+  position: absolute;
+  bottom: 3%;
+  left: 1190px;
+}
+.road-line11{
+  width: 75px;
+  height: 20px;
+  background-color: #2b2a2a;
+  position: absolute;
+  bottom: 3%;
+  left: 1320px;
+}
+.road-line12{
+  width: 75px;
+  height: 20px;
+  background-color: #2b2a2a;
+  position: absolute;
+  bottom: 3%;
+  left: 1450px;
+}
+
+.titlepage1{
+  width: 10%;
+  height: 10%;
+  background-image: url(../img/ควันหลง.png);
+  position: absolute;
+  top: 20%;
+  z-index: 9999;
+}
+/* section 2 */
+.bg2{
+  width: 100%;
+  height: 100%;
+  background-color: #303955;
+  position: relative;
+}
+.hair{
+  width: 40%;
+  height: 50%;
+  position: absolute;
+  top: 40%;
+  left: 10%;
+}.hair:hover{
+  transform: scale(1.2);
+cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;}
+.boxhair{
+  padding: 12px;
+  border-radius: 20px;
+  color: white;
+  font-size: 1.1vw;
+  background-color: #00a99d;
+  position: absolute;
+  top: 80%;
+  left: 20%;
+}
+.dust2{
+  border-radius: 50px;
+  width: 12.5%;
+  height: 25%;
+  position: absolute;
+  top: 55%;
+  right: 10%
+}.dust2:hover{
+  transform: scale(1.2);
+  background-color: #525d7e;
+  opacity: 80%;
+cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;}
+.sand{
+  width: 11vw;
+  height: 13vw;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+}.sand:hover{
+  transform: scale(1.2);
+
+cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;}
+.boxsand{
+  padding: 12px;
+  border-radius: 20px;
+  color: white;
+  font-size: 1.1vw;
+  background-color: #00a99d;
+  position: absolute;
+  top: 80%;
+  left: 53%;
+}
+.dust10{
+  border-radius: 50px;
+  width: 10%;
+  height: 20%;
+  position: absolute;
+  top: 75%;
+  right: 25%;
+}.dust10:hover{
+  transform: scale(1.2);
+  background-color: #525d7e;
+  opacity: 80%;
+cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;}
+#titlepm{
+  border-radius: 40px;
+  top: 5%;
+  border: 5px solid rgb(197, 195, 195);
+  background-color: #252525;
+  padding: 30px;
+  color: #91918d;
+  font-size: 3vw;
+  position: absolute;
+  left: 5%;
+  font-family: 'Mitr', sans-serif;
+}
+.whatdust{
+  color: red;
+  font-family: 'Mitr', sans-serif;
+}
+.squard{
+  width: 20%;
+  height: 10px;
+  background-color: rgba(0, 0, 0, 0.74);
+  position: absolute;
+  top: 57%;
+  left: 40%;
+}
+.textdust{
+  color: #f2f2f2;
+  font-size: 1.5vw;
+  top: 35%;
+  left: 23%;
+  text-align: center;
+  position: absolute;
+}
+/* section 3 */
+#page3{
+  background: #D6D6D6;
+}
+@keyframes loy {
+        0% {
+            left: 0%;
+            bottom: 0%;
+        }
+
+        50% {
+            left: -5%;
+            bottom: 0%;
+        }
+
+        100% {
+            left: 0%;
+            bottom: 0%;
+        }
+
+    }
+
+    @keyframes loy1 {
+        0% {
+            right: 0%;
+        }
+
+        50% {
+            right: -5%;
+        }
+
+        100% {
+            right: 0%;
+        }
+
+    }
+
+    .ddust3 {
+        position: absolute;
+        width: 80%;
+        height: 60%;
+        bottom: 0%;
+        left: -10%;
+        opacity: 60%;
+        z-index: 0;
+        animation: loy 5s infinite alternate;
+
+    }
+@keyframes movee{
+  100%{transform: translate(20px);}
+}
+.top-yoi{
+  position: absolute;
+  width: 100%;
+  height: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image:url(../img/ย้อย.png);
+}
+#all-pic-page3{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  /* border: 2px solid red; */
+}
+.photobot{
+  position: absolute;
+  width: 40%;
+  height: 20%;
+  bottom: -0.5%;
+  right: -2%;
+  opacity: 60%;
+  overflow: hidden;
+
+  /* border: 2px solid red; */
+}
+.topic{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: absolute;
+  top: 10%;
+  width: 25%;
+  height: 40%;
+  left: 2%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(../img/หัวข้อ.png);
+}
+.text-cause{
+  color:rgb(220, 217, 217);
+  font-size: 2vw;
+  font-weight: 600;
+  font-family: 'Mitr', sans-serif;
+}
+.p3-icon{
+  width: 15%;
+  height: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  /* border: 1px solid black; */
+}
+.text-icon{
+  color: #2F3854;
+  font-size: 1.5vw;
+  font-weight: 700;
+  text-align: center;
+
+}
+.bg-icon{
+  width: 80%;
+  height: 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: 20;
+}
+.transport{
+  background-image: url(../img/คมนาคม.png);
+}.transport:hover{
+  transform: scale(1.3);
+  cursor: url(https://cur.cursors-4u.net/toons/too-10/too1026.cur), auto !important;
+}
+.electric{
+  background-image: url(../img/ไฟ.png);
+}.electric:hover{
+  transform: scale(1.3);
+  cursor: url(https://cur.cursors-4u.net/toons/too-10/too1026.cur), auto !important;
+}
+.burn{
+  background-image: url(../img/เผา.png);
+}.burn:hover{
+  transform: scale(1.3);
+  cursor: url(https://cur.cursors-4u.net/toons/too-10/too1026.cur), auto !important;
+}
+.indust{
+  background-image: url(https://cdn.discordapp.com/attachments/798606239537954816/845967181195640852/7771805b009d5ba6.png);
+}.indust:hover{
+  transform: scale(1.3);
+  cursor: url(https://cur.cursors-4u.net/toons/too-10/too1026.cur), auto !important;
+}
+.dust{
+  width: 40%;
+  height: 70%;
+  position: absolute;
+  left: -10%;
+  background-position:right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  transform: rotate(90deg);
+  background-image: url(/img/ละออง.png);
+}
+.one-i{
+  top: 5%;
+  left: 50%;
+}
+.two-i{
+  top: 35%;
+  left: 25%;
+}
+.three-i{
+  top: 35%;
+  left: 75%;
+}
+.four-i{
+  top: 55%;
+  left: 50%;
+}
+/* section 4 */
+#page4{
+  position: relative;
+  background-color: #d7d7d7;
+}
+.background{
+  background-color: #d7d7d7;
+}
+
+.box_1{
+  width: 13%;
+  height: 35%;
+  top: 70%;
+  position: absolute;
+  left: 0;
+  background: #050708;
+}
+.box_2{
+  width: 15%;
+  height: 35%;
+  top: 65%;
+  position: absolute;
+  right: 0;
+  background: #050708;
+}
+.human{
+  width: 75%;
+  height: 99%;
+  top: 2.5%;
+  position: absolute;
+  left: 11%;
+
+}
+@keyframes loy2 {
+        0% {
+            left: 0%;
+            top: -0.1%;
+        }
+
+        50% {
+            left: -5%;
+            top: -0.1%;
+        }
+
+        100% {
+            left: 0%;
+            top: -0.1%;
+        }
+
+    }
+
+    @keyframes loy3 {
+        0% {
+            right: 0%;
+        }
+
+        50% {
+            right: -5%;
+        }
+
+        100% {
+            right: 0%;
+        }
+
+    }
+
+    .l_cloud {
+        position: absolute;
+        width: 80%;
+        height: 100%;
+        top: -0.1%;
+        left: -10%;
+        opacity: 60%;
+        z-index: 0;
+        animation: loy2 5s infinite alternate;
+
+    }
+
+    .r_cloud {
+        width: 35%;
+        height: 35%;
+        position: absolute;
+        right: 0;
+
+    }
+.txt_head{
+  font-size: 3vw;
+  position: absolute;
+  top: 1.5%;
+  left: 5%;
+  font-family: 'Mitr', sans-serif;
+  font-weight: bold;
+  z-index: 2;
+}
+
+.eye{
+  position: absolute;
+  top: 14%;
+  left: 21%;
+  font-weight: bold;
+}
+
+.nose{
+  position: absolute;
+  top: 27%;
+  left: 18.5%;
+  font-weight: bold;
+}
+
+.heart{
+  position: absolute;
+  top: 45%;
+  left: 20%;
+  font-weight: bold;
+}
+
+.lung{
+  position: absolute;
+  top: 67.5%;
+  left: 21%;
+
+}
+
+.hand{
+  position: absolute;
+  top: 85.5%;
+  left: 21%;
+}
+
+.brain{
+  position: absolute;
+  top: -2%;
+  right: 14%;
+  font-weight: bold;
+}
+
+.steam{
+  position: absolute;
+  top: 20%;
+  right: 10.5%;
+  font-weight: bold;
+}
+
+.eight{
+  position: absolute;
+  top: 38%;
+  right: 16%;
+  font-weight: bold;
+}
+
+.nine{
+  position: absolute;
+  top: 86%;
+  right: 10%;
+}
+
+.white{
+  color: white;
+  z-index: 2;
+}
+
+.p4-icon{
+  font-size: 1.5em;
+}
+@keyframes o2 {
+        0% {
+            box-shadow: 0px 0px 5px 5px red;
+            background: #f72285;
+        }
+
+        50% {
+            box-shadow: 0px 0px 5px 5px rgb(250, 246, 20);
+            background: #f79b22;
+        }
+
+        100% {
+            box-shadow: 0px 0px 5px 5px red;
+            background: #f72285;
+        }
+
+    }
+
+    .crown1 {
+        position: absolute;
+        width: 0.5%;
+        height: 0.9%;
+        top: 16%;
+        left: 44.5%;
+        border-radius: 100%;
+        background: #f72285;
+        box-shadow: 0px 0px 5px 5px red;
+        animation: o2 5s infinite;
+    }
+
+    .crown2 {
+        position: absolute;
+        width: 0.5%;
+        height: 0.9%;
+        top: 23%;
+        left: 51%;
+        border-radius: 100%;
+        background: #f72285;
+        box-shadow: 0px 0px 5px 5px red;
+        animation: o2 5s infinite;
+    }
+
+    .crown3 {
+        position: absolute;
+        width: 0.5%;
+        height: 0.9%;
+        top: 36%;
+        left: 49.8%;
+        border-radius: 100%;
+        background: #f72285;
+        box-shadow: 0px 0px 5px 5px red;
+        animation: o2 5s infinite;
+    }
+
+    .crown4 {
+        position: absolute;
+        width: 0.5%;
+        height: 0.9%;
+        top: 42%;
+        left: 44.8%;
+        border-radius: 100%;
+        background: #f72285;
+        box-shadow: 0px 0px 5px 5px red;
+        animation: o2 5s infinite;
+    }
+
+    .crown5 {
+        position: absolute;
+        width: 0.9%;
+        height: 1.3%;
+        top: 64%;
+        left: 43%;
+        border-radius: 100%;
+        background: #f72285;
+        box-shadow: 0px 0px 5px 5px red;
+        animation: o2 5s infinite;
+    }
+
+    .crown6 {
+        position: absolute;
+        width: 0.9%;
+        height: 1.3%;
+        top: 79%;
+        left: 41%;
+        border-radius: 100%;
+        background: #f72285;
+        box-shadow: 0px 0px 5px 5px red;
+        animation: o2 5s infinite;
+    }
+
+    .crown7 {
+        position: absolute;
+        width: 0.9%;
+        height: 1.3%;
+        top: 69%;
+        left: 51.5%;
+        border-radius: 100%;
+        background: #f72285;
+        box-shadow: 0px 0px 5px 5px red;
+        animation: o2 5s infinite;
+    }
+
+    .crown8 {
+        position: absolute;
+        width: 0.9%;
+        height: 1.3%;
+        top: 81%;
+        left: 52%;
+        border-radius: 100%;
+        background: #f72285;
+        box-shadow: 0px 0px 5px 5px red;
+        animation: o2 5s infinite;
+    }
+
+/* section 5 */
+#page5{
+  height: 200vh;
+  background: #D6D6D6;
+}
+#all-pic-page5{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.top-yoi-5{
+  width: 100%;
+  height: 55%;
+  position: absolute;
+  background-image: url(https://media.discordapp.net/attachments/811559839196119040/844847733172862976/5555.png?width=827&height=405);
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: 4;
+}
+.text-title-page5{
+  color: white;
+  position: relative;
+  top: 8%;
+  left: 8%;
+  z-index: 4;
+}
+.text-risk,
+.text-red{
+  font-size: 3.5vw;
+  font-weight: 600;
+  line-height: 4.5vw;
+  font-family: 'Mitr', sans-serif;
+}
+.text-red{
+  color: red;
+  display: inline;
+}
+.map-page5{
+  left: 40%;
+  width: 45%;
+  height: 80%;
+  position: absolute;
+  background-image: url(../img/ประเทศไทย.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: 4;
+  
+}
+.location-page5{
+  width: 8%;
+  height: 9%;
+  color: white;
+  font-size: 1.5vw;
+  font-weight: 600;
+  position: absolute;
+  background-image: url(../img/location.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-align: center;
+  z-index: 5;
+}
+.location-page5:hover{
+  transform: scale(1.3);
+  cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
+}
+.lo_yellow{
+  width: 10%;
+  height: 11%;
+  color: white;
+  font-size: 1.5vw;
+  font-weight: 600;
+  position: absolute;
+  background-image: url("https://cdn.discordapp.com/attachments/798606239537954816/845740865602846750/lo2.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-align: center;
+  z-index: 5;
+}
+
+#lo1{
+  animation: move1 0.5s infinite alternate-reverse;
+}@keyframes move1{
+  0% {top: 13.5%;}
+  100%{top: 14%;}
+}
+#lo2{
+  animation: move2 0.5s infinite alternate-reverse;
+}@keyframes move2{
+  0% {top: 9.5%;}
+  100%{top: 10%;}
+}
+#lo3{
+  animation: move3 0.5s infinite alternate-reverse;
+}@keyframes move3{
+  0% {top: 22.5%;}
+  100%{top: 23%;}
+}
+#lo4{
+  animation: move4 0.5s infinite alternate-reverse;
+}@keyframes move4{
+  0% {top: 26.5%;}
+  100%{top: 27%;}
+}
+#lo5{
+  animation: move5 0.5s infinite alternate-reverse;
+}@keyframes move5{
+  0% {top: 41.5%;}
+  100%{top: 42%;}
+}
+#lo6{
+  animation: move6 0.5s infinite alternate-reverse;
+}@keyframes move6{
+  0% {top: 35.5%;}
+  100%{top: 36%;}
+}
+#lo7{
+  animation: move7 0.5s infinite alternate-reverse;
+  z-index: 20;
+}@keyframes move7{
+  0% {top: 44.5%;}
+  100%{top: 45%;}
+}
+.all-block{
+  top: 75%;
+  left: 5%;
+  position: relative;
+  width: 30%;
+  height: 30%;
+}
+.block-page5{
+  padding: 10% 13% 10%;
+  display: inline;
+  position: relative;
+  z-index: 5;
+}
+.dust-page5{
+  bottom: 0;
+  width: 110%;
+  height: 100%;
+  position: absolute;
+  background-image: url(../img/ฝุ่น.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: 1;
+}
+.all-block{
+  top: 77%;
+  left: 5%;
+  position: relative;
+  width: 50%;
+  height: 30%;
+}
+.block-page5{
+  width: 2%;
+  height: 2%;
+  padding: 5% 8% 5%;
+  display: inline;
+  position: relative;
+  z-index: 5;
+}
+.txt-ruless{
+  color: #111827;
+  top: -11%;
+  position: absolute;
+  font-size: 1.3vw;
+  font-weight: 700;
+  z-index: 5;
+}
+.dust-page5{
+  bottom: 0;
+  width: 110%;
+  height: 100%;
+  position: absolute;
+  background-image: url(../img/ฝุ่น.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+}
+/* section 6 */
+#page6{
+  background-image:linear-gradient(#cab5f0,#689de1,#689de1,#e3f9fd);
+  position: relative;
+  overflow: hidden;
+}
+@keyframes color {
+        0% {
+            background-color: #14c7de;
+        }
+
+        5% {
+            background-color: rgb(54, 204, 209);
+        }
+
+        10% {
+            background-color: rgb(53, 162, 235);
+        }
+
+        15% {
+            background-color: rgb(15, 96, 218);
+        }
+
+        20% {
+            background-color: rgb(42, 103, 196);
+        }
+
+        25% {
+            background-color: rgb(53, 162, 235);
+        }
+
+        30% {
+            background-color: rgb(54, 204, 209);
+        }
+    }
+
+    @keyframes color1 {
+        0% {
+            background-color: #19b092;
+        }
+
+        5% {
+            background-color: rgb(8, 243, 165);
+        }
+
+        10% {
+            background-color: rgb(9, 136, 115);
+        }
+
+        15% {
+            background-color: rgb(14, 161, 137);
+        }
+
+        20% {
+            background-color: rgb(9, 136, 115);
+        }
+
+        25% {
+            background-color: rgb(8, 243, 165);
+        }
+
+        30% {
+            background-color: #19b092;
+        }
+    }
+
+    @keyframes color2 {
+        0% {
+            background-color: #e79278;
+        }
+
+        5% {
+            background-color: rgb(228, 112, 35);
+        }
+
+        10% {
+            background-color: rgb(212, 77, 14);
+        }
+
+        15% {
+            background-color: rgb(223, 70, 43);
+        }
+
+        20% {
+            background-color: rgb(212, 77, 14);
+        }
+
+        25% {
+            background-color: rgb(228, 112, 35);
+        }
+
+        30% {
+            background-color: #e79278;
+        }
+    }
+
+    @keyframes color3 {
+        0% {
+            background-color: #C7EA46;
+        }
+
+        5% {
+            background-color: rgb(243, 239, 26);
+        }
+
+        10% {
+            background-color: rgb(158, 156, 40);
+        }
+
+        15% {
+            background-color: rgb(185, 197, 10);
+        }
+
+        20% {
+            background-color: rgb(199, 196, 38);
+        }
+
+        25% {
+            background-color: rgb(243, 239, 26);
+        }
+
+        30% {
+            background-color: #C7EA46;
+        }
+    }
+
+.pic{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: absolute;
+  top: 5%;
+  width: 25%;
+  height: 30%;
+  left: 5%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.p1 {
+  
+  font-size: 2vw;
+  color:#fff;
+  font-family: 'Mitr', sans-serif;
+}
+.p2 {
+  
+  font-size: 2vw;
+  color:#000;
+}
+.pot{
+  width: 15%;
+  height: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+}
+.pot1{
+  width: 28%;
+  height: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+}
+.one{
+  top: 15%;
+  left: 33%;
+  color: #5E1914;
+  font-size: 1.5vw;
+  font-weight: 900;
+  text-align: center;
+  font-weight: bold;
+}
+.two{
+  top: 15%;
+  left: 45%;
+  color: #5E1914;
+  font-size: 1.5vw;
+  font-weight: 900;
+  text-align: center;
+  font-weight: bold;
+}
+.three{
+  top: 15%;
+  left: 57%;
+  color: #5E1914;
+  font-size: 1.5vw;
+  font-weight: 900;
+  text-align: center;
+  font-weight: bold;
+}
+.four{
+  top: 15%;
+  left: 69%;
+  color: #5E1914;
+  font-size: 1.5vw;
+  font-weight: 900;
+  text-align: center;
+  font-weight: bold;
+}
+.one1{
+  top: 57%;
+  left: 33%;
+  color: #eee;
+  font-size: 1.5vw;
+  font-weight: 700;
+  text-align: center;
+}
+.two2{
+  top: 57%;
+  left: 45%;
+  color:#eee;
+  font-size: 1.5vw;
+  font-weight: 700;
+  text-align: center;
+}
+.three3{
+  top: 57%;
+  left: 57%;
+  color: #eee;
+  font-size: 1.5vw;
+  font-weight: 700;
+  text-align: center;
+}
+.four4{
+  top: 57%;
+  left: 69%;
+  color: #eee;
+  font-size: 1.5vw;
+  font-weight: 700;
+  text-align: center;
+}
+.context{
+  top:-7.5%;
+  left: 30%;
+  color: #eee;
+  font-size: 1.1vw;
+  font-weight: 900;
+  text-align: center;
+}
+.context1{
+  top:5%;
+  right: 13%;
+  color: #eee;
+  font-size: 1.1vw;
+  font-weight: 900;
+  text-align: center;
+  border: 5px solid rgb(255, 252, 252);
+  height: 15%;
+  width: 55%;
+  padding: 10px;
+  border-radius: 20px;
+}
+.context2{
+  top:-7.5%;
+  left: 63%;
+  color: #eee;
+  font-size: 1.1vw;
+  font-weight: 900;
+  text-align: center;
+}
+.context3{
+  top:4%;
+  right: 13%;
+  color: #eee;
+  font-size: 1.1vw;
+  font-weight: 200;
+  text-align: center;
+}
+.context4{
+  top:14%;
+  right: 13%;
+  color: #eee;
+  font-size: 1vw;
+  font-weight: 700;
+  text-align: center;
+}
+.wordss{
+  top: 58.5%;
+  left: 10.5%;
+  color: #eee;
+  font-size: 1.1vw;
+  font-weight: 700;
+  text-align: center;
+  z-index: 20;
+}
+.rec1{
+    position: absolute;
+    top:93.2%;
+    width:100%;
+    height: 50%;
+    }
+.rec2{
+    position: absolute;
+    top:10%;
+    left: 34%;
+    width:3%;
+    height:5%;
+    border-radius: 1em;
+    background:#fff;
+    }
+.rec2:hover{
+    box-shadow:0px 0px 5px 5px #BABABA;
+    background:#fff;
+    }
+.box4 {
+    position: absolute;
+    top: 35%;
+    width: 3%;
+    height: 30%;
+    border-radius: 1em;
+    background: #fff;
+    left: 39%;
+    box-shadow: 0px 0px 5px 5px #bababa;
+}
+
+    .box1 {
+        position: absolute;
+        top: 35%;
+        width: 3%;
+        height: 30%;
+        border-radius: 1em;
+        background: #fff;
+        left: 51%;
+        box-shadow: 0px 0px 5px 5px #BABABA;
+
+    }
+
+    .box2 {
+        position: absolute;
+        top: 35%;
+        width: 3%;
+        height: 30%;
+        border-radius: 1em;
+        background: #fff;
+        left: 63%;
+        box-shadow: 0px 0px 5px 5px #BABABA;
+    }
+
+    .box3 {
+        position: absolute;
+        top: 35%;
+        width: 3%;
+        height: 30%;
+        border-radius: 1em;
+        background: #fff;
+        left: 75%;
+        box-shadow: 0px 0px 5px 5px #BABABA;
+    }
+
+    #line {
+        position: absolute;
+        width: 5%;
+        border-radius: 1em;
+        background: #14c7de;
+        left: 38%;
+        z-index: 100;
+        animation-name: color;
+        animation-duration: 50s;
+        animation-iteration-count: infinite;
+    }
+
+    #line1 {
+        position: absolute;
+        width: 5%;
+        border-radius: 1em;
+        background: #19b092;
+        left: 50%;
+        z-index: 100;
+        animation-name: color1;
+        animation-duration: 50s;
+        animation-iteration-count: infinite;
+    }
+
+    #line2 {
+        position: absolute;
+        width: 5%;
+        border-radius: 1em;
+        background: #ef5f33;
+        left: 62%;
+        z-index: 100;
+        animation-name: color2;
+        animation-duration: 50s;
+        animation-iteration-count: infinite;
+    }
+
+    #line3 {
+        position: absolute;
+        width: 5%;
+        border-radius: 1em;
+        background: #C7EA46;
+        left: 74%;
+        z-index: 100;
+        animation-name: color3;
+        animation-duration: 50s;
+        animation-iteration-count: infinite;
+    }
+
+.image1 {
+  width: 26%;
+  height: 22%;
+  position: absolute;
+  top: 78%;
+  left: 0%;
+  opacity: 80%;
+  animation-name: loy;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+ }
+.image2 {
+  width: 27.2%;
+  height: 25%;
+  position: absolute;
+  top: 76.5%;
+  right: 0%;
+  opacity: 80%;
+  animation-name: loy1;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;	
+}
+.bgground{
+  position: absolute;
+  width:100%;
+  height:100%;
+  bottom:0%;
+  left:0;
+}
+.sign{
+  position: absolute;
+  width:35%;
+  height:35%;
+  bottom:8%;
+  left:0;
+}
+.caryel{
+   position: absolute;
+  width:30%;
+  height:30%;
+  bottom:-6%;
+  left:18%;
+  animation: yemove 2s infinite alternate;
+}
+@keyframes yemove{
+  100%{transform: translateX(20px) translateY(2px);}
+}
+@keyframes yemove1{
+  0%{transform: rotate(0deg);opacity: 30%;}
+  100%{transform: translateX(20px) translateY(2px) rotate(10deg);opacity: 100%;}
+}
+.carwh{
+   position: absolute;
+  width:30%;
+  height:30%;
+  bottom:-3%;
+  left:42%;
+  animation: whmove 3s infinite alternate;
+  
+}
+.wh1{
+   position: absolute;
+  width:10%;
+  height:10%;
+  bottom:8%;
+  left:44%;
+  z-index: 30;
+  animation: whmove1 3s infinite alternate;
+}
+@keyframes whmove{
+  100%{transform: translateX(30px) translateY(3px);}
+}
+@keyframes whmove1{
+  0%{transform: rotate(0deg);opacity: 30%;}
+  100%{transform: translateX(30px) translateY(3px) rotate(10deg);opacity: 100%;}
+}
+.ye1{
+   position: absolute;
+  width:10%;
+  height:10%;
+  bottom:5%;
+  left:20%;
+  z-index: 30;
+  animation: yemove1 2s infinite alternate;
+}
+.ye2{
+   position: absolute;
+  width:12%;
+  height:12%;
+  bottom:4.5%;
+  left:17%;
+  z-index: 30;
+  animation: yemove1 2s infinite alternate;
+}
+.ye3{
+   position: absolute;
+  width:10%;
+  height:10%;
+  bottom:2%;
+  left:18%;
+  z-index: 30;
+  animation: yemove1 2s infinite alternate;
+}
+/* section 7 */
+#page7{
+  background:#396283;
+  position: relative;
+  overflow: hidden;
+}
+#head1 {
+  border-radius: 50px;
+  background: #b7d2e7;
+  opacity: 60%;
+  position: absolute;
+  left: 3%;
+  padding: 1.5%;
+  width: 35%;
+  height: 20%;
+  text-align: center;
+  font-weight: bolder;
+  font-family: 'Mitr', sans-serif;
+}
+p {
+  font-size: 1.6vw;
+}
+#titlel2 {
+  font-family: 'Mitr', sans-serif;
+}
+#text1 {
+  position: absolute;
+  left: 30%;
+  font-size: 1.3vw;
+  top: 85%;
+  color: #fff;
+  z-index: 20;
+}.img7 {
+  background-image: url(https://media.discordapp.net/attachments/798606239537954816/832127924551286804/10.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 5%;
+  width: 13%;
+  position: absolute;
+  top: 45%;
+  left: 10%;
+}
+.img7:hover{
+  transform: scale(1.2);
+  background-color: rgb(240, 141, 60);
+  cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
+}
+
+.img8 {
+  background-image: url(https://media.discordapp.net/attachments/798606239537954816/832127957828763658/25.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 5%;
+  width: 13%;
+  position: absolute;
+  top: 45%;
+  left: 25%;
+}
+
+.img8:hover{
+  transform: scale(1.2);
+  background-color: rgb(243, 204, 97);
+  cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
+}
+.imge9 {
+  background-image: url(https://cdn.discordapp.com/attachments/798606239537954816/832127962362937354/50.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 5%;
+  width: 13%;
+  
+  position: absolute;
+  top: 45%;
+  right: 10%;
+}.imge9:hover{
+  transform: scale(1.2);
+  background-color: rgb(46, 143, 83);
+  cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
+}
+.black-tang{
+  bottom: 6%;
+  left: 28%;
+  width: 0.7%;
+  height: 9%;
+  background-color: black;
+  position: absolute;
+  z-index: 3;
+}
+
+.img10 {
+  background-image: url(https://cdn.discordapp.com/attachments/798606239537954816/832127960786010132/25-2.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 5%;
+  width: 13%;
+  
+  position: absolute;
+  top: 45%;
+  right: 25%;
+}.img10:hover{
+  transform: scale(1.2);
+  background-color: rgb(73, 170, 86);
+  cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
+}
+#orage {
+  border-radius: 15%;
+  background: #f46d0a;
+  position: absolute;
+  top: 1%;
+  right: 25%;
+  width: 2%;
+  height: 4%;
+}
+#green {
+  border-radius: 15%;
+  background: #aeb42b;
+  position: absolute;
+  top: 1%;
+  right: 22.5%;
+  width: 2%;
+  height: 4%;
+}
+#yellow {
+  border-radius: 15%;
+  background: #ffb300;
+  position: absolute;
+  top: 6%;
+  right: 25%;
+  width: 2%;
+  height: 4%;
+}
+#blue {
+  border-radius: 15%;
+  background: #00796b;
+  position: absolute;
+  top: 6%;
+  right: 22.5%;
+  width: 2%;
+  height: 4%;
+}
+#world1 {
+  font-size: 1.1vw;
+  position: absolute;
+  top: 3%;
+  right: 10%;
+  color: #fff;
+  font-weight: bolder;
+}
+#world2 {
+  font-size: 1.1vw;
+  position: absolute;
+  top: 8%;
+  right: 15.1%;
+  color: #fff;
+  font-weight: bolder;
+}
+#world3 {
+  font-size: 1.5vw;
+  position: absolute;
+  top: 33%;
+  left: 20%;
+  color: #fff;
+  font-weight: bolder;
+}
+#world4 {
+  font-size: 1.5vw;
+  position: absolute;
+  top: 33%;
+  right: 20%;
+  color: #fff;
+  font-weight: bolder;
+}
+#world5 {
+  font-size: 1vw;
+  position: absolute;
+  top: 13%;
+  right: 14.5%;
+  color: #d7d3d3;
+  font-weight: bolder;
+}
+#world6 {
+  font-size: 1vw;
+  position: absolute;
+  top: 55%;
+  left: 15.5%;
+  color: #616161;
+  font-weight: bolder;
+  z-index: 1;
+}
+#world7 {
+  font-size: 1vw;
+  position: absolute;
+  top: 55%;
+  left: 30.6%;
+  color: #616161;
+  font-weight: bolder;
+  z-index: 1;
+}
+#world8 {
+  font-size: 1vw;
+  position: absolute;
+  top: 55%;
+  right: 30.6%;
+  color: #616161;
+  font-weight: bolder;
+  z-index: 1;
+}
+#world9 {
+  font-size: 1vw;
+  position: absolute;
+  top: 55%;
+  right: 15.5%;
+  color: #616161;
+  font-weight: bolder;
+  z-index: 1;
+}
+.photo1 {
+  width: 26%;
+  height: 15%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 80%;
+  animation-name: loy2;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+.photo2 {
+  width: 26%;
+  height: 15%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  opacity: 80%;
+  animation-name: loy3;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+#imgyellow{
+  position: absolute;
+  bottom: -1%;
+  left: 0;
+  width: 100%;
+  height: 28%;
+}
+#rect1{
+  height: 10%;
+  width: 0.5%;
+  bottom: 5.6%;
+  left: 28%;
+  background-color: #000;
+  position: absolute;
+}
+#rect2{
+  height: 4.5%;
+  width: 0.6%;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+}
+/* section 8-*/
+#page8{
+  margin: 0;
+  padding: 0;
+  position:relative;
+  z-index: 0;
+    background-color:#f2c855;
+
+}
+.ground{
+  position: absolute;
+  bottom: -2%;
+  left: 0;
+  width: 45%;
+  height: 5%;
+  background-color: #71c4a3;
+  border-radius: 10px;
+}
+.ground2{
+  position: absolute;
+  bottom: -1%;
+  right:-1%;
+  width: 26%;
+  height: 5%;
+  background-color: #71c4a3;
+  border-radius: 10px;
+  z-index: 10;
+}
+.word{
+  font-size: 3vw;
+  position: absolute;
+  top: -20%;
+  left: 35%;
+  z-index: 1;
+  text-align: center;
+  font-family: 'Mitr', sans-serif;
+}
+.word1{
+  font-size: 3vw;
+  position: absolute;
+  top: -20%;
+  left: 49.5%;
+  color: whitesmoke;
+  z-index: 1;
+  text-align: center;
+  font-family: 'Mitr', sans-serif;
+}
+.box{
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  background-color: #f2c855;
+  width: 100%;
+  height: 12%;
+  z-index: 20;
+}
+.word2{
+  font-size: 2vw;
+  position: absolute;
+  bottom: 1%;
+  left: 35%;
+  z-index: 1;
+  text-align: center;
+  color: #3d3d3c;
+  font-family: 'Mitr', sans-serif;
+}
+.p3bottom{
+position: absolute;
+opacity: 90%;
+  bottom:-5%;
+  left:0%;
+  width: 100%;
+  height: 30%;
+  transform: rotateY(180deg);
+ z-index: -20;
+  		}
+.mySlides{
+	background-size: contain;
+	width: 100%;
+	height:100%;
+  z-index: 0;
+}
+
+#leftbut{
+	background-size: cover;
+	background-image: url('https://cdn.discordapp.com/attachments/798606239537954816/845258336843857940/left.png');
+	position: absolute;
+	top:70.4%;
+	left: 21%;
+	width: 7%;
+	height: 7%;
+  cursor:pointer
+}#leftbut:hover{
+  transform: scale(1.1);
+  background-image: url('https://cdn.discordapp.com/attachments/798606239537954816/845352993049280532/leftch.png');
+cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;}
+#rightbut{
+	background-size: cover;
+	background-image: url('https://cdn.discordapp.com/attachments/798606239537954816/845258365999382558/ri.png');
+	position: absolute;
+	top:70.4%;
+	left: 34.8%;
+	width: 7%;
+	height: 7%;
+  cursor:pointer;
+}#rightbut:hover{
+  transform: scale(1.1);
+  background-image: url('https://cdn.discordapp.com/attachments/798606239537954816/845370321237704734/arrow2.png');
+  opacity: 80%;
+cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;}
+
+
+/* section 9 */
+#page9{
+  position:relative;
+  background-image:linear-gradient(#dee0e3,whitesmoke);
+  z-index: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.img9{
+  width: 100vw;
+  height: 65vh;
+  position: absolute;
+  padding:0;
+  margin: 0;
+  top:0;
+  left:0;
+  z-index: -1;
+}
+.picpeople{
+  width: 30vw;
+  height: 55vh;
+  position: absolute;
+  padding:0;
+  margin: 0;
+  top:38%;
+  left:8%;
+}
+#passage{
+    border-radius: 50px;
+  background: #FF5675;
+  opacity: 0.9;
+  left: 40%;
+  top:23%;
+  width: 46%;
+
+  position: absolute;
+}
+.passage2:hover{
+  cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
+  box-shadow: 0px 0px 30px #50C785 , 0px 0px 30px #50C785;
+   z-index: 200;
+}
+.passage2{
+  position:absolute;
+  top:62%;
+  left: 56.5%;
+  text-align: center;
+  padding:0.5em;
+   width: 7em;
+  border-radius: 30px;
+  background: #54BD54;
+  border: none;
+  color:white;
+  font-size: 1.5vw;
+  font-family: 'Mitr', sans-serif;
+  box-shadow: 0px 0px 10px #50C785;
+  cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
+  z-index: 200;
+}
+.cloud1{
+   width: 100%;
+  height: 80%;
+  position: absolute;
+  bottom: -18%;
+  left: 45%;
+  z-index: 0;
+}
+.cloud{
+  width: 100%;
+  height: 90%;
+  position: absolute;
+  bottom: 0%;
+  left:-32%;
+}
+.smokel{
+   width: 30%;
+  height: 30%;
+  position: absolute;
+  top: 13%;
+  left:-6%;
+  animation:smoke 2s infinite alternate;
+}
+.smokel1{
+   width: 30%;
+  height: 30%;
+  position: absolute;
+  top: 12%;
+  left:17%;
+  animation:smoke 3s infinite alternate;
+}
+@keyframes smoke{
+  0%{opacity: 30%;}
+  100%{opacity: 100%;transform: rotate(5deg)}
+}
+.smoker{
+   width: 60%;
+  height: 60%;
+  position: absolute;
+  top: 19%;
+  left:70%;
+  animation:smoke 2s infinite alternate;
+}
+.smoker1{
+   width: 26%;
+  height: 26%;
+  position: absolute;
+  top: 33%;
+  left:71%;
+  animation:smoke 3s infinite alternate;
+}
+/* section 10 */
+#page10{
+  background-image:linear-gradient(whitesmoke,white);
+  position: relative;
+  overflow: hidden;
+}
+.boxtop{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 40%;
+}
+.bottomop2{
+  position: absolute;
+  bottom:0%;
+  left: -20%;
+  width: 100%;
+  height: 10%;
+}
+.bottomop{
+  position: absolute;
+  bottom:-3%;
+  left: 0;
+  width: 100%;
+  height: 20%;
+}
+.carr{
+  position: absolute;
+  bottom:-1%;
+  left: 0;
+  width: 10%;
+  height: 20%;
+  z-index: 20;
+  animation: go 3s infinite alternate;
+}@keyframes go{
+  100%{transform: translateX(120px) translateY(2px);}
+}
+.tree10{
+  position: absolute;
+  top:24%;
+  left: -14%;
+  width:40%;
+  height:45%;
+  z-index: 1;
+  opacity: 75%;
+  transform-origin: left;
+  animation: rot 6s infinite alternate;
+}
+@keyframes rot{
+  0%{transform: rotate(0deg);}
+  100%{transform: rotate(10deg);}
+}
+.charco{
+  position: absolute;
+  bottom:-2.5%;
+  left: 70%;
+  width: 10%;
+  height: 20%;
+  z-index: 20;
+}
+.fire{
+  position: absolute;
+  bottom:-1%;
+  left: 45%;
+  width: 7.5%;
+  height: 15%;
+  z-index: 20;
+}@keyframes opa{
+  0% {opacity: 100%;}
+  100% {opacity: 60%;}
+
+}
+.home2{
+  position: absolute;
+  bottom:-8%;
+  right: -1.5%;
+  width: 20%;
+  height: 40%;
+
+}
+#heading1{
+  background: #212121;
+  width: 25%;
+  margin: auto;
+  position: absolute;
+  left: 10%;
+  padding: 15px;
+  border-radius: 30px;
+  text-align: center;
+  font-weight: bolder;
+}
+.heading2{
+  background: #E0E0E0;
+  width: 45%;
+  margin: auto;
+  position: absolute;
+  top: 8%;
+  left: 45%;
+  border-radius: 30px;
+  padding: 25px;
+  text-align: center;
+  font-weight: bolder;
+}
+.card1{
+  background: #72a4ba;
+  width: 21%;
+  height: 51%;
+  margin: auto;
+  position: absolute;
+  top: 35%;
+  left: 10%;
+  border-radius: 30px;
+  padding: 1.5px;
+  text-align: center;
+  font-weight: bolder;
+  z-index: 20;
+  transition: 0.3s ease-in;
+}
+.card1:hover{
+  z-index: 20;
+  background-color: #9dc0cf;
+  cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
+}
+.card2{
+  background: #7b6dad;
+  width: 21%;
+  height: 51%;
+  margin: auto;
+  position: absolute;
+  top: 35%;
+  left: 40%;
+  border-radius: 30px;
+  padding: 1.5px;
+  text-align: center;
+  font-weight: bolder;
+  transition: 0.3s ease-in;
+}
+.card2:hover{
+  background-color: #a397cf;
+  cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
+}
+.card3{
+  background: #ebb552;
+  width: 21%;
+  height: 51%;
+  margin: auto;
+  position: absolute;
+  top: 35%;
+  left: 70%;
+  border-radius: 30px;
+  padding: 1.5px;
+  text-align: center;
+  font-weight: bolder;
+  transition: 0.3s ease-in;
+}
+.card3:hover{
+  background-color:#f2cc85;
+  cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
+}
+
+
+.info_img1{
+  background-image: url(https://cdn.discordapp.com/attachments/846203619015393333/846210096995893298/147_20210523175627.png);
+  width: 80%;
+  height: 70%;
+  margin: auto;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  border-radius: 10%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  transition: 0.2s ease-in;
+}
+.info_img1:hover{
+  opacity: 0;
+  transform: rotateX(30deg);
+}
+#sunglasses{
+  background-image: url(https://cdn.discordapp.com/attachments/846203619015393333/846210097344544788/147_20210523192523.png);
+  width: 80%;
+  height: 70%;
+  margin: auto;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: contain;
+  animation-name: move;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes move{
+  0% {transform: rotate(-10deg); left: 5%; top: -20%;}
+  33.33% {transform: rotate(0deg); left: 20%; top: 20%;}
+  66.66% {transform: rotate(20deg); left: 50%; top: 0%;}
+  100% {transform: rotate(-10deg); left: 5%; top: -20%;}
+}
+.info1{
+  background: white;
+  width: 80%;
+  height: 70%;
+  margin: auto;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  border-radius: 10%;
+  padding: 5%;
+  text-align: left;
+  font-weight: bolder;
+}
+
+
+.info_img2{
+  background-image: url(https://cdn.discordapp.com/attachments/846203619015393333/846209418504568882/148_20210523205315.png);
+  width: 80%;
+  height: 70%;
+  margin: auto;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  border-radius: 10%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  transition: 0.2s ease-in;
+}
+.info_img2:hover{
+  opacity: 0;
+  transform: rotateX(30deg);
+}
+#chart2{
+  background-image: url(https://cdn.discordapp.com/attachments/846203619015393333/846209418684006431/148_20210523212744.png);
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  position: absolute;
+  top: 5%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  animation-name: down;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes down{
+  0% {top: 0%; opacity: 0;}
+  25% {top: 3%; opacity: 1}
+  50% {top: 3%; opacity: 1;}
+  75% {top: 0%; opacity: 0;}
+  100% {top: 0%; opacity: 0;}
+}
+#chart3{
+  background-image: url(https://cdn.discordapp.com/attachments/846203619015393333/846209418920329226/148_20210523212747.png);
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: contain;
+  animation-name: down2;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes down2{
+  0% {top: 0%; opacity: 0;}
+  25% {top: 0%; opacity: 0;}
+  50% {top: 3%; opacity: 1;}
+  60% {top: 3%; opacity: 1;}
+  100% {top: 0%; opacity: 0;}
+}
+.info2{
+  background: white;
+  width: 80%;
+  height: 70%;
+  margin: auto;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  border-radius: 10%;
+  padding: 5%;
+  text-align: left;
+  font-weight: bolder;
+}
+
+.info_img3{
+  background-image: url(https://cdn.discordapp.com/attachments/846203619015393333/846207061086699551/149_20210523231806.png);
+  width: 80%;
+  height: 70%;
+  margin: auto;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  border-radius: 10%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  transition: 0.2s ease-in;
+}
+.info_img3:hover{
+  opacity: 0;
+  transform: rotateX(30deg);
+}
+#mouse{
+  background-image: url(https://cdn.discordapp.com/attachments/846203619015393333/846207061267316756/149_20210523230123.png);
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: contain;
+  animation-name: moving;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes moving{
+  0% {top: 0%;}
+  25% {top: 7%;}
+  50% {top: 15%;}
+  60% {top: 8%;}
+  100% {top: 0%;}
+}
+#pic1{
+  background-image: url(https://cdn.discordapp.com/attachments/846203619015393333/846207061414510602/149_20210524083925.png);
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: contain;
+  animation-name: picture1;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes picture1{
+  0% {opacity: 1;}
+  25% {opacity: 0;}
+  50% {opacity: 0;}
+  60% {opacity: 0;}
+  100% {opacity: 1;}
+}
+#pic2{
+  background-image: url(https://cdn.discordapp.com/attachments/846203619015393333/846207061859893258/149_20210524083944.png);
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: contain;
+  animation-name: picture2;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes picture2{
+  0% {opacity: 0;}
+  25% {opacity: 1;}
+  50% {opacity: 0;}
+  60% {opacity: 1;}
+  100% {opacity: 0;}
+}
+#pic3{
+  background-image: url(https://cdn.discordapp.com/attachments/846203619015393333/846207062102900736/149_20210524084001.png);
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: contain;
+  animation-name: picture3;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes picture3{
+  0% {opacity: 0;}
+  25% {opacity: 0;}
+  50% {opacity: 1;}
+  60% {opacity: 0;}
+  100% {opacity: 0;}
+}
+.info3{
+  background: white;
+  width: 80%;
+  height: 70%;
+  margin: auto;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  border-radius: 10%;
+  padding: 5%;
+  text-align: left;
+  font-weight: bolder;
+}
+
+
+#txt1{
+  font-size: 1.5vw;
+  color:yellow;
+  font-family: 'Mitr', sans-serif;
+}
+#txt2{
+  font-size: 2vw;
+  color:white;
+  font-family: 'Mitr', sans-serif;
+}
+#txt3{
+  font-size: 1.5vw;
+  color:#616161;
+  font-family: 'Mitr', sans-serif;
+}
+#txt4{
+  font-size: 1.3vw;
+  left: 5%;
+  right: 5%;
+  color:black;
+  position: absolute;
+}
+.txt{
+  width: 90%;
+  top: 80%;
+  font-size: 2vw;
+  left: 5%;
+  right: 5%;
+  color:black;
+  text-align:center;
+  position: absolute;
+}
+.a_cloud{
+  position: absolute;
+}
