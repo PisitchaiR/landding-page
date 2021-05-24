@@ -420,6 +420,7 @@ nav#dot-nav.red a:first-child {
 /* section style page */
 
 /* section 1 */
+<<<<<<< HEAD
 .spann{
   color: black;
   font-family: 'Mitr',sans-serif;
@@ -585,20 +586,44 @@ nav#dot-nav.red a:first-child {
   top:-7%;
   position: absolute;
   z-index: 2;
+=======
+.contain1{
+  width: 100%;
+  height: 100%;
+  background-color: #1b1d20;
+  position: relative;
+}
+.bgpage1{
+  width: 100%;
+  height: 95%;
+  background-image: url(../img/โรงงาน.png);
+  position: absolute;
+>>>>>>> 7cb54910643603f361a0946dadc40cf29f1fceab
 }
 .road{
   width: 100%;
   height: 15%;
+<<<<<<< HEAD
   background-color: #a39f9f;
   position: absolute;
   bottom: 0%;
+=======
+  background-color: #9e9e9e;
+  position: absolute;
+  bottom: 0%;
+  border: 5px black solid;
+>>>>>>> 7cb54910643603f361a0946dadc40cf29f1fceab
 }
 .road-line1{
   width: 75px;
   height: 20px;
   background-color: #2b2a2a;
   position: absolute;
+<<<<<<< HEAD
   bottom: 3%;
+=======
+  bottom: 60px;
+>>>>>>> 7cb54910643603f361a0946dadc40cf29f1fceab
   left: 20px;
 }
 .road-line2{
@@ -606,7 +631,11 @@ nav#dot-nav.red a:first-child {
   height: 20px;
   background-color: #2b2a2a;
   position: absolute;
+<<<<<<< HEAD
   bottom: 3%;
+=======
+  bottom: 60px;
+>>>>>>> 7cb54910643603f361a0946dadc40cf29f1fceab
   left: 150px;
 }
 .road-line3{
@@ -614,7 +643,11 @@ nav#dot-nav.red a:first-child {
   height: 20px;
   background-color: #2b2a2a;
   position: absolute;
+<<<<<<< HEAD
   bottom: 3%;
+=======
+  bottom: 60px;
+>>>>>>> 7cb54910643603f361a0946dadc40cf29f1fceab
   left: 280px;
 }
 .road-line4{
@@ -622,7 +655,11 @@ nav#dot-nav.red a:first-child {
   height: 20px;
   background-color: #2b2a2a;
   position: absolute;
+<<<<<<< HEAD
   bottom: 3%;
+=======
+  bottom: 60px;
+>>>>>>> 7cb54910643603f361a0946dadc40cf29f1fceab
   left: 410px;
 }
 .road-line5{
@@ -630,7 +667,11 @@ nav#dot-nav.red a:first-child {
   height: 20px;
   background-color: #2b2a2a;
   position: absolute;
+<<<<<<< HEAD
   bottom: 3%;
+=======
+  bottom: 60px;
+>>>>>>> 7cb54910643603f361a0946dadc40cf29f1fceab
   left: 540px;
 }
 .road-line6{
@@ -638,7 +679,11 @@ nav#dot-nav.red a:first-child {
   height: 20px;
   background-color: #2b2a2a;
   position: absolute;
+<<<<<<< HEAD
   bottom: 3%;
+=======
+  bottom: 60px;
+>>>>>>> 7cb54910643603f361a0946dadc40cf29f1fceab
   left: 670px;
 }
 .road-line7{
@@ -646,7 +691,11 @@ nav#dot-nav.red a:first-child {
   height: 20px;
   background-color: #2b2a2a;
   position: absolute;
+<<<<<<< HEAD
   bottom: 3%;
+=======
+  bottom: 60px;
+>>>>>>> 7cb54910643603f361a0946dadc40cf29f1fceab
   left: 800px;
 }
 .road-line8{
@@ -654,7 +703,11 @@ nav#dot-nav.red a:first-child {
   height: 20px;
   background-color: #2b2a2a;
   position: absolute;
+<<<<<<< HEAD
   bottom: 3%;
+=======
+  bottom: 60px;
+>>>>>>> 7cb54910643603f361a0946dadc40cf29f1fceab
   left: 930px;
 }
 .road-line9{
@@ -662,7 +715,11 @@ nav#dot-nav.red a:first-child {
   height: 20px;
   background-color: #2b2a2a;
   position: absolute;
+<<<<<<< HEAD
   bottom: 3%;
+=======
+  bottom: 60px;
+>>>>>>> 7cb54910643603f361a0946dadc40cf29f1fceab
   left: 1060px;
 }
 .road-line10{
@@ -670,7 +727,11 @@ nav#dot-nav.red a:first-child {
   height: 20px;
   background-color: #2b2a2a;
   position: absolute;
+<<<<<<< HEAD
   bottom: 3%;
+=======
+  bottom: 60px;
+>>>>>>> 7cb54910643603f361a0946dadc40cf29f1fceab
   left: 1190px;
 }
 .road-line11{
@@ -678,7 +739,11 @@ nav#dot-nav.red a:first-child {
   height: 20px;
   background-color: #2b2a2a;
   position: absolute;
+<<<<<<< HEAD
   bottom: 3%;
+=======
+  bottom: 60px;
+>>>>>>> 7cb54910643603f361a0946dadc40cf29f1fceab
   left: 1320px;
 }
 .road-line12{
@@ -686,10 +751,40 @@ nav#dot-nav.red a:first-child {
   height: 20px;
   background-color: #2b2a2a;
   position: absolute;
+<<<<<<< HEAD
   bottom: 3%;
   left: 1450px;
 }
 
+=======
+  bottom: 60px;
+  left: 1450px;
+}
+.road-line13{
+  width: 75px;
+  height: 20px;
+  background-color: #2b2a2a;
+  position: absolute;
+  bottom: 60px;
+  left: 1580px;
+}
+.road-line14{
+  width: 75px;
+  height: 20px;
+  background-color: #2b2a2a;
+  position: absolute;
+  bottom: 60px;
+  left: 1710px;
+}
+.road-line15{
+  width: 58px;
+  height: 20px;
+  background-color: #2b2a2a;
+  position: absolute;
+  bottom: 60px;
+  left: 1840px;
+}
+>>>>>>> 7cb54910643603f361a0946dadc40cf29f1fceab
 .titlepage1{
   width: 10%;
   height: 10%;
@@ -713,7 +808,11 @@ nav#dot-nav.red a:first-child {
   left: 10%;
 }.hair:hover{
   transform: scale(1.2);
+<<<<<<< HEAD
 cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;}
+=======
+}
+>>>>>>> 7cb54910643603f361a0946dadc40cf29f1fceab
 .boxhair{
   padding: 12px;
   border-radius: 20px;
@@ -735,7 +834,11 @@ cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
   transform: scale(1.2);
   background-color: #525d7e;
   opacity: 80%;
+<<<<<<< HEAD
 cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;}
+=======
+}
+>>>>>>> 7cb54910643603f361a0946dadc40cf29f1fceab
 .sand{
   width: 11vw;
   height: 13vw;
@@ -745,7 +848,11 @@ cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
 }.sand:hover{
   transform: scale(1.2);
 
+<<<<<<< HEAD
 cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;}
+=======
+}
+>>>>>>> 7cb54910643603f361a0946dadc40cf29f1fceab
 .boxsand{
   padding: 12px;
   border-radius: 20px;
@@ -767,7 +874,11 @@ cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
   transform: scale(1.2);
   background-color: #525d7e;
   opacity: 80%;
+<<<<<<< HEAD
 cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;}
+=======
+}
+>>>>>>> 7cb54910643603f361a0946dadc40cf29f1fceab
 #titlepm{
   border-radius: 40px;
   top: 5%;
@@ -775,7 +886,11 @@ cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
   background-color: #252525;
   padding: 30px;
   color: #91918d;
+<<<<<<< HEAD
   font-size: 3vw;
+=======
+  font-size: 3em;
+>>>>>>> 7cb54910643603f361a0946dadc40cf29f1fceab
   position: absolute;
   left: 5%;
   font-family: 'Mitr', sans-serif;
@@ -794,7 +909,11 @@ cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
 }
 .textdust{
   color: #f2f2f2;
+<<<<<<< HEAD
   font-size: 1.5vw;
+=======
+  font-size: 1.5em;
+>>>>>>> 7cb54910643603f361a0946dadc40cf29f1fceab
   top: 35%;
   left: 23%;
   text-align: center;
@@ -804,6 +923,7 @@ cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
 #page3{
   background: #D6D6D6;
 }
+<<<<<<< HEAD
 @keyframes loy {
         0% {
             left: 0%;
@@ -851,6 +971,8 @@ cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
 @keyframes movee{
   100%{transform: translate(20px);}
 }
+=======
+>>>>>>> 7cb54910643603f361a0946dadc40cf29f1fceab
 .top-yoi{
   position: absolute;
   width: 100%;
@@ -863,11 +985,15 @@ cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
   position: relative;
   width: 100%;
   height: 100%;
+<<<<<<< HEAD
   overflow: hidden;
+=======
+>>>>>>> 7cb54910643603f361a0946dadc40cf29f1fceab
   /* border: 2px solid red; */
 }
 .photobot{
   position: absolute;
+<<<<<<< HEAD
   width: 40%;
   height: 20%;
   bottom: -0.5%;
@@ -875,6 +1001,13 @@ cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
   opacity: 60%;
   overflow: hidden;
 
+=======
+  width: 30%;
+  height: 10%;
+  bottom: -1%;
+  right: -3.6%;
+  opacity: 60%;
+>>>>>>> 7cb54910643603f361a0946dadc40cf29f1fceab
   /* border: 2px solid red; */
 }
 .topic{
@@ -921,24 +1054,36 @@ cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
+<<<<<<< HEAD
   z-index: 20;
+=======
+>>>>>>> 7cb54910643603f361a0946dadc40cf29f1fceab
 }
 .transport{
   background-image: url(../img/คมนาคม.png);
 }.transport:hover{
   transform: scale(1.3);
+<<<<<<< HEAD
   cursor: url(https://cur.cursors-4u.net/toons/too-10/too1026.cur), auto !important;
+=======
+  cursor: pointer;
+>>>>>>> 7cb54910643603f361a0946dadc40cf29f1fceab
 }
 .electric{
   background-image: url(../img/ไฟ.png);
 }.electric:hover{
   transform: scale(1.3);
+<<<<<<< HEAD
   cursor: url(https://cur.cursors-4u.net/toons/too-10/too1026.cur), auto !important;
+=======
+  cursor: pointer;
+>>>>>>> 7cb54910643603f361a0946dadc40cf29f1fceab
 }
 .burn{
   background-image: url(../img/เผา.png);
 }.burn:hover{
   transform: scale(1.3);
+<<<<<<< HEAD
   cursor: url(https://cur.cursors-4u.net/toons/too-10/too1026.cur), auto !important;
 }
 .indust{
@@ -946,6 +1091,15 @@ cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
 }.indust:hover{
   transform: scale(1.3);
   cursor: url(https://cur.cursors-4u.net/toons/too-10/too1026.cur), auto !important;
+=======
+  cursor: pointer;
+}
+.indust{
+  background-image: url(../img/โรงงาน.png);
+}.indust:hover{
+  transform: scale(1.3);
+  cursor: pointer;
+>>>>>>> 7cb54910643603f361a0946dadc40cf29f1fceab
 }
 .dust{
   width: 40%;
@@ -974,6 +1128,20 @@ cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
   top: 55%;
   left: 50%;
 }
+<<<<<<< HEAD
+=======
+.bottom-smoke{
+  width: 30%;
+  height: 20%;
+  right:0;
+  bottom: -4%;
+  position:absolute;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left;
+  background-image: url(/img/ล่างสุด.png);
+}
+>>>>>>> 7cb54910643603f361a0946dadc40cf29f1fceab
 /* section 4 */
 #page4{
   position: relative;
@@ -1007,6 +1175,7 @@ cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
   left: 11%;
 
 }
+<<<<<<< HEAD
 @keyframes loy2 {
         0% {
             left: 0%;
@@ -1059,6 +1228,24 @@ cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
         right: 0;
 
     }
+=======
+
+.l_cloud{
+  width: 23%;
+  height: 70%;
+  position: absolute;
+  left: 0;
+  top: 5%;
+}
+
+.r_cloud{
+  width: 25%;
+  height: 30%;
+  position: absolute;
+  right: 0;
+}
+
+>>>>>>> 7cb54910643603f361a0946dadc40cf29f1fceab
 .txt_head{
   font-size: 3vw;
   position: absolute;
@@ -1066,7 +1253,10 @@ cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
   left: 5%;
   font-family: 'Mitr', sans-serif;
   font-weight: bold;
+<<<<<<< HEAD
   z-index: 2;
+=======
+>>>>>>> 7cb54910643603f361a0946dadc40cf29f1fceab
 }
 
 .eye{
@@ -1138,6 +1328,7 @@ cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
 .p4-icon{
   font-size: 1.5em;
 }
+<<<<<<< HEAD
 @keyframes o2 {
         0% {
             box-shadow: 0px 0px 5px 5px red;
@@ -1252,6 +1443,8 @@ cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
         animation: o2 5s infinite;
     }
 
+=======
+>>>>>>> 7cb54910643603f361a0946dadc40cf29f1fceab
 /* section 5 */
 #page5{
   height: 200vh;
@@ -1313,10 +1506,13 @@ cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
   text-align: center;
   z-index: 5;
 }
+<<<<<<< HEAD
 .location-page5:hover{
   transform: scale(1.3);
   cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
 }
+=======
+>>>>>>> 7cb54910643603f361a0946dadc40cf29f1fceab
 .lo_yellow{
   width: 10%;
   height: 11%;
@@ -1330,7 +1526,16 @@ cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
   text-align: center;
   z-index: 5;
 }
+<<<<<<< HEAD
 
+=======
+#lo8{
+  animation: move10 0.5s infinite alternate-reverse;
+}@keyframes move10{
+  0% {top: 42.5%;}
+  100%{top: 43%;}
+}
+>>>>>>> 7cb54910643603f361a0946dadc40cf29f1fceab
 #lo1{
   animation: move1 0.5s infinite alternate-reverse;
 }@keyframes move1{
@@ -1427,7 +1632,11 @@ cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
   position: absolute;
   background-image: url(../img/ฝุ่น.png);
   background-repeat: no-repeat;
+<<<<<<< HEAD
   background-size: cover;
+=======
+  background-size: contain;
+>>>>>>> 7cb54910643603f361a0946dadc40cf29f1fceab
   z-index: 1;
 }
 /* section 6 */
@@ -1555,6 +1764,44 @@ cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
             background-color: #C7EA46;
         }
     }
+<<<<<<< HEAD
+=======
+@keyframes loy {
+        0% {
+            left: 0%;
+            top: 78%;
+        }
+
+        50% {
+            left: -5%;
+            top: 78%;
+        }
+
+        100% {
+            left: 0%;
+            top: 78%;
+        }
+
+    }
+
+    @keyframes loy1 {
+        0% {
+            right: 0%;
+            top: 76.5%;
+        }
+
+        50% {
+            right: -5%;
+            top: 76.5%;
+        }
+
+        100% {
+            right: 0%;
+            top: 76.5%;
+        }
+
+    }
+>>>>>>> 7cb54910643603f361a0946dadc40cf29f1fceab
 
 .pic{
   display: flex;
@@ -1636,32 +1883,52 @@ cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
   font-weight: bold;
 }
 .one1{
+<<<<<<< HEAD
   top: 57%;
   left: 33%;
+=======
+  top: 85%;
+  left: 26.8%;
+>>>>>>> 7cb54910643603f361a0946dadc40cf29f1fceab
   color: #eee;
   font-size: 1.5vw;
   font-weight: 700;
   text-align: center;
 }
 .two2{
+<<<<<<< HEAD
   top: 57%;
   left: 45%;
+=======
+  top: 85%;
+  left: 39.8%;
+>>>>>>> 7cb54910643603f361a0946dadc40cf29f1fceab
   color:#eee;
   font-size: 1.5vw;
   font-weight: 700;
   text-align: center;
 }
 .three3{
+<<<<<<< HEAD
   top: 57%;
   left: 57%;
+=======
+  top: 85%;
+  left: 52.8%;
+>>>>>>> 7cb54910643603f361a0946dadc40cf29f1fceab
   color: #eee;
   font-size: 1.5vw;
   font-weight: 700;
   text-align: center;
 }
 .four4{
+<<<<<<< HEAD
   top: 57%;
   left: 69%;
+=======
+  top: 85%;
+  left: 65.8%;
+>>>>>>> 7cb54910643603f361a0946dadc40cf29f1fceab
   color: #eee;
   font-size: 1.5vw;
   font-weight: 700;
@@ -1942,6 +2209,44 @@ cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
   position: relative;
   overflow: hidden;
 }
+<<<<<<< HEAD
+=======
+@keyframes loy2 {
+        0% {
+            left: 0%;
+            top: 0%;
+        }
+
+        50% {
+            left: -5%;
+            top: 0%;
+        }
+
+        100% {
+            left: 0%;
+            top: 0%;
+        }
+
+    }
+
+    @keyframes loy3 {
+        0% {
+            right: 0%;
+            top: 0%;
+        }
+
+        50% {
+            right: -5%;
+            top: 0%;
+        }
+
+        100% {
+            right: 0%;
+            top: 0%;
+        }
+
+    }
+>>>>>>> 7cb54910643603f361a0946dadc40cf29f1fceab
 #head1 {
   border-radius: 50px;
   background: #b7d2e7;
@@ -1969,11 +2274,17 @@ p {
   color: #fff;
   z-index: 20;
 }.img7 {
+<<<<<<< HEAD
   background-image: url(https://media.discordapp.net/attachments/798606239537954816/832127924551286804/10.png);
   background-size: contain;
   background-repeat: no-repeat;
   border-radius: 5%;
   width: 13%;
+=======
+  border-radius: 5%;
+  width: 13%;
+  height: 27.2%;
+>>>>>>> 7cb54910643603f361a0946dadc40cf29f1fceab
   position: absolute;
   top: 45%;
   left: 10%;
@@ -1981,6 +2292,7 @@ p {
 .img7:hover{
   transform: scale(1.2);
   background-color: rgb(240, 141, 60);
+<<<<<<< HEAD
   cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
 }
 
@@ -1990,6 +2302,15 @@ p {
   background-repeat: no-repeat;
   border-radius: 5%;
   width: 13%;
+=======
+  cursor: pointer;
+}
+
+.img8 {
+  border-radius: 5%;
+  width: 13%;
+  height: 27.2%;
+>>>>>>> 7cb54910643603f361a0946dadc40cf29f1fceab
   position: absolute;
   top: 45%;
   left: 25%;
@@ -1998,6 +2319,7 @@ p {
 .img8:hover{
   transform: scale(1.2);
   background-color: rgb(243, 204, 97);
+<<<<<<< HEAD
   cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
 }
 .imge9 {
@@ -2007,12 +2329,21 @@ p {
   border-radius: 5%;
   width: 13%;
   
+=======
+  cursor: pointer;
+}
+.imge9 {
+  border-radius: 5%;
+  width: 13%;
+  height: 27%;
+>>>>>>> 7cb54910643603f361a0946dadc40cf29f1fceab
   position: absolute;
   top: 45%;
   right: 10%;
 }.imge9:hover{
   transform: scale(1.2);
   background-color: rgb(46, 143, 83);
+<<<<<<< HEAD
   cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
 }
 .black-tang{
@@ -2032,13 +2363,26 @@ p {
   border-radius: 5%;
   width: 13%;
   
+=======
+  cursor: pointer;
+}
+
+.img10 {
+  border-radius: 5%;
+  width: 13%;
+  height: 27%;
+>>>>>>> 7cb54910643603f361a0946dadc40cf29f1fceab
   position: absolute;
   top: 45%;
   right: 25%;
 }.img10:hover{
   transform: scale(1.2);
   background-color: rgb(73, 170, 86);
+<<<<<<< HEAD
   cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
+=======
+  cursor: pointer;
+>>>>>>> 7cb54910643603f361a0946dadc40cf29f1fceab
 }
 #orage {
   border-radius: 15%;
@@ -2182,6 +2526,7 @@ p {
   height: 28%;
 }
 #rect1{
+<<<<<<< HEAD
   height: 10%;
   width: 0.5%;
   bottom: 5.6%;
@@ -2193,6 +2538,9 @@ p {
   height: 4.5%;
   width: 0.6%;
   background-color: rgb(255, 255, 255);
+=======
+  z-index: 100;
+>>>>>>> 7cb54910643603f361a0946dadc40cf29f1fceab
   position: absolute;
 }
 /* section 8-*/
@@ -2290,7 +2638,11 @@ opacity: 90%;
 }#leftbut:hover{
   transform: scale(1.1);
   background-image: url('https://cdn.discordapp.com/attachments/798606239537954816/845352993049280532/leftch.png');
+<<<<<<< HEAD
 cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;}
+=======
+}
+>>>>>>> 7cb54910643603f361a0946dadc40cf29f1fceab
 #rightbut{
 	background-size: cover;
 	background-image: url('https://cdn.discordapp.com/attachments/798606239537954816/845258365999382558/ri.png');
@@ -2304,8 +2656,16 @@ cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
   transform: scale(1.1);
   background-image: url('https://cdn.discordapp.com/attachments/798606239537954816/845370321237704734/arrow2.png');
   opacity: 80%;
+<<<<<<< HEAD
 cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;}
 
+=======
+}
+
+@media screen and (min-width: 400px) {
+  
+}
+>>>>>>> 7cb54910643603f361a0946dadc40cf29f1fceab
 
 /* section 9 */
 #page9{
@@ -2338,6 +2698,7 @@ cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
     border-radius: 50px;
   background: #FF5675;
   opacity: 0.9;
+<<<<<<< HEAD
   left: 40%;
   top:23%;
   width: 46%;
@@ -2346,13 +2707,26 @@ cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
 }
 .passage2:hover{
   cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
+=======
+  top:23%;
+  width: 46%;
+  height: 35%;
+  position: absolute;
+}
+.passage2:hover{
+  cursor: pointer;
+>>>>>>> 7cb54910643603f361a0946dadc40cf29f1fceab
   box-shadow: 0px 0px 30px #50C785 , 0px 0px 30px #50C785;
    z-index: 200;
 }
 .passage2{
   position:absolute;
   top:62%;
+<<<<<<< HEAD
   left: 56.5%;
+=======
+  left: 55%;
+>>>>>>> 7cb54910643603f361a0946dadc40cf29f1fceab
   text-align: center;
   padding:0.5em;
    width: 7em;
@@ -2360,10 +2734,17 @@ cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
   background: #54BD54;
   border: none;
   color:white;
+<<<<<<< HEAD
   font-size: 1.5vw;
   font-family: 'Mitr', sans-serif;
   box-shadow: 0px 0px 10px #50C785;
   cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
+=======
+  font-size: 1.5em;
+  font-family: 'Mitr', sans-serif;
+  box-shadow: 0px 0px 10px #50C785;
+  cursor: pointer;
+>>>>>>> 7cb54910643603f361a0946dadc40cf29f1fceab
   z-index: 200;
 }
 .cloud1{
@@ -2451,6 +2832,7 @@ cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
   width: 10%;
   height: 20%;
   z-index: 20;
+<<<<<<< HEAD
   animation: go 3s infinite alternate;
 }@keyframes go{
   100%{transform: translateX(120px) translateY(2px);}
@@ -2473,6 +2855,15 @@ cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
 .charco{
   position: absolute;
   bottom:-2.5%;
+=======
+  animation: go 1s infinite alternate-reverse;
+}@keyframes go{
+  100%{transform: translateX(120px) translateY(2px);}
+}
+.charco{
+  position: absolute;
+  bottom:-1%;
+>>>>>>> 7cb54910643603f361a0946dadc40cf29f1fceab
   left: 70%;
   width: 10%;
   height: 20%;
@@ -2485,10 +2876,19 @@ cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
   width: 7.5%;
   height: 15%;
   z-index: 20;
+<<<<<<< HEAD
 }@keyframes opa{
   0% {opacity: 100%;}
   100% {opacity: 60%;}
 
+=======
+  animation: opa 1s infinite alternate-reverse;
+}@keyframes opa{
+  0%,100% {opacity: 100%;}
+  25% {opacity: 70%;}
+  50% {opacity: 50%;}
+  75% {opacity: 80%;}
+>>>>>>> 7cb54910643603f361a0946dadc40cf29f1fceab
 }
 .home2{
   position: absolute;
@@ -2522,7 +2922,11 @@ cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
   font-weight: bolder;
 }
 .card1{
+<<<<<<< HEAD
   background: #72a4ba;
+=======
+  background: #2196F3;
+>>>>>>> 7cb54910643603f361a0946dadc40cf29f1fceab
   width: 21%;
   height: 51%;
   margin: auto;
@@ -2533,6 +2937,7 @@ cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
   padding: 1.5px;
   text-align: center;
   font-weight: bolder;
+<<<<<<< HEAD
   z-index: 20;
   transition: 0.3s ease-in;
 }
@@ -2543,6 +2948,14 @@ cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
 }
 .card2{
   background: #7b6dad;
+=======
+}.card1:hover{
+  background-color: rgb(245, 193, 98);
+  cursor: pointer;
+}
+.card2{
+  background: #f44336;
+>>>>>>> 7cb54910643603f361a0946dadc40cf29f1fceab
   width: 21%;
   height: 51%;
   margin: auto;
@@ -2553,6 +2966,7 @@ cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
   padding: 1.5px;
   text-align: center;
   font-weight: bolder;
+<<<<<<< HEAD
   transition: 0.3s ease-in;
 }
 .card2:hover{
@@ -2561,6 +2975,14 @@ cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
 }
 .card3{
   background: #ebb552;
+=======
+}.card2:hover{
+  background-color: rgb(252, 129, 150);
+  cursor: pointer;
+}
+.card3{
+  background: #8BC34A;
+>>>>>>> 7cb54910643603f361a0946dadc40cf29f1fceab
   width: 21%;
   height: 51%;
   margin: auto;
@@ -2571,6 +2993,7 @@ cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
   padding: 1.5px;
   text-align: center;
   font-weight: bolder;
+<<<<<<< HEAD
   transition: 0.3s ease-in;
 }
 .card3:hover{
@@ -2613,6 +3036,11 @@ cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
   33.33% {transform: rotate(0deg); left: 20%; top: 20%;}
   66.66% {transform: rotate(20deg); left: 50%; top: 0%;}
   100% {transform: rotate(-10deg); left: 5%; top: -20%;}
+=======
+}.card3:hover{
+  background-color: rgb(179, 109, 179);
+  cursor: pointer;
+>>>>>>> 7cb54910643603f361a0946dadc40cf29f1fceab
 }
 .info1{
   background: white;
@@ -2627,6 +3055,7 @@ cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
   text-align: left;
   font-weight: bolder;
 }
+<<<<<<< HEAD
 
 
 .info_img2{
@@ -2685,6 +3114,8 @@ cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
   60% {top: 3%; opacity: 1;}
   100% {top: 0%; opacity: 0;}
 }
+=======
+>>>>>>> 7cb54910643603f361a0946dadc40cf29f1fceab
 .info2{
   background: white;
   width: 80%;
@@ -2693,11 +3124,16 @@ cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
   position: absolute;
   top: 10%;
   left: 10%;
+<<<<<<< HEAD
   border-radius: 10%;
+=======
+  border-radius: 15%;
+>>>>>>> 7cb54910643603f361a0946dadc40cf29f1fceab
   padding: 5%;
   text-align: left;
   font-weight: bolder;
 }
+<<<<<<< HEAD
 
 .info_img3{
   background-image: url(https://cdn.discordapp.com/attachments/846203619015393333/846207061086699551/149_20210523231806.png);
@@ -2792,6 +3228,8 @@ cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
   60% {opacity: 0;}
   100% {opacity: 0;}
 }
+=======
+>>>>>>> 7cb54910643603f361a0946dadc40cf29f1fceab
 .info3{
   background: white;
   width: 80%;
@@ -2800,13 +3238,20 @@ cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
   position: absolute;
   top: 10%;
   left: 10%;
+<<<<<<< HEAD
   border-radius: 10%;
+=======
+  border-radius: 30px;
+>>>>>>> 7cb54910643603f361a0946dadc40cf29f1fceab
   padding: 5%;
   text-align: left;
   font-weight: bolder;
 }
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 7cb54910643603f361a0946dadc40cf29f1fceab
 #txt1{
   font-size: 1.5vw;
   color:yellow;
@@ -2839,6 +3284,22 @@ cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
   text-align:center;
   position: absolute;
 }
+<<<<<<< HEAD
 .a_cloud{
   position: absolute;
 }
+=======
+.factory{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-image: url(https://scontent.fbkk21-1.fna.fbcdn.net/v/t1.15752-9/175825399_776595869709734_1692235766279488934_n.png?_nc_cat=108&ccb=1-3&_nc_sid=ae9488&_nc_eui2=AeGJFpmUzSA3mHv2awpSsxgvBnVy_tlH1r4GdXL-2UfWvrr69XwSDj4qwZghtmmDHkOX_QLdnFS8jPekWaAlYCIk&_nc_ohc=lG3fIOiznOMAX9GQ7J1&_nc_ht=scontent.fbkk21-1.fna&oh=7d0253fe2ea23c480e762f380f17bad8&oe=60CB9919);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+}
+.a_cloud{
+  position: absolute;
+}
+
+>>>>>>> 7cb54910643603f361a0946dadc40cf29f1fceab
