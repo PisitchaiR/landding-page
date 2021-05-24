@@ -832,9 +832,7 @@ cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
         left: -10%;
         opacity: 60%;
         z-index: 0;
-        animation-name: loy;
-        animation-duration: 5s;
-        animation-iteration-count: infinite;
+        animation: loy 5s infinite alternate;
 
     }
 @keyframes movee{
@@ -863,9 +861,7 @@ cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
   right: -2%;
   opacity: 60%;
   overflow: hidden;
-  animation-name: loy1;
-  animation-duration: 5s;
-  animation-iteration-count: infinite;
+
   /* border: 2px solid red; */
 }
 .topic{
@@ -1039,9 +1035,7 @@ cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
         left: -10%;
         opacity: 60%;
         z-index: 0;
-        animation-name: loy2;
-        animation-duration: 5s;
-        animation-iteration-count: infinite;
+        animation: loy2 5s infinite alternate;
 
     }
 
@@ -1050,9 +1044,7 @@ cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
         height: 35%;
         position: absolute;
         right: 0;
-        animation-name: loy3;
-        animation-duration: 5s;
-        animation-iteration-count: infinite;
+
     }
 .txt_head{
   font-size: 3vw;
@@ -2488,7 +2480,7 @@ cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
   font-weight: bolder;
 }
 .card1{
-  background: #2196F3;
+  background: #72a4ba;
   width: 21%;
   height: 51%;
   margin: auto;
@@ -2504,11 +2496,11 @@ cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
 }
 .card1:hover{
   z-index: 20;
-  background-color: rgb(255, 221, 71);
+  background-color: #9dc0cf;
   cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
 }
 .card2{
-  background: #f83325;
+  background: #7b6dad;
   width: 21%;
   height: 51%;
   margin: auto;
@@ -2522,11 +2514,11 @@ cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
   transition: 0.3s ease-in;
 }
 .card2:hover{
-  background-color: rgb(20, 255, 204);
+  background-color: #a397cf;
   cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
 }
 .card3{
-  background: #9ce945;
+  background: #ebb552;
   width: 21%;
   height: 51%;
   margin: auto;
@@ -2540,7 +2532,7 @@ cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
   transition: 0.3s ease-in;
 }
 .card3:hover{
-  background-color: rgb(221, 78, 221);
+  background-color:#f2cc85;
   cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
 }
 
