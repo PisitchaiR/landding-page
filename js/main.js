@@ -137,11 +137,6 @@ const dotNav = (elem, easing) => {
         console.log(allDots[i])
         allDots[i].addEventListener('click', scrollMe);
     }
-
-    let dotEx = document.getElementsByClassName("dotEx")
-    // dotEx.addEventListener("click", scrollMe);
-    console.log(dotEx)
-
 }
 
 dotNav('section', 'easeInOutCubic');

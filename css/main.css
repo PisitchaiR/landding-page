@@ -461,7 +461,6 @@ nav#dot-nav.red a:first-child {
   text-align: center;
   font-weight: bold;
   cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
-  animation: chang 1.5s infinite alternate-reverse;
   transition-duration: 0.3s;
 }
 .goon:hover{
