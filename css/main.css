@@ -424,7 +424,7 @@ nav#dot-nav.red a:first-child {
   color: black;
   font-family: 'Mitr',sans-serif;
   -webkit-animation-name: chcolor;
-  -webkit-animation-duration: 1s;
+  -webkit-animation-duration: 1.5s;
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-direction: alternate;
   -webkit-animation-play-state: active;  
@@ -1950,7 +1950,6 @@ cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
   left: 3%;
   padding: 1.5%;
   width: 35%;
-  height: 20%;
   text-align: center;
   font-weight: bolder;
   font-family: 'Mitr', sans-serif;
