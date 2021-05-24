@@ -290,7 +290,7 @@ nav#dot-nav {
   z-index: 100;
 }
 nav#dot-nav a {
-  border: 1px solid rgba(128, 128, 128, 0.527);
+  border: 1px solid rgba(255, 255, 255, 0.527);
   border-radius: 50%;
   padding: 0.5em;
   display: block;
@@ -299,7 +299,7 @@ nav#dot-nav a {
   transition: all 0.4;
 }
 nav#dot-nav a.active {
-  background: rgba(128, 128, 128, 0.527);
+  background: rgba(255  , 255, 255, 0.527);
 }
 nav#dot-nav.red a {
   border: 1px solid #db2853;
