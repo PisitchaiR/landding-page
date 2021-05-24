@@ -420,6 +420,19 @@ nav#dot-nav.red a:first-child {
 /* section style page */
 
 /* section 1 */
+.spann{
+  color: black;
+  font-family: 'Mitr',sans-serif;
+  -webkit-animation-name: chcolor;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  -webkit-animation-play-state: active;  
+}
+@-webkit-keyframes chcolor
+{
+  100%{color:whitesmoke;}
+}
 .contain1{
   width: 100%;
   height: 100%;
@@ -844,9 +857,7 @@ cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
         left: -10%;
         opacity: 60%;
         z-index: 0;
-        animation-name: loy;
-        animation-duration: 5s;
-        animation-iteration-count: infinite;
+        animation: loy 5s infinite alternate;
 
     }
 @keyframes movee{
@@ -875,9 +886,7 @@ cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
   right: -2%;
   opacity: 60%;
   overflow: hidden;
-  animation-name: loy1;
-  animation-duration: 5s;
-  animation-iteration-count: infinite;
+
   /* border: 2px solid red; */
 }
 .topic{
@@ -1051,9 +1060,7 @@ cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
         left: -10%;
         opacity: 60%;
         z-index: 0;
-        animation-name: loy2;
-        animation-duration: 5s;
-        animation-iteration-count: infinite;
+        animation: loy2 5s infinite alternate;
 
     }
 
@@ -1062,9 +1069,7 @@ cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
         height: 35%;
         position: absolute;
         right: 0;
-        animation-name: loy3;
-        animation-duration: 5s;
-        animation-iteration-count: infinite;
+
     }
 .txt_head{
   font-size: 3vw;
@@ -1434,7 +1439,7 @@ cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
   position: absolute;
   background-image: url(../img/ฝุ่น.png);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   z-index: 1;
 }
 /* section 6 */
@@ -1976,6 +1981,9 @@ p {
   color: #fff;
   z-index: 20;
 }.img7 {
+  background-image: url(https://media.discordapp.net/attachments/798606239537954816/832127924551286804/10.png);
+  background-size: contain;
+  background-repeat: no-repeat;
   border-radius: 5%;
   width: 13%;
   height: 27.2%;
@@ -1990,6 +1998,9 @@ p {
 }
 
 .img8 {
+  background-image: url(https://media.discordapp.net/attachments/798606239537954816/832127957828763658/25.png);
+  background-size: contain;
+  background-repeat: no-repeat;
   border-radius: 5%;
   width: 13%;
   height: 27.2%;
@@ -2004,6 +2015,9 @@ p {
   cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
 }
 .imge9 {
+  background-image: url(https://cdn.discordapp.com/attachments/798606239537954816/832127962362937354/50.png);
+  background-size: contain;
+  background-repeat: no-repeat;
   border-radius: 5%;
   width: 13%;
   height: 27%;
@@ -2015,8 +2029,20 @@ p {
   background-color: rgb(46, 143, 83);
   cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
 }
+.black-tang{
+  bottom: 6%;
+  left: 28%;
+  width: 0.7%;
+  height: 9%;
+  background-color: black;
+  position: absolute;
+  z-index: 3;
+}
 
 .img10 {
+  background-image: url(https://cdn.discordapp.com/attachments/798606239537954816/832127960786010132/25-2.png);
+  background-size: contain;
+  background-repeat: no-repeat;
   border-radius: 5%;
   width: 13%;
   height: 27%;
@@ -2500,7 +2526,7 @@ cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
   font-weight: bolder;
 }
 .card1{
-  background: #2196F3;
+  background: #72a4ba;
   width: 21%;
   height: 51%;
   margin: auto;
@@ -2516,11 +2542,11 @@ cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
 }
 .card1:hover{
   z-index: 20;
-  background-color: rgb(255, 221, 71);
+  background-color: #9dc0cf;
   cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
 }
 .card2{
-  background: #f83325;
+  background: #7b6dad;
   width: 21%;
   height: 51%;
   margin: auto;
@@ -2534,11 +2560,11 @@ cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
   transition: 0.3s ease-in;
 }
 .card2:hover{
-  background-color: rgb(20, 255, 204);
+  background-color: #a397cf;
   cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
 }
 .card3{
-  background: #9ce945;
+  background: #ebb552;
   width: 21%;
   height: 51%;
   margin: auto;
@@ -2552,7 +2578,7 @@ cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
   transition: 0.3s ease-in;
 }
 .card3:hover{
-  background-color: rgb(221, 78, 221);
+  background-color:#f2cc85;
   cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
 }
 
