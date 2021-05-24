@@ -460,6 +460,7 @@ nav#dot-nav.red a:first-child {
   font-weight: bold;
   cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
   animation: chang 1.5s infinite alternate-reverse;
+  transition-duration: 0.3s;
 }@keyframes chang{
   20% {background-color: #234df5;}
   40% {background-color: #35ff68;}
