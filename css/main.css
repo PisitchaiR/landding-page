@@ -461,11 +461,14 @@ nav#dot-nav.red a:first-child {
   cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
   animation: chang 1.5s infinite alternate-reverse;
 }@keyframes chang{
-  20% {background-color: #4d5c96;}
-  40% {background-color: #4d968a;}
-  60% {background-color: #f5cf6e;}
-  80% {background-color: #f5a66e;}
-  100% {background-color: #d44a4a;}
+  20% {background-color: #234df5;}
+  40% {background-color: #35ff68;}
+  60% {background-color: #fcdf60;}
+  80% {background-color: #ffb25b;}
+  100% {background-color: #fc5656;}
+}
+.goon:hover{
+  transform: scale(1.3);
 }
 .headex{
   position: absolute;
